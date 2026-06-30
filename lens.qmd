@@ -9,23 +9,23 @@ format:
 .justify {
   text-align: justify !important
 }
-``` 
+```
 
-# Focal Lenght of a Convex Lens
+# Focal Length of a Convex Lens
 
-From the cornea in your eye to the camera of your phone, a lens is a critical component of most optical systems. And for a lens, its focal length is key parameter dictating its performance. In today's experiment we will measure thefocal length of a convex (converging, thicker in the center than at the edges) lens.
+From the cornea in your eye to the camera of your phone, a lens is a critical component of most optical systems. And for a lens, its focal length is key parameter dictating its performance. In today's experiment we will measure the focal length of a convex (converging, thicker in the center than at the edges) lens.
 
 Take down the following in to your laboratory copy.
 
-### [Title: Focal Length of a Convex Lens]{style="font-family:Kalam;color:#8b1a1a;"}{.unnumbered}
+### [Title: Focal Length of a Convex Lens]{style="font-family:Kalam;color:#8b1a1a;"} {.unnumbered}
 
-### [Name:]{style="font-family:Kalam;color:#8b1a1a;"}{.unnumbered}
+### [Name:]{style="font-family:Kalam;color:#8b1a1a;"} {.unnumbered}
 
-### [Date:]{style="font-family:Kalam;color:#8b1a1a;"}{.unnumbered}
+### [Date:]{style="font-family:Kalam;color:#8b1a1a;"} {.unnumbered}
 
-### [Partner:]{style="font-family:Kalam;color:#8b1a1a;"}{.unnumbered}
+### [Partner:]{style="font-family:Kalam;color:#8b1a1a;"} {.unnumbered}
 
-### [Data:]{style="font-family:Kalam;color:#8b1a1a;"}{.unnumbered}
+### [Data:]{style="font-family:Kalam;color:#8b1a1a;"} {.unnumbered}
 
 ```{r}
 #| warning: false
@@ -85,7 +85,7 @@ z |>
 
 ## Experimental Set-Up
 
-:::::: columns
+::::::: columns
 ::: {.column width="45%"}
 ![](images/lens-setup.png)
 :::
@@ -93,16 +93,14 @@ z |>
 ::: {.column width="5%"}
 :::
 
-::: {.column width="40%"}
-::: {.justify}
+:::: {.column width="40%"}
+::: justify
 The apparatus will be set-up something like the sketch on the left. This is the first point; the lens is quite close to the light source, the screen is at the far end of the bench, and the spring-like image of the bulb filament is quite large on the screen.
 :::
-:::
-::::::
+::::
+:::::::
 
 Set the distance between the center of the light source (not the front edge) and the very centre of the lens to be 27.0cm and move the screen until the light bulb filament in sharp focus. Measure the distance between the centre of the lens and the screen. This is $v$, the image distance. Now move the lens back to 27.0 cm, move the screen in to get a sharp focus, and record the new value for $v$. Repeat for all the values for $u$ given in the table above.
-
-
 
 {{< pagebreak >}}
 
@@ -116,7 +114,7 @@ Set the distance between the center of the light source (not the front edge) and
 
 ## Analysis
 
-:::::: columns
+::::::: columns
 ::: {.column width="45%"}
 ![](images/lens-graph.png){height="7.5cm" width="8cm"}
 :::
@@ -124,16 +122,14 @@ Set the distance between the center of the light source (not the front edge) and
 ::: {.column width="5%"}
 :::
 
-::: {.column width="40%"}
-::: {.justify}
+:::: {.column width="40%"}
+::: justify
 Draw the graph as shown on the left here, with $\frac{1}{v}$ on the y-axis and $\frac{1}{u}$ on the x axis. Make sure both axes extend at least as far as $0.06 \: cm ^{-1}$, so for a standard $9 \; \times \; 13$ graph paper, use 0.01 per division on the x axis and 0.005 per division on the y axis. Draw a best fit line nested through the points. Make sure the graph has a (long) descriptive title in the form *What's on y-axis vs What's on x axis and the context*.
-
 :::
-:::
-::::::
+::::
+:::::::
 
 Calculate the slope of the best fit line using the formula $slope \; = \; \frac{y_2-y_1}{x_2-x_1}$
-
 
 According to theory (see below), this line should have a slope close to -1. Note that, because it's a negative slope, the line angles downwards.
 
@@ -149,11 +145,11 @@ Take the point where the line cuts the y-axis, take the inverse of this value, a
 
 ### f from Direct Measurement
 
-Take the lens out to the lobby outside the lab and under one of the ceiling lights. Hold the lens about 20 cm above the floor and get the ceiling light in focus. Because the light source is so high above, then $u$ is very large and $\frac{1}{u}$ is close to zero, then $\frac{1}{f} \; = \; \frac{1}{v}$ and the focal lenght will be well approximated by the distance between the lens and the image on the floor. Measure this to get a second estimate for f.
+Take the lens out to the lobby outside the lab and under one of the ceiling lights. Hold the lens about 20 cm above the floor and get the ceiling light in focus. Because the light source is so high above, then $u$ is very large and $\frac{1}{u}$ is close to zero, then $\frac{1}{f} \; = \; \frac{1}{v}$ and the focal length will be well approximated by the distance between the lens and the image on the floor. Measure this to get a second estimate for f.
 
 ### f from no-parallax
 
-:::::: columns
+::::::: columns
 ::: {.column width="45%"}
 ![](images/no-parallax.png){height="8.5cm" width="8cm"}
 :::
@@ -161,12 +157,12 @@ Take the lens out to the lobby outside the lab and under one of the ceiling ligh
 ::: {.column width="5%"}
 :::
 
-::: {.column width="50%"}
-::: {.justify}
+:::: {.column width="50%"}
+::: justify
 Set up the apparatus as shown, with the object pin about 10cm behind the lens and the retort stand and pencil about 20cm further back. Observe the object pin through the lens and the pencil directly over the top rim of the lens. Move the retort stand until the pencil sits directly over the image of the object pin and the two stay in sync when you move your head from side to side. Measure the distance from pin to lens, $u$, and the distance from pencil to lens, $-v$. Put the values in to the equation $\frac{1}{f} \; = \; \frac{1}{u} \; + \; \frac{1}{v}$ to calculate a value for f.
 :::
-:::
-::::::
+::::
+:::::::
 
 {{< pagebreak >}}
 

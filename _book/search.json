@@ -342,61 +342,61 @@
   {
     "objectID": "lens.html",
     "href": "lens.html",
-    "title": "7  Focal Lenght of a Convex Lens",
+    "title": "7  Focal Length of a Convex Lens",
     "section": "",
-    "text": "Title: Focal Length of a Convex Lens\nFrom the cornea in your eye to the camera of your phone, a lens is a critical component of most optical systems. And for a lens, its focal length is key parameter dictating its performance. In today’s experiment we will measure thefocal length of a convex (converging, thicker in the center than at the edges) lens.\nTake down the following in to your laboratory copy.",
+    "text": "Title: Focal Length of a Convex Lens\nFrom the cornea in your eye to the camera of your phone, a lens is a critical component of most optical systems. And for a lens, its focal length is key parameter dictating its performance. In today’s experiment we will measure the focal length of a convex (converging, thicker in the center than at the edges) lens.\nTake down the following in to your laboratory copy.",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Focal Lenght of a Convex Lens</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Focal Length of a Convex Lens</span>"
     ]
   },
   {
     "objectID": "lens.html#experimental-set-up",
     "href": "lens.html#experimental-set-up",
-    "title": "7  Focal Lenght of a Convex Lens",
+    "title": "7  Focal Length of a Convex Lens",
     "section": "7.1 Experimental Set-Up",
     "text": "7.1 Experimental Set-Up\n\n\n\n\n\n\n\nThe apparatus will be set-up something like the sketch on the left. This is the first point; the lens is quite close to the light source, the screen is at the far end of the bench, and the spring-like image of the bulb filament is quite large on the screen.\n\n\n\nSet the distance between the center of the light source (not the front edge) and the very centre of the lens to be 27.0cm and move the screen until the light bulb filament in sharp focus. Measure the distance between the centre of the lens and the screen. This is \\(v\\), the image distance. Now move the lens back to 27.0 cm, move the screen in to get a sharp focus, and record the new value for \\(v\\). Repeat for all the values for \\(u\\) given in the table above.\n\n\n\\(u\\) is measured from the middle of the light assembly, not the front edge\nYou get the sharpest focus images when you keep good geometry; the lens and screen being perpendicular to the light beam\ninitially the screen will move in towards the light source, but after about \\(u\\) = 43.0 cm is starts to move back again. The final point will have the lens and screen quite close together at the far end of the bench from the light and the image will be very small.\nWhen filling out your table, pay special attention to significant figures. The number of significant figures for \\(\\frac{1}{v}\\) should be the same as for \\(v\\).",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Focal Lenght of a Convex Lens</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Focal Length of a Convex Lens</span>"
     ]
   },
   {
     "objectID": "lens.html#analysis",
     "href": "lens.html#analysis",
-    "title": "7  Focal Lenght of a Convex Lens",
+    "title": "7  Focal Length of a Convex Lens",
     "section": "7.2 Analysis",
     "text": "7.2 Analysis\n\n\n\n\n\n\n\nDraw the graph as shown on the left here, with \\(\\frac{1}{v}\\) on the y-axis and \\(\\frac{1}{u}\\) on the x axis. Make sure both axes extend at least as far as \\(0.06 \\: cm ^{-1}\\), so for a standard \\(9 \\; \\times \\; 13\\) graph paper, use 0.01 per division on the x axis and 0.005 per division on the y axis. Draw a best fit line nested through the points. Make sure the graph has a (long) descriptive title in the form What’s on y-axis vs What’s on x axis and the context.\n\n\n\nCalculate the slope of the best fit line using the formula \\(slope \\; = \\; \\frac{y_2-y_1}{x_2-x_1}\\)\nAccording to theory (see below), this line should have a slope close to -1. Note that, because it’s a negative slope, the line angles downwards.",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Focal Lenght of a Convex Lens</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Focal Length of a Convex Lens</span>"
     ]
   },
   {
     "objectID": "lens.html#calculation-of-the-focal-length-fcm",
     "href": "lens.html#calculation-of-the-focal-length-fcm",
-    "title": "7  Focal Lenght of a Convex Lens",
+    "title": "7  Focal Length of a Convex Lens",
     "section": "7.3 Calculation of the Focal Length, f(cm)",
-    "text": "7.3 Calculation of the Focal Length, f(cm)\nThe equation governing the focal length of a lens is:\n\\(\\frac{1}{f} \\; = \\; \\frac{1}{u} \\; + \\; \\frac{1}{v}\\)\n\\(\\implies \\frac{1}{v} \\; = \\; -\\frac{1}{u} \\; + \\; \\frac{1}{f}\\) so when \\(\\frac{1}{u}\\) is zero, \\(\\frac{1}{v} \\; = \\; \\frac{1}{f}\\).\nTake the point where the line cuts the y-axis, take the inverse of this value, and this will be a figure for f.\n\n7.3.1 f from Direct Measurement\nTake the lens out to the lobby outside the lab and under one of the ceiling lights. Hold the lens about 20 cm above the floor and get the ceiling light in focus. Because the light source is so high above, then \\(u\\) is very large and \\(\\frac{1}{u}\\) is close to zero, then \\(\\frac{1}{f} \\; = \\; \\frac{1}{v}\\) and the focal lenght will be well approximated by the distance between the lens and the image on the floor. Measure this to get a second estimate for f.\n\n\n7.3.2 f from no-parallax\n\n\n\n\n\n\n\nSet up the apparatus as shown, with the object pin about 10cm behind the lens and the retort stand and pencil about 20cm further back. Observe the object pin through the lens and the pencil directly over the top rim of the lens. Move the retort stand until the pencil sits directly over the image of the object pin and the two stay in sync when you move your head from side to side. Measure the distance from pin to lens, \\(u\\), and the distance from pencil to lens, \\(-v\\). Put the values in to the equation \\(\\frac{1}{f} \\; = \\; \\frac{1}{u} \\; + \\; \\frac{1}{v}\\) to calculate a value for f.",
+    "text": "7.3 Calculation of the Focal Length, f(cm)\nThe equation governing the focal length of a lens is:\n\\(\\frac{1}{f} \\; = \\; \\frac{1}{u} \\; + \\; \\frac{1}{v}\\)\n\\(\\implies \\frac{1}{v} \\; = \\; -\\frac{1}{u} \\; + \\; \\frac{1}{f}\\) so when \\(\\frac{1}{u}\\) is zero, \\(\\frac{1}{v} \\; = \\; \\frac{1}{f}\\).\nTake the point where the line cuts the y-axis, take the inverse of this value, and this will be a figure for f.\n\n7.3.1 f from Direct Measurement\nTake the lens out to the lobby outside the lab and under one of the ceiling lights. Hold the lens about 20 cm above the floor and get the ceiling light in focus. Because the light source is so high above, then \\(u\\) is very large and \\(\\frac{1}{u}\\) is close to zero, then \\(\\frac{1}{f} \\; = \\; \\frac{1}{v}\\) and the focal length will be well approximated by the distance between the lens and the image on the floor. Measure this to get a second estimate for f.\n\n\n7.3.2 f from no-parallax\n\n\n\n\n\n\n\nSet up the apparatus as shown, with the object pin about 10cm behind the lens and the retort stand and pencil about 20cm further back. Observe the object pin through the lens and the pencil directly over the top rim of the lens. Move the retort stand until the pencil sits directly over the image of the object pin and the two stay in sync when you move your head from side to side. Measure the distance from pin to lens, \\(u\\), and the distance from pencil to lens, \\(-v\\). Put the values in to the equation \\(\\frac{1}{f} \\; = \\; \\frac{1}{u} \\; + \\; \\frac{1}{v}\\) to calculate a value for f.",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Focal Lenght of a Convex Lens</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Focal Length of a Convex Lens</span>"
     ]
   },
   {
     "objectID": "lens.html#discussion",
     "href": "lens.html#discussion",
-    "title": "7  Focal Lenght of a Convex Lens",
+    "title": "7  Focal Length of a Convex Lens",
     "section": "7.4 Discussion",
     "text": "7.4 Discussion\nThere are four parts to the discussion section. Because we have three experimental values for f, we’ll combine our results and textbook value in a table\n\nthe main results and manufacturer’s value\n\n\n\n\n\n\n\n\n\nSource\nf (cm)\n\n\n\n\nGraph\n\n\n\nLobby\n\n\n\nNo-Parallax\n\n\n\nManufacturer\n20.0\n\n\n\n\n\n\n\n\nsupplementary main result - repeat your value for the slope of the graph and compare to the textbook value of -1.\ninaccuracies - your values for \\(f\\) won’t be exactly the same as the manufacturers, nor will your graph be a perfect straight line with a slope of -1. We need to try and account for these discrepancies. Pick one feature of the experiment and investigate whether it is an issue in the accuracy of your results. You’ll need to examine the results you have already as well as gathering additional evidence by taking further measurements. Your idea might well be a key issue in the quality of the results we obtain, or it might not be and you are thus ruling it out. Both are valid outcomes of this error analysis.\nimprovements - based on the inaccuracy section above, can you suggest a way in which we could make our experiment better?",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Focal Lenght of a Convex Lens</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Focal Length of a Convex Lens</span>"
     ]
   },
   {
     "objectID": "lens.html#apparatus",
     "href": "lens.html#apparatus",
-    "title": "7  Focal Lenght of a Convex Lens",
+    "title": "7  Focal Length of a Convex Lens",
     "section": "7.5 Apparatus",
     "text": "7.5 Apparatus\nLight source, 20cm lens, screen, two metre sticks, retort stand, finder pin, object pin.",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Focal Lenght of a Convex Lens</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Focal Length of a Convex Lens</span>"
     ]
   }
 ]
