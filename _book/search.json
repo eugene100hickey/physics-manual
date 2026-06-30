@@ -24,7 +24,7 @@
     "href": "shm.html",
     "title": "2  Simple Harmonic Motion of a Spring",
     "section": "",
-    "text": "As we saw in the previous experiment, every spring has a stiffness called its Spring Constant, \\(k\\), measured in Newtons per metre. Stiff, rigid springs have high values of \\(k\\), loose, floppy springs have low values of \\(k\\). We’re going to measure \\(k\\) by a totally separate mechanism and compare the new value we get to the previous result.\nTake down the following in to your laboratory copy.\n\nTitle: Simple Harmonic Motion of a Spring\n\n\nName:\n\n\nDate:\n\n\nPartner:\n\n\nData:\n\n\n\n\n\n\n\n\nMass (kg)\n\\(T_{20}(s)\\)\n\\(T_{1}(s)\\)\n\\(T_{1}^2(s^2)\\)\n\n\n\n\n0.300\n\n\n\n\n\n0.400\n\n\n\n\n\n0.500\n\n\n\n\n\n0.600\n\n\n\n\n\n0.700\n\n\n\n\n\n0.800\n\n\n\n\n\n0.900\n\n\n\n\n\n1.000\n\n\n\n\n\n\n\n\n\n\n\n\n2.0.1 Experimental Set-Up\n\n\n\n\n\n\n\nThe apparatus will be set-up something like the sketch on the left. This is the first point; the weight holder and two 100g weights giving a total load of 0.300 kg.\nPull the weights down slightly and release, the weights will bounce rapidly. With the centisecond timer, record the time for 20 bounces. Divide this by 20 to get the time for one bounce, and then square this value to get \\(T^2\\). Pay special attention to significant figures\n\n\n\n\nyou get best results for small displacements, only pull the weights down the smallest amount you can.\nOne tick happens every time the weights hit the bottom of their travel, so down, down, down rather than up, down, up, down.\n0.300 kg is the weight holder and 2 extra weights\nWhen filling out your table, pay special attention to significant figures. The number of significant figures for \\(T_{20}\\) should be the same as for \\(T_1\\) and \\(T^2\\).\n\n\n\n2.0.2 Analysis\n\n\n\n\n\n\n\nDraw the graph as shown on the left here, with \\(T^2(s^2)\\) on the y-axis and \\(m(kg)\\) on the x axis. Don’t be surprised if there is a reasonable amount of scatter in the points. Draw a best fit line nested through the points. Make sure the graph has a (long) descriptive title in the form What’s on y-axis vs What’s on x axis and the context.\nCalculate the slope of the best fit line using the formula \\(slope \\; = \\; \\frac{y_2-y_1}{x_2-x_1}\\)\n\n\n\n\n\n2.0.3 Calculation of the Spring Constant, k\nThe equation governing the simple harmonic motion of the spring is:\n\\(T \\; = \\; 2 \\pi \\sqrt{\\frac{k}{m}}\\)\nWhere \\(T\\) is the period we measured for each mass, \\(m\\), and \\(k\\) is the spring constant that we’re setting out to measure.\nSquaring and rearranging gives:\n\\(T^2\\; = \\; \\frac{4\\pi^2}{k} \\times m\\)\nThis means the slope of our \\(T^2 \\; vs \\; m\\) graph must be:\n\\(slope \\; = \\; \\frac{4\\pi^2}{k}\\)\n\\(\\implies\\; k \\; = \\; \\frac{4\\pi^2}{slope}\\)\nUse this to calculate a value for k in N/m\n\n\n2.0.4 Discussion\nThere are four parts to the discussion section:\n\nthe main results - repeat the value of k obtained from the end of your calculations. Even though it is written elsewhere in your report, it’s important to repeat it here\nthe text book (manufacturers) value - the springs used have a rated k value of 100 N/m\ninaccuracies - your value for \\(k\\) won’t be exactly the same as the manufacturers, nor will your graph be a perfect straight line. We need to try and account for these discrepancies. Pick one feature of the experiment and investigate whether it is an issue in the accuracy of your results. For example, are the weights all exactly 100g, does the amplitude of the spring oscillations matter, is there signs of anharmonic behaviour at heavier masses, or is 20 bounces enough. You’ll need to examine the results you have already as well as gathering additional evidence by taking further measurements. Your idea might well be a key issue in the quality of the results we obtain, or it might not be and you are thus ruling it out. Both are valid outcomes of this error analysis.\nimprovements - based on the inaccuracy section above, can you suggest a way in which we could make our experiment better?\n\n\n\n2.0.5 Apparatus\nRetort stand, weight holder, 9 \\(\\times\\) 100g weights, centisecond timer, 100 N/m spring.",
+    "text": "Title: Simple Harmonic Motion of a Spring\nAs we saw in the previous experiment, every spring has a stiffness called its Spring Constant, \\(k\\), measured in Newtons per metre. Stiff, rigid springs have high values of \\(k\\), loose, floppy springs have low values of \\(k\\). We’re going to measure \\(k\\) by a totally separate mechanism and compare the new value we get to the previous result.\nTake down the following in to your laboratory copy.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Simple Harmonic Motion of a Spring</span>"
     ]
@@ -347,6 +347,56 @@
     "text": "6.5 Apparatus\nLight source, 20cm lens, screen, two metre sticks, retort stand, finder pin, object pin.",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Focal Lenght of a Convex Lens</span>"
+    ]
+  },
+  {
+    "objectID": "shm.html#experimental-set-up",
+    "href": "shm.html#experimental-set-up",
+    "title": "2  Simple Harmonic Motion of a Spring",
+    "section": "2.1 Experimental Set-Up",
+    "text": "2.1 Experimental Set-Up\n\n\n\n\n\n\n\nThe apparatus will be set-up something like the sketch on the left. This is the first point; the weight holder and two 100g weights giving a total load of 0.300 kg.\nPull the weights down slightly and release, the weights will bounce rapidly. With the centisecond timer, record the time for 20 bounces. Divide this by 20 to get the time for one bounce, and then square this value to get \\(T^2\\). Pay special attention to significant figures\n\n\n\n\nyou get best results for small displacements, only pull the weights down the smallest amount you can.\nOne tick happens every time the weights hit the bottom of their travel, so down, down, down rather than up, down, up, down.\n0.300 kg is the weight holder and 2 extra weights\nWhen filling out your table, pay special attention to significant figures. The number of significant figures for \\(T_{20}\\) should be the same as for \\(T_1\\) and \\(T^2\\).",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Simple Harmonic Motion of a Spring</span>"
+    ]
+  },
+  {
+    "objectID": "shm.html#analysis",
+    "href": "shm.html#analysis",
+    "title": "2  Simple Harmonic Motion of a Spring",
+    "section": "2.2 Analysis",
+    "text": "2.2 Analysis\n\n\n\n\n\n\n\nDraw the graph as shown on the left here, with \\(T^2(s^2)\\) on the y-axis and \\(m(kg)\\) on the x axis. Don’t be surprised if there is a reasonable amount of scatter in the points. Draw a best fit line nested through the points. Make sure the graph has a (long) descriptive title in the form What’s on y-axis vs What’s on x axis and the context.\nCalculate the slope of the best fit line using the formula \\(slope \\; = \\; \\frac{y_2-y_1}{x_2-x_1}\\)",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Simple Harmonic Motion of a Spring</span>"
+    ]
+  },
+  {
+    "objectID": "shm.html#calculation-of-the-spring-constant-k",
+    "href": "shm.html#calculation-of-the-spring-constant-k",
+    "title": "2  Simple Harmonic Motion of a Spring",
+    "section": "2.3 Calculation of the Spring Constant, k",
+    "text": "2.3 Calculation of the Spring Constant, k\nThe equation governing the simple harmonic motion of the spring is:\n\\(T \\; = \\; 2 \\pi \\sqrt{\\frac{k}{m}}\\)\nWhere \\(T\\) is the period we measured for each mass, \\(m\\), and \\(k\\) is the spring constant that we’re setting out to measure.\nSquaring and rearranging gives:\n\\(T^2\\; = \\; \\frac{4\\pi^2}{k} \\times m\\)\nThis means the slope of our \\(T^2 \\; vs \\; m\\) graph must be:\n\\(slope \\; = \\; \\frac{4\\pi^2}{k}\\)\n\\(\\implies\\; k \\; = \\; \\frac{4\\pi^2}{slope}\\)\nUse this to calculate a value for k in N/m",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Simple Harmonic Motion of a Spring</span>"
+    ]
+  },
+  {
+    "objectID": "shm.html#discussion",
+    "href": "shm.html#discussion",
+    "title": "2  Simple Harmonic Motion of a Spring",
+    "section": "2.4 Discussion",
+    "text": "2.4 Discussion\nThere are four parts to the discussion section:\n\nthe main results - repeat the value of k obtained from the end of your calculations. Even though it is written elsewhere in your report, it’s important to repeat it here\nthe text book (manufacturers) value - the springs used have a rated k value of 100 N/m\ninaccuracies - your value for \\(k\\) won’t be exactly the same as the manufacturers, nor will your graph be a perfect straight line. We need to try and account for these discrepancies. Pick one feature of the experiment and investigate whether it is an issue in the accuracy of your results. For example, are the weights all exactly 100g, does the amplitude of the spring oscillations matter, is there signs of anharmonic behaviour at heavier masses, or is 20 bounces enough. You’ll need to examine the results you have already as well as gathering additional evidence by taking further measurements. Your idea might well be a key issue in the quality of the results we obtain, or it might not be and you are thus ruling it out. Both are valid outcomes of this error analysis.\nimprovements - based on the inaccuracy section above, can you suggest a way in which we could make our experiment better?",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Simple Harmonic Motion of a Spring</span>"
+    ]
+  },
+  {
+    "objectID": "shm.html#apparatus",
+    "href": "shm.html#apparatus",
+    "title": "2  Simple Harmonic Motion of a Spring",
+    "section": "2.5 Apparatus",
+    "text": "2.5 Apparatus\nRetort stand, weight holder, 9 \\(\\times\\) 100g weights, centisecond timer, 100 N/m spring.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Simple Harmonic Motion of a Spring</span>"
     ]
   }
 ]

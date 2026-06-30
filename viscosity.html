@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>2&nbsp; Simple Harmonic Motion of a Spring – physics-manual</title>
+<title>viscosity</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,51 +23,16 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./air-track.html" rel="next">
-<link href="./pendulum.html" rel="prev">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-8da5b4427184b79ecddefad3d342027e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
-  "copy-button": false,
-  "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
-  "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
-    "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
-  }
-}</script>
+<script src="viscosity_files/libs/clipboard/clipboard.min.js"></script>
+<script src="viscosity_files/libs/quarto-html/quarto.js"></script>
+<script src="viscosity_files/libs/quarto-html/popper.min.js"></script>
+<script src="viscosity_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="viscosity_files/libs/quarto-html/anchor.min.js"></script>
+<link href="viscosity_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="viscosity_files/libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="viscosity_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="viscosity_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="viscosity_files/libs/bootstrap/bootstrap-1bc8a17f135ab3d594c857e9f48e611b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -102,131 +67,13 @@ window.Quarto = {
 <link rel="stylesheet" href="my-css.css">
 </head>
 
-<body class="nav-sidebar floating">
+<body class="fullcontent">
 
-<div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./shm.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Simple Harmonic Motion of a Spring</span></a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
-    </div>
-  </nav>
-</header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
-<!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
-    <div class="sidebar-title mb-0 py-0">
-      <a href="./">physics-manual</a> 
-    </div>
-      </div>
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Preface</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./pendulum.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Simple Pendulum</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./shm.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Simple Harmonic Motion of a Spring</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./air-track.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Measurement of Acceleration on a Linear Air-Track</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./cor.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Coefficient of Restitution of a Ping Pong Ball</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./sonometer.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Measurements of Sound Frequency using a Sonometer</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./lens.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Focal Lenght of a Convex Lens</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">References</span></a>
-  </div>
-</li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
-   
-  <ul>
-  <li><a href="#title-simple-harmonic-motion-of-a-spring" id="toc-title-simple-harmonic-motion-of-a-spring" class="nav-link active" data-scroll-target="#title-simple-harmonic-motion-of-a-spring"><span style="font-family:Kalam;color:#8b1a1a;">Title: Simple Harmonic Motion of a Spring</span></a></li>
-  <li><a href="#name" id="toc-name" class="nav-link" data-scroll-target="#name"><span style="font-family:Kalam;color:#8b1a1a;">Name:</span></a></li>
-  <li><a href="#date" id="toc-date" class="nav-link" data-scroll-target="#date"><span style="font-family:Kalam;color:#8b1a1a;">Date:</span></a></li>
-  <li><a href="#partner" id="toc-partner" class="nav-link" data-scroll-target="#partner"><span style="font-family:Kalam;color:#8b1a1a;">Partner:</span></a></li>
-  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data"><span style="font-family:Kalam;color:#8b1a1a;">Data:</span></a></li>
-  <li><a href="#experimental-set-up" id="toc-experimental-set-up" class="nav-link" data-scroll-target="#experimental-set-up"><span class="header-section-number">2.1</span> Experimental Set-Up</a></li>
-  <li><a href="#analysis" id="toc-analysis" class="nav-link" data-scroll-target="#analysis"><span class="header-section-number">2.2</span> Analysis</a></li>
-  <li><a href="#calculation-of-the-spring-constant-k" id="toc-calculation-of-the-spring-constant-k" class="nav-link" data-scroll-target="#calculation-of-the-spring-constant-k"><span class="header-section-number">2.3</span> Calculation of the Spring Constant, k</a></li>
-  <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion"><span class="header-section-number">2.4</span> Discussion</a></li>
-  <li><a href="#apparatus" id="toc-apparatus" class="nav-link" data-scroll-target="#apparatus"><span class="header-section-number">2.5</span> Apparatus</a></li>
-  </ul>
-</nav>
-    </div>
-<!-- main -->
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Simple Harmonic Motion of a Spring</span></h1>
-</div>
 
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
 
 
 <div class="cell">
@@ -236,10 +83,12 @@ window.Quarto = {
 }
 </style>
 </div>
-<p>As we saw in the previous experiment, every spring has a <em>stiffness</em> called its <strong><em>Spring Constant</em></strong>, <span class="math inline">\(k\)</span>, measured in Newtons per metre. Stiff, rigid springs have high values of <span class="math inline">\(k\)</span>, loose, floppy springs have low values of <span class="math inline">\(k\)</span>. We’re going to measure <span class="math inline">\(k\)</span> by a totally separate mechanism and compare the new value we get to the previous result.</p>
+<section id="measurement-of-the-viscosity-of-a-liquid" class="level1">
+<h1>Measurement of the Viscosity of a Liquid</h1>
+<p>We measure the viscosity of a liquid (glycerol) by timing how ball bearings of different radius fall in the liquid. We then use an equation based on Stokes law to draw a graph of velocity as a function of radius squared.</p>
 <p>Take down the following in to your laboratory copy.</p>
-<section id="title-simple-harmonic-motion-of-a-spring" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="title-simple-harmonic-motion-of-a-spring"><span style="font-family:Kalam;color:#8b1a1a;">Title: Simple Harmonic Motion of a Spring</span></h3>
+<section id="title-measurement-of-viscosity-of-a-liquid-by-falling-ball-method." class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="title-measurement-of-viscosity-of-a-liquid-by-falling-ball-method."><span style="font-family:Kalam;color:#8b1a1a;">Title: Measurement of viscosity of a liquid by falling ball method.</span></h3>
 </section>
 <section id="name" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="name"><span style="font-family:Kalam;color:#8b1a1a;">Name:</span></h3>
@@ -254,24 +103,24 @@ window.Quarto = {
 <h3 class="unnumbered anchored" data-anchor-id="data"><span style="font-family:Kalam;color:#8b1a1a;">Data:</span></h3>
 <div class="cell plain">
 <div class="cell-output-display">
-<div id="tjrcvcbfig" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:hidden;overflow-y:hidden;width:75%;height:auto;">
+<div id="uuqfwopizc" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:hidden;overflow-y:hidden;width:75%;height:auto;">
 <style>@import url("https://fonts.googleapis.com/css2?family=Kalam:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-#tjrcvcbfig table {
+#uuqfwopizc table {
   font-family: Kalam, system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#tjrcvcbfig thead, #tjrcvcbfig tbody, #tjrcvcbfig tfoot, #tjrcvcbfig tr, #tjrcvcbfig td, #tjrcvcbfig th {
+#uuqfwopizc thead, #uuqfwopizc tbody, #uuqfwopizc tfoot, #uuqfwopizc tr, #uuqfwopizc td, #uuqfwopizc th {
   border-style: none;
 }
 
-#tjrcvcbfig p {
+#uuqfwopizc p {
   margin: 0;
   padding: 0;
 }
 
-#tjrcvcbfig .gt_table {
+#uuqfwopizc .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -297,12 +146,12 @@ window.Quarto = {
   border-left-color: #D3D3D3;
 }
 
-#tjrcvcbfig .gt_caption {
+#uuqfwopizc .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#tjrcvcbfig .gt_title {
+#uuqfwopizc .gt_title {
   color: #8B1A1A;
   font-size: 125%;
   font-weight: initial;
@@ -314,7 +163,7 @@ window.Quarto = {
   border-bottom-width: 0;
 }
 
-#tjrcvcbfig .gt_subtitle {
+#uuqfwopizc .gt_subtitle {
   color: #8B1A1A;
   font-size: 85%;
   font-weight: initial;
@@ -326,7 +175,7 @@ window.Quarto = {
   border-top-width: 0;
 }
 
-#tjrcvcbfig .gt_heading {
+#uuqfwopizc .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -338,13 +187,13 @@ window.Quarto = {
   border-right-color: #D3D3D3;
 }
 
-#tjrcvcbfig .gt_bottom_border {
+#uuqfwopizc .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#tjrcvcbfig .gt_col_headings {
+#uuqfwopizc .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #8B1A1A;
@@ -359,7 +208,7 @@ window.Quarto = {
   border-right-color: #D3D3D3;
 }
 
-#tjrcvcbfig .gt_col_heading {
+#uuqfwopizc .gt_col_heading {
   color: #8B1A1A;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -379,7 +228,7 @@ window.Quarto = {
   overflow-x: hidden;
 }
 
-#tjrcvcbfig .gt_column_spanner_outer {
+#uuqfwopizc .gt_column_spanner_outer {
   color: #8B1A1A;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -391,15 +240,15 @@ window.Quarto = {
   padding-right: 4px;
 }
 
-#tjrcvcbfig .gt_column_spanner_outer:first-child {
+#uuqfwopizc .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#tjrcvcbfig .gt_column_spanner_outer:last-child {
+#uuqfwopizc .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#tjrcvcbfig .gt_column_spanner {
+#uuqfwopizc .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -411,11 +260,11 @@ window.Quarto = {
   width: 100%;
 }
 
-#tjrcvcbfig .gt_spanner_row {
+#uuqfwopizc .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#tjrcvcbfig .gt_group_heading {
+#uuqfwopizc .gt_group_heading {
   padding-top: 0.8px;
   padding-bottom: 0.8px;
   padding-left: 5px;
@@ -441,7 +290,7 @@ window.Quarto = {
   text-align: left;
 }
 
-#tjrcvcbfig .gt_empty_group_heading {
+#uuqfwopizc .gt_empty_group_heading {
   padding: 0.5px;
   color: #8B1A1A;
   background-color: #FFFFFF;
@@ -456,15 +305,15 @@ window.Quarto = {
   vertical-align: middle;
 }
 
-#tjrcvcbfig .gt_from_md > :first-child {
+#uuqfwopizc .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#tjrcvcbfig .gt_from_md > :last-child {
+#uuqfwopizc .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#tjrcvcbfig .gt_row {
+#uuqfwopizc .gt_row {
   padding-top: 0.8px;
   padding-bottom: 0.8px;
   padding-left: 5px;
@@ -483,7 +332,7 @@ window.Quarto = {
   overflow-x: hidden;
 }
 
-#tjrcvcbfig .gt_stub {
+#uuqfwopizc .gt_stub {
   color: #8B1A1A;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -496,7 +345,7 @@ window.Quarto = {
   padding-right: 5px;
 }
 
-#tjrcvcbfig .gt_stub_row_group {
+#uuqfwopizc .gt_stub_row_group {
   color: #8B1A1A;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -510,15 +359,15 @@ window.Quarto = {
   vertical-align: top;
 }
 
-#tjrcvcbfig .gt_row_group_first td {
+#uuqfwopizc .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#tjrcvcbfig .gt_row_group_first th {
+#uuqfwopizc .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#tjrcvcbfig .gt_summary_row {
+#uuqfwopizc .gt_summary_row {
   color: #8B1A1A;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -528,16 +377,16 @@ window.Quarto = {
   padding-right: 5px;
 }
 
-#tjrcvcbfig .gt_first_summary_row {
+#uuqfwopizc .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#tjrcvcbfig .gt_first_summary_row.thick {
+#uuqfwopizc .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#tjrcvcbfig .gt_last_summary_row {
+#uuqfwopizc .gt_last_summary_row {
   padding-top: 0.8px;
   padding-bottom: 0.8px;
   padding-left: 5px;
@@ -547,7 +396,7 @@ window.Quarto = {
   border-bottom-color: #D3D3D3;
 }
 
-#tjrcvcbfig .gt_grand_summary_row {
+#uuqfwopizc .gt_grand_summary_row {
   color: #8B1A1A;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -557,7 +406,7 @@ window.Quarto = {
   padding-right: 5px;
 }
 
-#tjrcvcbfig .gt_first_grand_summary_row {
+#uuqfwopizc .gt_first_grand_summary_row {
   padding-top: 0.8px;
   padding-bottom: 0.8px;
   padding-left: 5px;
@@ -567,7 +416,7 @@ window.Quarto = {
   border-top-color: #D3D3D3;
 }
 
-#tjrcvcbfig .gt_last_grand_summary_row_top {
+#uuqfwopizc .gt_last_grand_summary_row_top {
   padding-top: 0.8px;
   padding-bottom: 0.8px;
   padding-left: 5px;
@@ -577,11 +426,11 @@ window.Quarto = {
   border-bottom-color: #D3D3D3;
 }
 
-#tjrcvcbfig .gt_striped {
+#uuqfwopizc .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#tjrcvcbfig .gt_table_body {
+#uuqfwopizc .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -590,7 +439,7 @@ window.Quarto = {
   border-bottom-color: #8B1A1A;
 }
 
-#tjrcvcbfig .gt_footnotes {
+#uuqfwopizc .gt_footnotes {
   color: #8B1A1A;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -604,7 +453,7 @@ window.Quarto = {
   border-right-color: #D3D3D3;
 }
 
-#tjrcvcbfig .gt_footnote {
+#uuqfwopizc .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 0.4px;
@@ -613,7 +462,7 @@ window.Quarto = {
   padding-right: 5px;
 }
 
-#tjrcvcbfig .gt_sourcenotes {
+#uuqfwopizc .gt_sourcenotes {
   color: #8B1A1A;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -627,7 +476,7 @@ window.Quarto = {
   border-right-color: #D3D3D3;
 }
 
-#tjrcvcbfig .gt_sourcenote {
+#uuqfwopizc .gt_sourcenote {
   font-size: 90%;
   padding-top: 0.4px;
   padding-bottom: 0.4px;
@@ -635,72 +484,72 @@ window.Quarto = {
   padding-right: 5px;
 }
 
-#tjrcvcbfig .gt_left {
+#uuqfwopizc .gt_left {
   text-align: left;
 }
 
-#tjrcvcbfig .gt_center {
+#uuqfwopizc .gt_center {
   text-align: center;
 }
 
-#tjrcvcbfig .gt_right {
+#uuqfwopizc .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#tjrcvcbfig .gt_font_normal {
+#uuqfwopizc .gt_font_normal {
   font-weight: normal;
 }
 
-#tjrcvcbfig .gt_font_bold {
+#uuqfwopizc .gt_font_bold {
   font-weight: bold;
 }
 
-#tjrcvcbfig .gt_font_italic {
+#uuqfwopizc .gt_font_italic {
   font-style: italic;
 }
 
-#tjrcvcbfig .gt_super {
+#uuqfwopizc .gt_super {
   font-size: 65%;
 }
 
-#tjrcvcbfig .gt_footnote_marks {
+#uuqfwopizc .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#tjrcvcbfig .gt_asterisk {
+#uuqfwopizc .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#tjrcvcbfig .gt_indent_1 {
+#uuqfwopizc .gt_indent_1 {
   text-indent: 5px;
 }
 
-#tjrcvcbfig .gt_indent_2 {
+#uuqfwopizc .gt_indent_2 {
   text-indent: 10px;
 }
 
-#tjrcvcbfig .gt_indent_3 {
+#uuqfwopizc .gt_indent_3 {
   text-indent: 15px;
 }
 
-#tjrcvcbfig .gt_indent_4 {
+#uuqfwopizc .gt_indent_4 {
   text-indent: 20px;
 }
 
-#tjrcvcbfig .gt_indent_5 {
+#uuqfwopizc .gt_indent_5 {
   text-indent: 25px;
 }
 
-#tjrcvcbfig .katex-display {
+#uuqfwopizc .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#tjrcvcbfig div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#uuqfwopizc div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
@@ -708,60 +557,48 @@ window.Quarto = {
 <table class="gt_table caption-top table" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
 <thead>
 <tr class="gt_col_headings header">
-<th id="mass" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col">Mass (kg)</th>
-<th id="t20" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col"><span class="math inline">\(T_{20}(s)\)</span></th>
-<th id="t1" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col"><span class="math inline">\(T_{1}(s)\)</span></th>
-<th id="t1_2" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col"><span class="math inline">\(T_{1}^2(s^2)\)</span></th>
+<th id="diam" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col">Diameter, d, (mm)</th>
+<th id="rad" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col"><span class="math inline">\(Radius^2, r^2, (m^2)\)</span></th>
+<th id="time" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col"><span class="math inline">\(time(s)\)</span></th>
+<th id="velocity" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col">Velocity (m/s)</th>
 </tr>
 </thead>
 <tbody class="gt_table_body">
 <tr class="odd">
-<td class="gt_row gt_center" headers="mass">0.300</td>
-<td class="gt_row gt_center" headers="t20"></td>
-<td class="gt_row gt_center" headers="t1"></td>
-<td class="gt_row gt_center" headers="t1_2"></td>
+<td class="gt_row gt_center" headers="diam">5.0</td>
+<td class="gt_row gt_center" headers="rad"></td>
+<td class="gt_row gt_center" headers="time"></td>
+<td class="gt_row gt_center" headers="velocity"></td>
 </tr>
 <tr class="even">
-<td class="gt_row gt_center" headers="mass">0.400</td>
-<td class="gt_row gt_center" headers="t20"></td>
-<td class="gt_row gt_center" headers="t1"></td>
-<td class="gt_row gt_center" headers="t1_2"></td>
+<td class="gt_row gt_center" headers="diam">6.0</td>
+<td class="gt_row gt_center" headers="rad"></td>
+<td class="gt_row gt_center" headers="time"></td>
+<td class="gt_row gt_center" headers="velocity"></td>
 </tr>
 <tr class="odd">
-<td class="gt_row gt_center" headers="mass">0.500</td>
-<td class="gt_row gt_center" headers="t20"></td>
-<td class="gt_row gt_center" headers="t1"></td>
-<td class="gt_row gt_center" headers="t1_2"></td>
+<td class="gt_row gt_center" headers="diam">7.0</td>
+<td class="gt_row gt_center" headers="rad"></td>
+<td class="gt_row gt_center" headers="time"></td>
+<td class="gt_row gt_center" headers="velocity"></td>
 </tr>
 <tr class="even">
-<td class="gt_row gt_center" headers="mass">0.600</td>
-<td class="gt_row gt_center" headers="t20"></td>
-<td class="gt_row gt_center" headers="t1"></td>
-<td class="gt_row gt_center" headers="t1_2"></td>
+<td class="gt_row gt_center" headers="diam">9.0</td>
+<td class="gt_row gt_center" headers="rad"></td>
+<td class="gt_row gt_center" headers="time"></td>
+<td class="gt_row gt_center" headers="velocity"></td>
 </tr>
 <tr class="odd">
-<td class="gt_row gt_center" headers="mass">0.700</td>
-<td class="gt_row gt_center" headers="t20"></td>
-<td class="gt_row gt_center" headers="t1"></td>
-<td class="gt_row gt_center" headers="t1_2"></td>
+<td class="gt_row gt_center" headers="diam">10.0</td>
+<td class="gt_row gt_center" headers="rad"></td>
+<td class="gt_row gt_center" headers="time"></td>
+<td class="gt_row gt_center" headers="velocity"></td>
 </tr>
 <tr class="even">
-<td class="gt_row gt_center" headers="mass">0.800</td>
-<td class="gt_row gt_center" headers="t20"></td>
-<td class="gt_row gt_center" headers="t1"></td>
-<td class="gt_row gt_center" headers="t1_2"></td>
-</tr>
-<tr class="odd">
-<td class="gt_row gt_center" headers="mass">0.900</td>
-<td class="gt_row gt_center" headers="t20"></td>
-<td class="gt_row gt_center" headers="t1"></td>
-<td class="gt_row gt_center" headers="t1_2"></td>
-</tr>
-<tr class="even">
-<td class="gt_row gt_center" headers="mass">1.000</td>
-<td class="gt_row gt_center" headers="t20"></td>
-<td class="gt_row gt_center" headers="t1"></td>
-<td class="gt_row gt_center" headers="t1_2"></td>
+<td class="gt_row gt_center" headers="diam">10.0</td>
+<td class="gt_row gt_center" headers="rad"></td>
+<td class="gt_row gt_center" headers="time"></td>
+<td class="gt_row gt_center" headers="velocity"></td>
 </tr>
 </tbody>
 </table>
@@ -770,17 +607,17 @@ window.Quarto = {
 </div>
 </div>
 </section>
-<section id="experimental-set-up" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="experimental-set-up"><span class="header-section-number">2.1</span> Experimental Set-Up</h2>
+<section id="experimental-set-up" class="level2">
+<h2 class="anchored" data-anchor-id="experimental-set-up">Experimental Set-Up</h2>
 <div class="columns">
 <div class="column" style="width:45%;">
-<p><img src="images/shm-diagram3.png" style="width:8cm;height:8.5cm"></p>
+<p><img src="images/viscosity.png" style="width:8cm;height:8.5cm"></p>
 </div><div class="column" style="width:5%;">
 
 </div><div class="column" style="width:40%;">
 <div class="justify">
-<p>The apparatus will be set-up something like the sketch on the left. This is the first point; the weight holder and two 100g weights giving a total load of 0.300 kg.</p>
-<p>Pull the weights down slightly and release, the weights will bounce rapidly. With the centisecond timer, record the time for 20 bounces. Divide this by 20 to get the time for one bounce, and then square this value to get <span class="math inline">\(T^2\)</span>. Pay special attention to significant figures</p>
+<p>The set up consists of a glass cylinder filled with glycerol. There are two elastic bands around the cylinder that can be varied. The ball bearings are covered in the liquid and gently let drop in the liquid. A timer is used to measure the time for the ball bearing to fall from one band to the other. Each ball bearing is dropped and the time taken. The table above is used to fill in the results.<br>
+The velocity of the ball bearing is the distance between the bands in meters divided by the time in seconds. That is <span class="math inline">\(v \; = \; \frac{d}{t}\)</span> .</p>
 </div>
 </div>
 </div>
@@ -791,8 +628,8 @@ window.Quarto = {
 <li><p>When filling out your table, pay special attention to significant figures. The number of significant figures for <span class="math inline">\(T_{20}\)</span> should be the same as for <span class="math inline">\(T_1\)</span> and <span class="math inline">\(T^2\)</span>.</p></li>
 </ul>
 </section>
-<section id="analysis" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="analysis"><span class="header-section-number">2.2</span> Analysis</h2>
+<section id="analysis" class="level2">
+<h2 class="anchored" data-anchor-id="analysis">Analysis</h2>
 <div class="columns">
 <div class="column" style="width:45%;">
 <p><img src="images/graph.png" style="width:8cm;height:8.5cm"></p>
@@ -806,36 +643,31 @@ window.Quarto = {
 </div>
 </div>
 </section>
-<section id="calculation-of-the-spring-constant-k" class="level2" data-number="2.3">
-<h2 data-number="2.3" class="anchored" data-anchor-id="calculation-of-the-spring-constant-k"><span class="header-section-number">2.3</span> Calculation of the Spring Constant, k</h2>
-<p>The equation governing the simple harmonic motion of the spring is:</p>
-<p><span class="math inline">\(T \; = \; 2 \pi \sqrt{\frac{k}{m}}\)</span></p>
-<p>Where <span class="math inline">\(T\)</span> is the period we measured for each mass, <span class="math inline">\(m\)</span>, and <span class="math inline">\(k\)</span> is the spring constant that we’re setting out to measure.</p>
-<p>Squaring and rearranging gives:</p>
-<p><span class="math inline">\(T^2\; = \; \frac{4\pi^2}{k} \times m\)</span></p>
-<p>This means the slope of our <span class="math inline">\(T^2 \; vs \; m\)</span> graph must be:</p>
-<p><span class="math inline">\(slope \; = \; \frac{4\pi^2}{k}\)</span></p>
-<p><span class="math inline">\(\implies\; k \; = \; \frac{4\pi^2}{slope}\)</span></p>
-<p>Use this to calculate a value for k in N/m</p>
+<section id="calculation-of-the-viscosity" class="level2">
+<h2 class="anchored" data-anchor-id="calculation-of-the-viscosity">Calculation of the Viscosity</h2>
+<p>The equation used to calculate the viscosity is given by</p>
+<p><span class="math inline">\(V=\frac{2}{9} \frac{gr^2\left(\rho _o-\rho_L\right)\ }{\mathcal{n}}\)</span> Where <span class="math inline">\(\eta\)</span> is the viscosity of the liquid. The units of viscosity are Pas</p>
+<p>g is the acceleration due to gravity, <span class="math inline">\(\rho_o\)</span> and <span class="math inline">\(\rho_L\)</span> are the densities of the ball bearings and the liquid respectively. For the case of steel ball bearings and glycerol the densities are o= 7800 kg/m3 and L= 1800 kg/m3 A graph of V as a function of r2 is a straight line of slope</p>
+<p><span class="math inline">\(Slope \; = \; \frac{2}{9} \frac{g\left(\rho _o-\rho_L\right)\ }{\mathcal{n}}\)</span> <span class="math inline">\(\implies \eta \; = \; \frac{2}{9} \frac{g\left(\rho _o-\rho_L\right)\ }{slope}\)</span></p>
 </section>
-<section id="discussion" class="level2" data-number="2.4">
-<h2 data-number="2.4" class="anchored" data-anchor-id="discussion"><span class="header-section-number">2.4</span> Discussion</h2>
+<section id="discussion" class="level2">
+<h2 class="anchored" data-anchor-id="discussion">Discussion</h2>
 <p>There are four parts to the discussion section:</p>
 <ul>
-<li><p><strong><em>the main results</em></strong> - repeat the value of k obtained from the end of your calculations. Even though it is written elsewhere in your report, it’s important to repeat it here</p></li>
-<li><p><strong><em>the text book (manufacturers) value</em></strong> - the springs used have a rated k value of 100 N/m</p></li>
-<li><p><strong><em>inaccuracies</em></strong> - your value for <span class="math inline">\(k\)</span> won’t be exactly the same as the manufacturers, nor will your graph be a perfect straight line. We need to try and account for these discrepancies. Pick one feature of the experiment and investigate whether it is an issue in the accuracy of your results. For example, are the weights all exactly 100g, does the amplitude of the spring oscillations matter, is there signs of anharmonic behaviour at heavier masses, or is 20 bounces enough. You’ll need to examine the results you have already as well as gathering additional evidence by taking further measurements. Your idea might well be a key issue in the quality of the results we obtain, or it might not be and you are thus ruling it out. Both are valid outcomes of this error analysis.</p></li>
+<li><p><strong><em>the main results</em></strong> - repeat the value of <span class="math inline">\(\eta\)</span> obtained from the end of your calculations. Even though it is written elsewhere in your report, it’s important to repeat it here</p></li>
+<li><p><strong><em>the text book (manufacturers) value</em></strong> - the liquid has a viscosity of <span class="math inline">\(\eta \; = \; 2Pas\)</span></p></li>
+<li><p><strong><em>inaccuracies</em></strong> - your value for <span class="math inline">\(\eta\)</span> won’t be exactly the same as the manufacturers, nor will your graph be a perfect straight line. We need to try and account for these discrepancies. Pick one feature of the experiment and investigate whether it is an issue in the accuracy of your results. You’ll need to examine the results you have already as well as gathering additional evidence by taking further measurements. Your idea might well be a key issue in the quality of the results we obtain, or it might not be and you are thus ruling it out. Both are valid outcomes of this error analysis.</p></li>
 <li><p><strong><em>improvements</em></strong> - based on the inaccuracy section above, can you suggest a way in which we could make our experiment better?</p></li>
 </ul>
 </section>
-<section id="apparatus" class="level2" data-number="2.5">
-<h2 data-number="2.5" class="anchored" data-anchor-id="apparatus"><span class="header-section-number">2.5</span> Apparatus</h2>
-<p>Retort stand, weight holder, 9 <span class="math inline">\(\times\)</span> 100g weights, centisecond timer, 100 N/m spring.</p>
-
-
+<section id="apparatus" class="level2">
+<h2 class="anchored" data-anchor-id="apparatus">Apparatus</h2>
+<p>Graduated cylinder filled to at least 70% with glycerol. Rubber bands ~ 1cm below the top of the liquid and ~2cm above the base of the cylinder. Centisecond timer. Meter stick. Magnetised steel ball bearings of sizes given in the table above.</p>
+</section>
 </section>
 
-</main> <!-- /main -->
+</main>
+<!-- /main column -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -1253,18 +1085,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="./pendulum.html" class="pagination-link" aria-label="Simple Pendulum">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Simple Pendulum</span></span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="./air-track.html" class="pagination-link" aria-label="Measurement of Acceleration on a Linear Air-Track">
-        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Measurement of Acceleration on a Linear Air-Track</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 
 
