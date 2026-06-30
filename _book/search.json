@@ -398,5 +398,65 @@
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Simple Harmonic Motion of a Spring</span>"
     ]
+  },
+  {
+    "objectID": "viscosity.html",
+    "href": "viscosity.html",
+    "title": "2  Measurement of the Viscosity of a Liquid",
+    "section": "",
+    "text": "Title: Measurement of viscosity of a liquid by falling ball method.\nWe measure the viscosity of a liquid (glycerol) by timing how ball bearings of different radius fall in the liquid. We then use an equation based on Stokes law to draw a graph of velocity as a function of radius squared.\nTake down the following in to your laboratory copy.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Measurement of the Viscosity of a Liquid</span>"
+    ]
+  },
+  {
+    "objectID": "viscosity.html#experimental-set-up",
+    "href": "viscosity.html#experimental-set-up",
+    "title": "2  Measurement of the Viscosity of a Liquid",
+    "section": "2.1 Experimental Set-Up",
+    "text": "2.1 Experimental Set-Up\n\n\n\n\n\n\n\nThe set up consists of a glass cylinder filled with glycerol. There are two elastic bands around the cylinder that can be varied. The ball bearings are covered in the liquid and gently let drop in the liquid. A timer is used to measure the time for the ball bearing to fall from one band to the other. Each ball bearing is dropped and the time taken. The table above is used to fill in the results.\nThe velocity of the ball bearing is the distance between the bands in meters divided by the time in seconds. That is \\(v \\; = \\; \\frac{d}{t}\\) .\n\n\n\n\nYou get best results when dropping the balls down the very centre of the cylinder\nWhen dropped in, the spheres can sometimes capture an air bubble which will slow them down. To prevent this, give each shere a light coating of liquid before dropping them in.\nRecord the distance between the rubber bands before you begin, and don’t change this over the course of the experiment.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Measurement of the Viscosity of a Liquid</span>"
+    ]
+  },
+  {
+    "objectID": "viscosity.html#analysis",
+    "href": "viscosity.html#analysis",
+    "title": "2  Measurement of the Viscosity of a Liquid",
+    "section": "2.2 Analysis",
+    "text": "2.2 Analysis\n\n\n\n\n\n\n\nDraw the graph as shown on the left here, with \\(v(m/s)\\) on the y-axis and \\(r^2(m^2)\\) on the x axis. Use scientific notation for the numbers on the axes. Don’t be surprised if there is a reasonable amount of scatter in the points. Draw a best fit line nested through the points. Make sure the graph has a (long) descriptive title in the form What’s on y-axis vs What’s on x axis and the context.\nCalculate the slope of the best fit line using the formula \\(slope \\; = \\; \\frac{y_2-y_1}{x_2-x_1}\\)",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Measurement of the Viscosity of a Liquid</span>"
+    ]
+  },
+  {
+    "objectID": "viscosity.html#calculation-of-the-viscosity",
+    "href": "viscosity.html#calculation-of-the-viscosity",
+    "title": "2  Measurement of the Viscosity of a Liquid",
+    "section": "2.3 Calculation of the Viscosity",
+    "text": "2.3 Calculation of the Viscosity\nThe equation used to calculate the viscosity is given by\n\\(V=\\frac{2}{9} \\frac{gr^2\\left(\\rho _o-\\rho_L\\right)\\ }{\\mathcal{n}}\\) Where \\(\\eta\\) is the viscosity of the liquid. The units of viscosity are Pas\ng is the acceleration due to gravity, \\(\\rho_o\\) and \\(\\rho_L\\) are the densities of the ball bearings and the liquid respectively. For the case of steel ball bearings and glycerol the densities are o= 7800 kg/m3 and L= 1800 kg/m3 A graph of V as a function of r2 is a straight line of slope\n\\(Slope \\; = \\; \\frac{2}{9} \\frac{g\\left(\\rho _o-\\rho_L\\right)\\ }{\\mathcal{n}}\\) \\(\\implies \\eta \\; = \\; \\frac{2}{9} \\frac{g\\left(\\rho _o-\\rho_L\\right)\\ }{slope}\\)",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Measurement of the Viscosity of a Liquid</span>"
+    ]
+  },
+  {
+    "objectID": "viscosity.html#discussion",
+    "href": "viscosity.html#discussion",
+    "title": "2  Measurement of the Viscosity of a Liquid",
+    "section": "2.4 Discussion",
+    "text": "2.4 Discussion\nThere are four parts to the discussion section:\n\nthe main results - repeat the value of \\(\\eta\\) obtained from the end of your calculations. Even though it is written elsewhere in your report, it’s important to repeat it here\nthe text book (manufacturers) value - the liquid has a viscosity of \\(\\eta \\; = \\; 2Pas\\)\ninaccuracies - your value for \\(\\eta\\) won’t be exactly the same as the manufacturers, nor will your graph be a perfect straight line. We need to try and account for these discrepancies. Pick one feature of the experiment and investigate whether it is an issue in the accuracy of your results. You’ll need to examine the results you have already as well as gathering additional evidence by taking further measurements. Your idea might well be a key issue in the quality of the results we obtain, or it might not be and you are thus ruling it out. Both are valid outcomes of this error analysis.\nimprovements - based on the inaccuracy section above, can you suggest a way in which we could make our experiment better?",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Measurement of the Viscosity of a Liquid</span>"
+    ]
+  },
+  {
+    "objectID": "viscosity.html#apparatus",
+    "href": "viscosity.html#apparatus",
+    "title": "2  Measurement of the Viscosity of a Liquid",
+    "section": "2.5 Apparatus",
+    "text": "2.5 Apparatus\nGraduated cylinder filled to at least 70% with glycerol. Rubber bands ~ 1cm below the top of the liquid and ~2cm above the base of the cylinder. Centisecond timer. Meter stick. Magnetised steel ball bearings of sizes given in the table above.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Measurement of the Viscosity of a Liquid</span>"
+    ]
   }
 ]

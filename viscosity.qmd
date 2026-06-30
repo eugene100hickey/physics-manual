@@ -99,19 +99,17 @@ The velocity of the ball bearing is the distance between the bands in meters div
 ::::
 :::::::
 
-- you get best results for small displacements, only pull the weights down the smallest amount you can.
+- You get best results when dropping the balls down the very centre of the cylinder
 
-- One ***tick*** happens every time the weights hit the bottom of their travel, so *down, down, down* rather than *up, down, up, down*.
+- When dropped in, the spheres can sometimes capture an air bubble which will slow them down. To prevent this, give each shere a light coating of liquid before dropping them in.
 
-- 0.300 kg is the weight holder and **2** extra weights
-
-- When filling out your table, pay special attention to significant figures. The number of significant figures for $T_{20}$ should be the same as for $T_1$ and $T^2$.
+- Record the distance between the rubber bands before you begin, and don't change this over the course of the experiment.
 
 ## Analysis
 
 ::::::: columns
 ::: {.column width="45%"}
-![](images/graph.png){height="8.5cm" width="8cm"}
+![](images/graph.png){height="9cm" width="8cm"}
 :::
 
 ::: {.column width="5%"}
@@ -119,7 +117,7 @@ The velocity of the ball bearing is the distance between the bands in meters div
 
 :::: {.column width="40%"}
 ::: justify
-Draw the graph as shown on the left here, with $T^2(s^2)$ on the y-axis and $m(kg)$ on the x axis. Don't be surprised if there is a reasonable amount of scatter in the points. Draw a best fit line nested through the points. Make sure the graph has a (long) descriptive title in the form *What's on y-axis vs What's on x axis and the context*.
+Draw the graph as shown on the left here, with $v(m/s)$ on the y-axis and $r^2(m^2)$ on the x axis. Use scientific notation for the numbers on the axes. Don't be surprised if there is a reasonable amount of scatter in the points. Draw a best fit line nested through the points. Make sure the graph has a (long) descriptive title in the form *What's on y-axis vs What's on x axis and the context*.
 
 Calculate the slope of the best fit line using the formula $slope \; = \; \frac{y_2-y_1}{x_2-x_1}$
 :::
