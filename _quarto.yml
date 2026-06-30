@@ -8,6 +8,7 @@ book:
   chapters:
     - index.qmd
     - pendulum.qmd
+    - viscosity.qmd
     - shm.qmd
     - air-track.qmd
     - cor.qmd
