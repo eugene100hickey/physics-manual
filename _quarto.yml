@@ -1,0 +1,29 @@
+project:
+  type: book
+
+book:
+  title: "physics-manual"
+  author: "Physics - Tallaght"
+  date: "29/6/2026"
+  chapters:
+    - index.qmd
+    - pendulum.qmd
+    - shm.qmd
+    - air-track.qmd
+    - cor.qmd
+    - sonometer.qmd
+    - lens.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+

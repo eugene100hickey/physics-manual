@@ -1,0 +1,352 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "physics-manual",
+    "section": "",
+    "text": "Preface",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "pendulum.html",
+    "href": "pendulum.html",
+    "title": "1  Simple Pendulum",
+    "section": "",
+    "text": "Take down the following in to your laboratory copy.\n\n1.0.1 Title: Simple Pendulum\n\n\n1.0.2 Date:\n\n\n1.0.3 Partner:\n\n\n1.0.4 Data\n\n\n\n\n\n\n\n\nLength (m)\nActual Length (m)\n\\(T_{20}(s)\\)\n\\(T_{1}(s)\\)\n\\(T_{1}^2(s^2)\\)\n\n\n\n\n0.100\n\n\n\n\n\n\n0.200\n\n\n\n\n\n\n0.300\n\n\n\n\n\n\n0.400\n\n\n\n\n\n\n0.500\n\n\n\n\n\n\n0.600\n\n\n\n\n\n\n0.700\n\n\n\n\n\n\n0.800\n\n\n\n\n\n\n0.900\n\n\n\n\n\n\n1.000",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Simple Pendulum</span>"
+    ]
+  },
+  {
+    "objectID": "shm.html",
+    "href": "shm.html",
+    "title": "2  Simple Harmonic Motion of a Spring",
+    "section": "",
+    "text": "As we saw in the previous experiment, every spring has a stiffness called its Spring Constant, \\(k\\), measured in Newtons per metre. Stiff, rigid springs have high values of \\(k\\), loose, floppy springs have low values of \\(k\\). We’re going to measure \\(k\\) by a totally separate mechanism and compare the new value we get to the previous result.\nTake down the following in to your laboratory copy.\n\nTitle: Simple Harmonic Motion of a Spring\n\n\nName:\n\n\nDate:\n\n\nPartner:\n\n\nData:\n\n\n\n\n\n\n\n\nMass (kg)\n\\(T_{20}(s)\\)\n\\(T_{1}(s)\\)\n\\(T_{1}^2(s^2)\\)\n\n\n\n\n0.300\n\n\n\n\n\n0.400\n\n\n\n\n\n0.500\n\n\n\n\n\n0.600\n\n\n\n\n\n0.700\n\n\n\n\n\n0.800\n\n\n\n\n\n0.900\n\n\n\n\n\n1.000\n\n\n\n\n\n\n\n\n\n\n\n\n2.0.1 Experimental Set-Up\n\n\n\n\n\n\n\nThe apparatus will be set-up something like the sketch on the left. This is the first point; the weight holder and two 100g weights giving a total load of 0.300 kg.\nPull the weights down slightly and release, the weights will bounce rapidly. With the centisecond timer, record the time for 20 bounces. Divide this by 20 to get the time for one bounce, and then square this value to get \\(T^2\\). Pay special attention to significant figures\n\n\n\n\nyou get best results for small displacements, only pull the weights down the smallest amount you can.\nOne tick happens every time the weights hit the bottom of their travel, so down, down, down rather than up, down, up, down.\n0.300 kg is the weight holder and 2 extra weights\nWhen filling out your table, pay special attention to significant figures. The number of significant figures for \\(T_{20}\\) should be the same as for \\(T_1\\) and \\(T^2\\).\n\n\n\n2.0.2 Analysis\n\n\n\n\n\n\n\nDraw the graph as shown on the left here, with \\(T^2(s^2)\\) on the y-axis and \\(m(kg)\\) on the x axis. Don’t be surprised if there is a reasonable amount of scatter in the points. Draw a best fit line nested through the points. Make sure the graph has a (long) descriptive title in the form What’s on y-axis vs What’s on x axis and the context.\nCalculate the slope of the best fit line using the formula \\(slope \\; = \\; \\frac{y_2-y_1}{x_2-x_1}\\)\n\n\n\n\n\n2.0.3 Calculation of the Spring Constant, k\nThe equation governing the simple harmonic motion of the spring is:\n\\(T \\; = \\; 2 \\pi \\sqrt{\\frac{k}{m}}\\)\nWhere \\(T\\) is the period we measured for each mass, \\(m\\), and \\(k\\) is the spring constant that we’re setting out to measure.\nSquaring and rearranging gives:\n\\(T^2\\; = \\; \\frac{4\\pi^2}{k} \\times m\\)\nThis means the slope of our \\(T^2 \\; vs \\; m\\) graph must be:\n\\(slope \\; = \\; \\frac{4\\pi^2}{k}\\)\n\\(\\implies\\; k \\; = \\; \\frac{4\\pi^2}{slope}\\)\nUse this to calculate a value for k in N/m\n\n\n2.0.4 Discussion\nThere are four parts to the discussion section:\n\nthe main results - repeat the value of k obtained from the end of your calculations. Even though it is written elsewhere in your report, it’s important to repeat it here\nthe text book (manufacturers) value - the springs used have a rated k value of 100 N/m\ninaccuracies - your value for \\(k\\) won’t be exactly the same as the manufacturers, nor will your graph be a perfect straight line. We need to try and account for these discrepancies. Pick one feature of the experiment and investigate whether it is an issue in the accuracy of your results. For example, are the weights all exactly 100g, does the amplitude of the spring oscillations matter, is there signs of anharmonic behaviour at heavier masses, or is 20 bounces enough. You’ll need to examine the results you have already as well as gathering additional evidence by taking further measurements. Your idea might well be a key issue in the quality of the results we obtain, or it might not be and you are thus ruling it out. Both are valid outcomes of this error analysis.\nimprovements - based on the inaccuracy section above, can you suggest a way in which we could make our experiment better?\n\n\n\n2.0.5 Apparatus\nRetort stand, weight holder, 9 \\(\\times\\) 100g weights, centisecond timer, 100 N/m spring.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Simple Harmonic Motion of a Spring</span>"
+    ]
+  },
+  {
+    "objectID": "air-track.html",
+    "href": "air-track.html",
+    "title": "3  Measurement of Acceleration on a Linear Air-Track",
+    "section": "",
+    "text": "Measurement of Acceleration on a Linear Air Track\nToday we’re going to investigate the kinematic equations of motion, specifically \\(s \\; = \\; v_0 t \\; + \\; \\frac{1}{2} a t^2\\). To do this we need constant acceleration in a frictionless environment and to achieve this we use an air track where a glider floats on a cushion of air blown through holes in the track.\nTake down the following in to your laboratory copy.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Measurement of Acceleration on a Linear Air-Track</span>"
+    ]
+  },
+  {
+    "objectID": "cor.html",
+    "href": "cor.html",
+    "title": "4  Coefficient of Restitution of a Ping Pong Ball",
+    "section": "",
+    "text": "Title: Coefficient of Restitution of a Ping Pong Ball\nIn any collision there is balance between elastic and inelastic forces. Inelastic forces lead to losses in mechanical energies and dissipation of such energies in the form of non-mechanical energies such as heat and sound. The parameter that describes how elastic a collision is is called the Coefficient of Restitution (COR). It is a dimensionless number that essentially says how bouncy something is; for a rubber super ball it’ll be close to 1, for a water balloon it’ll be close to zero. We’re going to measure this for a ping pong ball by dropping it from various heights and recording how high it rebounds.\nTake down the following in to your laboratory copy.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Coefficient of Restitution of a Ping Pong Ball</span>"
+    ]
+  },
+  {
+    "objectID": "sonometer.html",
+    "href": "sonometer.html",
+    "title": "5  Measurements of Sound Frequency using a Sonometer",
+    "section": "",
+    "text": "Measurements of Sound Frequency using a Sonometer\nToday we’re going to investigate how the sound produced from a plucked wire depends on the tension in the wire. Our analysis is based on the wave equation, \\(v \\; = \\; f \\lambda\\).\nTake down the following in to your laboratory copy.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Measurements of Sound Frequency using a Sonometer</span>"
+    ]
+  },
+  {
+    "objectID": "lens.html",
+    "href": "lens.html",
+    "title": "6  Focal Lenght of a Convex Lens",
+    "section": "",
+    "text": "Title: Focal Length of a Convex Lens\nFrom the cornea in your eye to the camera of your phone, a lens is a critical component of most optical systems. And for a lens, its focal length is key parameter dictating its performance. In today’s experiment we will measure thefocal length of a convex (converging, thicker in the center than at the edges) lens.\nTake down the following in to your laboratory copy.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Focal Lenght of a Convex Lens</span>"
+    ]
+  },
+  {
+    "objectID": "air-track.html#name",
+    "href": "air-track.html#name",
+    "title": "3  Measurement of Acceleration on a Linear Air-Track",
+    "section": "Name:",
+    "text": "Name:",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Measurement of Acceleration on a Linear Air-Track</span>"
+    ]
+  },
+  {
+    "objectID": "air-track.html#date",
+    "href": "air-track.html#date",
+    "title": "3  Measurement of Acceleration on a Linear Air-Track",
+    "section": "Date:",
+    "text": "Date:",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Measurement of Acceleration on a Linear Air-Track</span>"
+    ]
+  },
+  {
+    "objectID": "air-track.html#partner",
+    "href": "air-track.html#partner",
+    "title": "3  Measurement of Acceleration on a Linear Air-Track",
+    "section": "Partner:",
+    "text": "Partner:",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Measurement of Acceleration on a Linear Air-Track</span>"
+    ]
+  },
+  {
+    "objectID": "air-track.html#data",
+    "href": "air-track.html#data",
+    "title": "3  Measurement of Acceleration on a Linear Air-Track",
+    "section": "Data:",
+    "text": "Data:\n\n\n\n\n\n\n\n\n\n\n\n\n\ns(m)\n\\(t(s)\\)\n\\(t^2(s^2)\\)\n\n\n\n\n0.200\n\n\n\n\n0.300\n\n\n\n\n0.400\n\n\n\n\n0.500\n\n\n\n\n0.600\n\n\n\n\n0.700\n\n\n\n\n0.800",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Measurement of Acceleration on a Linear Air-Track</span>"
+    ]
+  },
+  {
+    "objectID": "air-track.html#experimental-set-up",
+    "href": "air-track.html#experimental-set-up",
+    "title": "3  Measurement of Acceleration on a Linear Air-Track",
+    "section": "3.1 Experimental Set-Up",
+    "text": "3.1 Experimental Set-Up\n\n\n\n\n\n\n\nThe apparatus will be set-up something like the sketch on the left. The glider is pulled back so that its front edge just touches the 0.300m point on the track. It is gently released and will accelerate towards the end of the track. The timer is started when the glider is released, and is stopped as the front edge of the glider passes the 0.100m mark on the track. This is the first point, s = 0.200m.\n\n\n\n\nbefore you begin your measurements make sure the track is level by detaching the cotton thread from the glider and seeing if the glider moves off in any direction. If not level, the track can be adjusted by the rubber screws on each leg.\nmake sure you release the glider from rest, without giving it a push in either direction\nmake sure the crocodile clip is still above ground when the glider passes the finish (0.100m) line so that it is always accelerating.\ncheck to make sure the cotton thread is still running over the flywheel after each measurement.\nWhen filling out your table, pay special attention to significant figures. The number of significant figures for \\(t\\) should be the same as for \\(t^2\\).",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Measurement of Acceleration on a Linear Air-Track</span>"
+    ]
+  },
+  {
+    "objectID": "air-track.html#analysis",
+    "href": "air-track.html#analysis",
+    "title": "3  Measurement of Acceleration on a Linear Air-Track",
+    "section": "3.2 Analysis",
+    "text": "3.2 Analysis\n\n\n\n\n\n\nDraw the graph as shown on the left here, with \\(t^2(s^2)\\) on the x-axis and \\(s(m)\\) on the y axis. Don’t be surprised if there is a reasonable amount of scatter in the points. Draw a best fit line nested through the points. Make sure the graph has a (long) descriptive title in the form What’s on y-axis vs What’s on x axis and the context.\nCalculate the slope of the best fit line using the formula \\(slope \\; = \\; \\frac{y_2-y_1}{x_2-x_1}\\)",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Measurement of Acceleration on a Linear Air-Track</span>"
+    ]
+  },
+  {
+    "objectID": "air-track.html#calculation-of-the-acceleration-a",
+    "href": "air-track.html#calculation-of-the-acceleration-a",
+    "title": "3  Measurement of Acceleration on a Linear Air-Track",
+    "section": "3.3 Calculation of the acceleration, a",
+    "text": "3.3 Calculation of the acceleration, a\nThe kinematic equation of relevance here is:\n\\(s \\; = \\; v_0 t \\; + \\; \\frac{1}{2} a t^2\\)\nWhere \\(v_o\\) is the initial velocity which will be zero and we can ignore that. So \\(s \\; = \\; \\frac{1}{2} a t^2\\).\nThis means the slope of our graph will be \\(\\frac{1}{2}a\\) so \\(a\\) is twice the slope.\nWe’re going to check on our acceleration value by a separate set of measurements. Detach the crocodile clip and the glider from the apparatus and weight each separately, let’s call the results \\(m_{glider}\\) and \\(m_{clip}\\). From Newton’s Laws, \\(F \\; = \\; ma\\) where in this ccase the force causing the acceleration is the weight of the clip, \\(F = W = m_{clip} \\times g\\) and \\(m\\) is the \\(total \\; mass = m_{glider} + m_{clip}\\).\nSo we get \\(a_{theory} = \\frac{m_{clip} \\times g}{m_{glider} + m_{clip}}\\). Use the masses you measured and \\(g = 9.81 \\; m/s^2\\) to work out this second value for \\(a\\).",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Measurement of Acceleration on a Linear Air-Track</span>"
+    ]
+  },
+  {
+    "objectID": "air-track.html#discussion",
+    "href": "air-track.html#discussion",
+    "title": "3  Measurement of Acceleration on a Linear Air-Track",
+    "section": "3.4 Discussion",
+    "text": "3.4 Discussion\nThere are four parts to the discussion section:\n\nthe main results - repeat the value of \\(a\\) obtained from the end of your calculations. Even though it is written elsewhere in your report, it’s important to repeat it here.\nthe text book (reference) value - repeat the value you have for \\(a_{theory}\\) here.\ninaccuracies - your values for \\(a\\) won’t be exactly the same, nor will your graph be a perfect straight line. We need to try and account for these discrepancies. Pick one feature of the experiment and investigate whether it is an issue in the accuracy of your results. For example, how reliable are the (very short) times measured in the results table, maybe we should repeat for one value of \\(s\\) and see how consistent they are. You’ll need to examine the results you have already as well as gathering additional evidence by taking further measurements. Your idea might well be a key issue in the quality of the results we obtain, or it might not be and you are thus ruling it out. Both are valid outcomes of this error analysis.\nimprovements - based on the inaccuracy section above, can you suggest a way in which we could make our experiment better?",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Measurement of Acceleration on a Linear Air-Track</span>"
+    ]
+  },
+  {
+    "objectID": "air-track.html#apparatus",
+    "href": "air-track.html#apparatus",
+    "title": "3  Measurement of Acceleration on a Linear Air-Track",
+    "section": "3.5 Apparatus",
+    "text": "3.5 Apparatus\nLevelled linear air track with glider in place attached to a cotton thread which runs frictionlessly over a flywheel. The thread is long enough to hit the floor with the glider at the end of its travel. A centisecond timer. Weighing scales with a range of at least 0-200g and a sensitivity of 0.01g.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Measurement of Acceleration on a Linear Air-Track</span>"
+    ]
+  },
+  {
+    "objectID": "air-track.html#data1",
+    "href": "air-track.html#data1",
+    "title": "3  Measurement of Acceleration on a Linear Air-Track",
+    "section": "Data1:",
+    "text": "Data1:\n\n\n\n\n\n\n\n\n\n\n\n\n\ns(m)\n\\(t(s)\\)\n\\(t^2(s^2)\\)\n\n\n\n\n0.200\n\n\n\n\n0.300\n\n\n\n\n0.400\n\n\n\n\n0.500\n\n\n\n\n0.600\n\n\n\n\n0.700\n\n\n\n\n0.800",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Measurement of Acceleration on a Linear Air-Track</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#rules-of-the-laboratory",
+    "href": "index.html#rules-of-the-laboratory",
+    "title": "physics-manual",
+    "section": "RULES OF THE LABORATORY",
+    "text": "RULES OF THE LABORATORY\nLaboratory sessions are 2 hours long. The student is expected to spend all this time in the laboratory, either performing the experiment or writing the report. Students must work in pairs when taking measurements (the analysis should be done separately as a check). No coats or bags are allowed in the laboratory. No eating or drinking is allowed.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#laboratory-registers",
+    "href": "index.html#laboratory-registers",
+    "title": "physics-manual",
+    "section": "LABORATORY REGISTERS",
+    "text": "LABORATORY REGISTERS\nThe laboratory register provides a record of each student’s attendance and lists the experiments he/she has successfully completed. An 80% attendance is mandatory. If a student is absent due to illness a medical certificate must be submitted to the lecturer in charge. Students will be marked in on the attendance register when the experiment is complete and the equipment tidied.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#apparatus",
+    "href": "index.html#apparatus",
+    "title": "physics-manual",
+    "section": "APPARATUS:",
+    "text": "APPARATUS:\nThe apparatus will be found on the benches in the laboratory. Some items must be collected (and signed for) from the lecturer supervising the lab. These items must be returned when the experiment is complete and signed off.\nIf equipment is thought to be faulty consult the lecturer in charge. Apparatus should NEVER be moved from one bench to another. When the experiment is complete the equipment must be tidied/cleaned and left as it was found at the start.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "cor.html#experimental-set-up",
+    "href": "cor.html#experimental-set-up",
+    "title": "4  Coefficient of Restitution of a Ping Pong Ball",
+    "section": "4.1 Experimental Set-Up",
+    "text": "4.1 Experimental Set-Up\nThe table tennis ball is dropped from various height in front of the metre sticks and the bounce height recorded. Because it is difficult to accurately record the bounce height, each measurement is repeated five times and an average is taken. The \\(B_{av}\\) column is the averagee for the five bounces for a particular drop height, making sure you have the right number of significant figures in \\(B_{av}\\). The \\(B_{min}\\) and \\(B_{max}\\) columns are the smallest and largets of the five measurements\nThings to watch out for:\n\nbecause floor level is at 0.000m, measure the drop height and the bounce heights from the bottom of the ping pong ball.\nbecause things happen fast, it can be useful to video record the bounce on your phone to capture the apex of the bounce.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Coefficient of Restitution of a Ping Pong Ball</span>"
+    ]
+  },
+  {
+    "objectID": "cor.html#analysis",
+    "href": "cor.html#analysis",
+    "title": "4  Coefficient of Restitution of a Ping Pong Ball",
+    "section": "4.2 Analysis",
+    "text": "4.2 Analysis\n\n\n\n\n\n\n\nDraw the graph as shown on the left here, with \\(B_{av}(m)\\) on the y-axis and \\(Drop(m)\\) on the x axis. Don’t be surprised if there is a reasonable amount of scatter in the points. Instead of drawing circles around each point, we’ll represent them by chi-fighter like points where the centre dot is at \\(B_{av}\\), the top line at \\(B_{max}\\), and the bottom line at \\(B_{min}\\). Draw a best fit line nested through the points. Draw a steepest possible line ~consistent with the chi-fighters (shown in red pencil in our graph here). Draw a shallowest possible line ~consistent with the chi-fighters (shown in blue). Calculate the slopes of all three lines",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Coefficient of Restitution of a Ping Pong Ball</span>"
+    ]
+  },
+  {
+    "objectID": "cor.html#calculation-of-the-cor",
+    "href": "cor.html#calculation-of-the-cor",
+    "title": "4  Coefficient of Restitution of a Ping Pong Ball",
+    "section": "4.3 Calculation of the COR",
+    "text": "4.3 Calculation of the COR\nThe equation governing COR is:\n\\(COR \\; = \\; \\frac{speed\\ of\\ separation\\ after\\ impct}{speed\\ of\\ approach\\ before\\ impart}\\)\nUsing the equations of motion we get the more useful expression, and the one we’ll use for this experiment:\n\\(COR \\; = \\; \\sqrt{\\frac{bounce\\ height}{drop\\ height}}\\)\nThis means the slope of our \\(B_{av} \\; vs \\; Drop\\) graph must be:\n\\(slope \\; = \\; COR^2 \\; \\implies\\; COR \\; = \\; \\sqrt{slope}\\)\nDo this for all three lines, giving \\(COR_{av}\\), \\(COR_{min}\\), and \\(COR_{max}\\).",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Coefficient of Restitution of a Ping Pong Ball</span>"
+    ]
+  },
+  {
+    "objectID": "cor.html#discussion",
+    "href": "cor.html#discussion",
+    "title": "4  Coefficient of Restitution of a Ping Pong Ball",
+    "section": "4.4 Discussion",
+    "text": "4.4 Discussion\nThere are four parts to the discussion section. Because we have three experimental values for COR, we’ll combine our results and textbook value in a table\n\nthe main results and textbook value\n\n\n\n\n\n\n\n\n\nSource\nCOR\n\n\n\n\nAverage\n\n\n\nMaximum\n\n\n\nMinimum\n\n\n\nTextbook\n0.65\n\n\n\n\n\n\n\n\ninaccuracies - your value for \\(COR\\) won’t be exactly the same as the manufacturers, nor will your graph be a perfect straight line. We need to try and account for these discrepancies. Pick one feature of the experiment and investigate whether it is an issue in the accuracy of your results. You’ll need to examine the results you have already as well as gathering additional evidence by taking further measurements. Your idea might well be a key issue in the quality of the results we obtain, or it might not be and you are thus ruling it out. Both are valid outcomes of this error analysis.\nimprovements - based on the inaccuracy section above, can you suggest a way in which we could make our experiment better?",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Coefficient of Restitution of a Ping Pong Ball</span>"
+    ]
+  },
+  {
+    "objectID": "cor.html#apparatus",
+    "href": "cor.html#apparatus",
+    "title": "4  Coefficient of Restitution of a Ping Pong Ball",
+    "section": "4.5 Apparatus",
+    "text": "4.5 Apparatus\nWall mounted measuring sticks to a height of 2m. Ping pong ball. Ceramic tile agt the bottom of metre sticks.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Coefficient of Restitution of a Ping Pong Ball</span>"
+    ]
+  },
+  {
+    "objectID": "sonometer.html#experimental-set-up",
+    "href": "sonometer.html#experimental-set-up",
+    "title": "5  Measurements of Sound Frequency using a Sonometer",
+    "section": "5.1 Experimental Set-Up",
+    "text": "5.1 Experimental Set-Up\n\n\n\n\n\n\n\nThe apparatus will be set-up something like the sketch on the left. Pluck te guitar wire in the centre and watch the trace on the oscilloscope screen. When the trace settles down to a nice sinusoidal shape after a second or so, press the pause button on the scope. The frequency will be displayed on the scope screen. Record this, move the weights to a different notch, and repeat the procedure.\n\n\n\n\nRecord and note down the distance between the bridges on the sonometer. Measure to three decimal places in metres. This is \\(L\\). make sure this doesn’t change over the experiment, i.e. don’t move the bridges.\nAdjust the tension in the wire so that the lever arm is horizontal.\nIt is easiest to start at the fifth and furthest notch, i.e. start from the bottom of the resuts table. It is easier to measure freuency for this setting.\nWhen filling out your table, pay special attention to significant figures. The number of significant figures for \\(f^2\\) should be the same as for \\(f\\). Using scientific notation is a good idea here with powers of \\(10^4\\).",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Measurements of Sound Frequency using a Sonometer</span>"
+    ]
+  },
+  {
+    "objectID": "sonometer.html#analysis",
+    "href": "sonometer.html#analysis",
+    "title": "5  Measurements of Sound Frequency using a Sonometer",
+    "section": "5.2 Analysis",
+    "text": "5.2 Analysis\n\n\n\n\n\n\n\nDraw the graph as shown on the left here, with \\(f^2(Hz^2)\\) on the y-axis and \\(T(N)\\) on the y axis. Draw a best fit line nested through the points. Make sure the graph has a (long) descriptive title in the form What’s on y-axis vs What’s on x axis and the context.\nCalculate the slope of the best fit line using the formula \\(slope \\; = \\; \\frac{y_2-y_1}{x_2-x_1}\\)",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Measurements of Sound Frequency using a Sonometer</span>"
+    ]
+  },
+  {
+    "objectID": "sonometer.html#calculation-of-the-mass-per-unit-length-mu",
+    "href": "sonometer.html#calculation-of-the-mass-per-unit-length-mu",
+    "title": "5  Measurements of Sound Frequency using a Sonometer",
+    "section": "5.3 Calculation of the mass per unit length, \\(\\mu\\)",
+    "text": "5.3 Calculation of the mass per unit length, \\(\\mu\\)\nThe equation of relevance here is: \\(f \\; = \\; \\frac{1}{2L} \\sqrt{ \\frac{T}{\\mu}}\\) where \\(L\\) is the distant between the bridges that we measured.\nSquaring both sides and rearranging we get \\(\\mu \\; = \\; \\frac{1}{4L^2 \\times slope}\\)\nWe’re going to check on our \\(\\mu\\) value by a separate set of measurements. Detach the wire from the sonometer. Measure its entire length, \\(D\\) in metres between the brass connectors at either end. Now coil up the wire and measure its mass, \\(m_{wire}\\) on the scales. Subtract 0.321g from the mass (this is the mass of the brass connectors). Calculate a second value for \\(\\mu\\) using:\n\\(\\mu_{direct} \\; = \\; \\frac{m_{wire} - 0.321}{D} \\div 1000\\) the factor of 1000 is to convert grams to kg.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Measurements of Sound Frequency using a Sonometer</span>"
+    ]
+  },
+  {
+    "objectID": "sonometer.html#discussion",
+    "href": "sonometer.html#discussion",
+    "title": "5  Measurements of Sound Frequency using a Sonometer",
+    "section": "5.4 Discussion",
+    "text": "5.4 Discussion\nThere are four parts to the discussion section:\nBecause we have two experimental values for \\(\\mu\\), we’ll combine our results and textbook value in a table\n\nthe main results and manufacturer’s value\n\n\n\n\n\n\n\n\n\nSource\n\\(\\mu(kgm^{-1})\\)\n\n\n\n\nSonometer\n\n\n\nDirect\n\n\n\nManufacturer\n\\(8.6 \\times 10^{-4}\\)\n\n\n\n\n\n\n\n\ninaccuracies - your values for \\(\\mu\\) won’t be exactly the same, nor will your graph be a perfect straight line. We need to try and account for these discrepancies. Pick one feature of the experiment and investigate whether it is an issue in the accuracy of your results. For example, how repeatable are the measurements of frequency from the oscilloscope, you could repeat several times for one value of T and see how consistent they are. You’ll need to examine the results you have already as well as gathering additional evidence by taking further measurements. Your idea might well be a key issue in the quality of the results we obtain, or it might not be and you are thus ruling it out. Both are valid outcomes of this error analysis.\nimprovements - based on the inaccuracy section above, can you suggest a way in which we could make our experiment better?",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Measurements of Sound Frequency using a Sonometer</span>"
+    ]
+  },
+  {
+    "objectID": "sonometer.html#apparatus",
+    "href": "sonometer.html#apparatus",
+    "title": "5  Measurements of Sound Frequency using a Sonometer",
+    "section": "5.5 Apparatus",
+    "text": "5.5 Apparatus\nSonometer with 0.17 gauge wire mounted (make sure to check the gauge, should give diameter of mm). Two bridges set roughly 0.7m apart under the wire. detector (not driver) coil connected to channel A of storage oscilloscope. Scope set to measure and frequency on Channel A. Weight holder with total of 1kg. Check that frequency measured from fifth notch is about 250Hz.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Measurements of Sound Frequency using a Sonometer</span>"
+    ]
+  },
+  {
+    "objectID": "lens.html#experimental-set-up",
+    "href": "lens.html#experimental-set-up",
+    "title": "6  Focal Lenght of a Convex Lens",
+    "section": "6.1 Experimental Set-Up",
+    "text": "6.1 Experimental Set-Up\n\n\n\n\n\n\n\nThe apparatus will be set-up something like the sketch on the left. This is the first point; the lens is quite close to the light source, the screen is at the far end of the bench, and the spring-like image of the bulb filament is quite large on the screen.\n\n\n\nSet the distance between the center of the light source (not the front edge) and the very centre of the lens to be 27.0cm and move the screen until the light bulb filament in sharp focus. Measure the distance between the centre of the lens and the screen. This is \\(v\\), the image distance. Now move the lens back to 27.0 cm, move the screen in to get a sharp focus, and record the new value for \\(v\\). Repeat for all the values for \\(u\\) given in the table above.\n\n\n\\(u\\) is measured from the middle of the light assembly, not the front edge\nYou get the sharpest focus images when you keep good geometry; the lens and screen being perpendicular to the light beam\ninitially the screen will move in towards the light source, but after about \\(u\\) = 43.0 cm is starts to move back again. The final point will have the lens and screen quite close together at the far end of the bench from the light and the image will be very small.\nWhen filling out your table, pay special attention to significant figures. The number of significant figures for \\(\\frac{1}{v}\\) should be the same as for \\(v\\).",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Focal Lenght of a Convex Lens</span>"
+    ]
+  },
+  {
+    "objectID": "lens.html#analysis",
+    "href": "lens.html#analysis",
+    "title": "6  Focal Lenght of a Convex Lens",
+    "section": "6.2 Analysis",
+    "text": "6.2 Analysis\n\n\n\n\n\n\n\nDraw the graph as shown on the left here, with \\(\\frac{1}{v}\\) on the y-axis and \\(\\frac{1}{u}\\) on the x axis. Make sure both axes extend at least as far as \\(0.06 \\: cm ^{-1}\\), so for a standard \\(9 \\; \\times \\; 13\\) graph paper, use 0.01 per division on the x axis and 0.005 per division on the y axis. Draw a best fit line nested through the points. Make sure the graph has a (long) descriptive title in the form What’s on y-axis vs What’s on x axis and the context.\n\n\n\nCalculate the slope of the best fit line using the formula \\(slope \\; = \\; \\frac{y_2-y_1}{x_2-x_1}\\)\nAccording to theory (see below), this line should have a slope close to -1. Note that, because it’s a negative slope, the line angles downwards.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Focal Lenght of a Convex Lens</span>"
+    ]
+  },
+  {
+    "objectID": "lens.html#calculation-of-the-focal-length-fcm",
+    "href": "lens.html#calculation-of-the-focal-length-fcm",
+    "title": "6  Focal Lenght of a Convex Lens",
+    "section": "6.3 Calculation of the Focal Length, f(cm)",
+    "text": "6.3 Calculation of the Focal Length, f(cm)\nThe equation governing the focal length of a lens is:\n\\(\\frac{1}{f} \\; = \\; \\frac{1}{u} \\; + \\; \\frac{1}{v}\\)\n\\(\\implies \\frac{1}{v} \\; = \\; -\\frac{1}{u} \\; + \\; \\frac{1}{f}\\) so when \\(\\frac{1}{u}\\) is zero, \\(\\frac{1}{v} \\; = \\; \\frac{1}{f}\\).\nTake the point where the line cuts the y-axis, take the inverse of this value, and this will be a figure for f.\n\n6.3.1 f from Direct Measurement\nTake the lens out to the lobby outside the lab and under one of the ceiling lights. Hold the lens about 20 cm above the floor and get the ceiling light in focus. Because the light source is so high above, then \\(u\\) is very large and \\(\\frac{1}{u}\\) is close to zero, then \\(\\frac{1}{f} \\; = \\; \\frac{1}{v}\\) and the focal lenght will be well approximated by the distance between the lens and the image on the floor. Measure this to get a second estimate for f.\n\n\n6.3.2 f from no-parallax\n\n\n\n\n\n\n\nSet up the apparatus as shown, with the object pin about 10cm behind the lens and the retort stand and pencil about 20cm further back. Observe the object pin through the lens and the pencil directly over the top rim of the lens. Move the retort stand until the pencil sits directly over the image of the object pin and the two stay in sync when you move your head from side to side. Measure the distance from pin to lens, \\(u\\), and the distance from pencil to lens, \\(-v\\). Put the values in to the equation \\(\\frac{1}{f} \\; = \\; \\frac{1}{u} \\; + \\; \\frac{1}{v}\\) to calculate a value for f.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Focal Lenght of a Convex Lens</span>"
+    ]
+  },
+  {
+    "objectID": "lens.html#discussion",
+    "href": "lens.html#discussion",
+    "title": "6  Focal Lenght of a Convex Lens",
+    "section": "6.4 Discussion",
+    "text": "6.4 Discussion\nThere are four parts to the discussion section. Because we have three experimental values for f, we’ll combine our results and textbook value in a table\n\nthe main results and manufacturer’s value\n\n\n\n\n\n\n\n\n\nSource\nf (cm)\n\n\n\n\nGraph\n\n\n\nLobby\n\n\n\nNo-Parallax\n\n\n\nManufacturer\n20.0\n\n\n\n\n\n\n\n\nsupplementary main result - repeat your value for the slope of the graph and compare to the textbook value of -1.\ninaccuracies - your values for \\(f\\) won’t be exactly the same as the manufacturers, nor will your graph be a perfect straight line with a slope of -1. We need to try and account for these discrepancies. Pick one feature of the experiment and investigate whether it is an issue in the accuracy of your results. You’ll need to examine the results you have already as well as gathering additional evidence by taking further measurements. Your idea might well be a key issue in the quality of the results we obtain, or it might not be and you are thus ruling it out. Both are valid outcomes of this error analysis.\nimprovements - based on the inaccuracy section above, can you suggest a way in which we could make our experiment better?",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Focal Lenght of a Convex Lens</span>"
+    ]
+  },
+  {
+    "objectID": "lens.html#apparatus",
+    "href": "lens.html#apparatus",
+    "title": "6  Focal Lenght of a Convex Lens",
+    "section": "6.5 Apparatus",
+    "text": "6.5 Apparatus\nLight source, 20cm lens, screen, two metre sticks, retort stand, finder pin, object pin.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Focal Lenght of a Convex Lens</span>"
+    ]
+  }
+]
