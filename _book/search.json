@@ -50,6 +50,56 @@
     ]
   },
   {
+    "objectID": "pendulum.html#experimental-set-up",
+    "href": "pendulum.html#experimental-set-up",
+    "title": "1  The Simple Pendulum - Determination of ‘g’",
+    "section": "1.1 Experimental Set-Up",
+    "text": "1.1 Experimental Set-Up\nThe simple pendulum consists of a steel ball suspended by a thread wrapped around a clamped cork.\n\n\n\n\n\n\n\nThe length of the thread can be varied. The length of the pendulum is the distance from the corner of cork where the thread is suspended to the centre of the ball. For each of six lengths, you will measure the periodic time (period) of the pendulum swing.\nOne swing is achieved by holding the ball about 5o from centre, releasing it, and letting it swing across and back. You will time that swing by measuring the time for 20 swings and divide by 20.\n\n\n\n• Fix the pendulum distance from the corner of the cork to the centre of the ball at about 0.2m. Measure this length, \\(l\\), accurate to 1mm using a metre stick. and note in the table.\n• Measure the time for 20 COMPLETE swings of the pendulum. Record your results in the table.\n• Repeat this for the six lengths of pendulum from 0.2 m to 1.2m.\n• When the time for 20 swings has been recorded for all lengths, divide those values by 20 to determine the periodic time (period). Then, square those values to determine the period squared, \\(T^2\\).",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Simple Pendulum - Determination of 'g'</span>"
+    ]
+  },
+  {
+    "objectID": "pendulum.html#analysis",
+    "href": "pendulum.html#analysis",
+    "title": "1  The Simple Pendulum - Determination of ‘g’",
+    "section": "1.2 Analysis",
+    "text": "1.2 Analysis\n\n\n\n\n\n\n\nPlot a graph of \\(T^2\\) against \\(l\\) (\\(T^2\\) on the y-axis) by plotting each of the six \\(T^2\\) values versus their corresponding pendulum lengths, \\(l\\). Draw a best fit line though the points and determine the slope of that “best fit line”.\nCalculate the slope by picking two points on the line \\((x_1,y_1)\\) close to the origin and \\((x_2,y_2)\\) far from the origin. Place those x and y values into the equation to calculate the slope: \\(slope \\; = \\; \\frac{y_2-y_1}{x_2-x_1}\\)",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Simple Pendulum - Determination of 'g'</span>"
+    ]
+  },
+  {
+    "objectID": "pendulum.html#calculation-of-the-acceleration-due-to-gravity-g",
+    "href": "pendulum.html#calculation-of-the-acceleration-due-to-gravity-g",
+    "title": "1  The Simple Pendulum - Determination of ‘g’",
+    "section": "1.3 Calculation of the acceleration due to gravity, g",
+    "text": "1.3 Calculation of the acceleration due to gravity, g\nThe equation relating the periodic time T with the length l can be shown to be:\n\\(T \\; = \\; 2 \\pi \\sqrt{\\frac{l}{g}}\\)\nwhere g is the acceleration due to gravity, T is measured in seconds and l in metres.\nSquaring and rearranging gives:\n\\(T^2\\; = \\; \\frac{4\\pi^2}{g}l\\)\nThis means that the slope of our \\(T^2\\) vs \\(l\\) graph must be:\n\\(slope \\; = \\; \\frac{4\\pi^2}{g} \\implies g \\; = \\; \\frac{4\\pi^2}{slope}\\)\nUse this to calculate a value for g in \\(m s^{-2}\\).",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Simple Pendulum - Determination of 'g'</span>"
+    ]
+  },
+  {
+    "objectID": "pendulum.html#discussion",
+    "href": "pendulum.html#discussion",
+    "title": "1  The Simple Pendulum - Determination of ‘g’",
+    "section": "1.4 Discussion",
+    "text": "1.4 Discussion\nThere are four parts to the discussion section:\n• the main result – repeat the value of g obtained from the end of your calculations. Even though it is written elsewhere in your report, it’s important to repeat it here.\n• the text book value – the true value of g known from many previous experiments\n• inaccuracies – your value for g won’t be exactly the same as the text book answer nor will your graph be a perfect straight line. We need to try and account for these discrepancies. Pick one feature of the experiment and investigate whether it is an issue in the accuracy of for your results. for example, for one length of pendulum, if you repeat the measurement of time for 20 swings, will you get the same answer as when doing the experiment? And for that length of pendulum, will you get same length accurate to 1mm if you measure its length a second time? You’ll need to examine the results you have already as well as gather new evidence by taking further measurements. Your idea might well be a key issue in the quality of the results we obtain, or it might not be and you are thus ruling it out. Both are valid outcomes of this errors analysis.\n• improvements - based on the inaccuracy section above, can you suggest a way in which we could make our experiment better",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Simple Pendulum - Determination of 'g'</span>"
+    ]
+  },
+  {
+    "objectID": "pendulum.html#apparatus",
+    "href": "pendulum.html#apparatus",
+    "title": "1  The Simple Pendulum - Determination of ‘g’",
+    "section": "1.5 Apparatus",
+    "text": "1.5 Apparatus\nRetort stand, cork, thread, bobbin, metre stick, centisecond timer",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Simple Pendulum - Determination of 'g'</span>"
+    ]
+  },
+  {
     "objectID": "viscosity.html",
     "href": "viscosity.html",
     "title": "2  Measurement of the Viscosity of a Liquid",
@@ -110,343 +160,353 @@
     ]
   },
   {
+    "objectID": "hookes.html",
+    "href": "hookes.html",
+    "title": "3  Hooke’s Law Extension of a Spring",
+    "section": "",
+    "text": "Title: Hooke’s Law Extension of a Spring\nEvery spring has a stiffness called its Spring Constant, \\(k\\), measured in Newtons per metre. Stiff, rigid springs have high values of \\(k\\), loose, floppy springs have low values of \\(k\\). We’re going to measure \\(k\\) by applying weights to a spring and seeing by how much it gets longer.\nTake down the following in to your laboratory copy.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Hooke's Law Extension of a Spring</span>"
+    ]
+  },
+  {
+    "objectID": "hookes.html#experimental-set-up",
+    "href": "hookes.html#experimental-set-up",
+    "title": "3  Hooke’s Law Extension of a Spring",
+    "section": "3.1 Experimental Set-Up",
+    "text": "3.1 Experimental Set-Up\n\n\n\n\n\n\n\nThe apparatus will be set-up something like the sketch on the left. This is the first point; the weight holder and two 100g weights giving a total load of 0.300 kg.\nMeasure the position of the bottom of the weight holder on the vertical metre stick. This is the Position value for the table. The Extension value will be 0.000m\nNow add an extra 100g weight and measure the new position. The Extension value wil now be the abolute difference between this position and the position before we added the extra mass.\n\n\n\n\nthe values in the table are for Extra Mass Added on top of the original 0.300kg. So the weight holder plus \\(6 \\times 100g\\) would be an extra mass added of \\(0.700kg - 0.300kg = 0.400kg\\).\nthe extension values are always positive, it’s the absolute difference that matters.\nfor extension, it is always the difference between position and the very first position measurement. So the extension values should always be getting bigger as you descend the table.\nWhen filling out your table, pay special attention to decimal places. The number of decimal places for \\(Position\\) and \\(Extension\\) should be \\(3\\), we measure to the nearest mm.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Hooke's Law Extension of a Spring</span>"
+    ]
+  },
+  {
+    "objectID": "hookes.html#analysis",
+    "href": "hookes.html#analysis",
+    "title": "3  Hooke’s Law Extension of a Spring",
+    "section": "3.2 Analysis",
+    "text": "3.2 Analysis\n\n\n\n\n\n\n\nDraw the graph as shown on the left here, with \\(m(kg)\\) on the y-axis and \\(eextension(m)\\) on the x axis. Draw a best fit line nested through the points. Make sure the graph has a (long) descriptive title in the form What’s on y-axis vs What’s on x axis and the context.\nCalculate the slope of the best fit line using the formula \\(slope \\; = \\; \\frac{y_2-y_1}{x_2-x_1}\\)",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Hooke's Law Extension of a Spring</span>"
+    ]
+  },
+  {
+    "objectID": "hookes.html#calculation-of-the-spring-constant-k",
+    "href": "hookes.html#calculation-of-the-spring-constant-k",
+    "title": "3  Hooke’s Law Extension of a Spring",
+    "section": "3.3 Calculation of the Spring Constant, k",
+    "text": "3.3 Calculation of the Spring Constant, k\nHooke’s Law states that the spring extension is directly proportional to the force making the spring stretch (in this case the weights, the masses times gravity)\n\\(F \\; = \\; k \\times (extension)\\) where \\(k\\) is the spring constant.\n\\(\\implies \\; W \\; = mg \\; = \\; k \\times (extension)\\)\n\\(\\implies \\; m \\; = \\; \\frac{k}{g} \\times (extension)\\)\nso the slope of our graph will be \\(\\frac{k}{g}\\), or \\(k \\; = \\; g \\times slope\\).\nWe use this last equation to calculate \\(k\\) in N/m.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Hooke's Law Extension of a Spring</span>"
+    ]
+  },
+  {
+    "objectID": "hookes.html#discussion",
+    "href": "hookes.html#discussion",
+    "title": "3  Hooke’s Law Extension of a Spring",
+    "section": "3.4 Discussion",
+    "text": "3.4 Discussion\nThere are four parts to the discussion section:\n\nthe main results - repeat the value of k obtained from the end of your calculations. Even though it is written elsewhere in your report, it’s important to repeat it here\nthe text book (manufacturers) value - the springs used have a rated k value of 100 N/m\ninaccuracies - your value for \\(k\\) won’t be exactly the same as the manufacturers, nor will your graph be a perfect straight line. We need to try and account for these discrepancies. Pick one feature of the experiment and investigate whether it is an issue in the accuracy of your results. For example, are the weights all exactly 100g, does it matter if we start with a 0.300kg load and make it heavier, or start with a heavy load and decrease it….. You’ll need to examine the results you have already as well as gathering additional evidence by taking further measurements. Your idea might well be a key issue in the quality of the results we obtain, or it might not be and you are thus ruling it out. Both are valid outcomes of this error analysis.\nimprovements - based on the inaccuracy section above, can you suggest a way in which we could make our experiment better?",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Hooke's Law Extension of a Spring</span>"
+    ]
+  },
+  {
+    "objectID": "hookes.html#apparatus",
+    "href": "hookes.html#apparatus",
+    "title": "3  Hooke’s Law Extension of a Spring",
+    "section": "3.5 Apparatus",
+    "text": "3.5 Apparatus\nRetort stand, weight holder, 9 \\(\\times\\) 100g weights, metre stick, 100 N/m spring. Make sure that the bottom of the weight holder is just touching the scale on the metre stick so measuring it’s position can be done accurately.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Hooke's Law Extension of a Spring</span>"
+    ]
+  },
+  {
     "objectID": "shm.html",
     "href": "shm.html",
-    "title": "3  Simple Harmonic Motion of a Spring",
+    "title": "4  Simple Harmonic Motion of a Spring",
     "section": "",
     "text": "Title: Simple Harmonic Motion of a Spring\nAs we saw in the previous experiment, every spring has a stiffness called its Spring Constant, \\(k\\), measured in Newtons per metre. Stiff, rigid springs have high values of \\(k\\), loose, floppy springs have low values of \\(k\\). We’re going to measure \\(k\\) by a totally separate mechanism and compare the new value we get to the previous result.\nTake down the following in to your laboratory copy.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Simple Harmonic Motion of a Spring</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Simple Harmonic Motion of a Spring</span>"
     ]
   },
   {
     "objectID": "shm.html#experimental-set-up",
     "href": "shm.html#experimental-set-up",
-    "title": "3  Simple Harmonic Motion of a Spring",
-    "section": "3.1 Experimental Set-Up",
-    "text": "3.1 Experimental Set-Up\n\n\n\n\n\n\n\nThe apparatus will be set-up something like the sketch on the left. This is the first point; the weight holder and two 100g weights giving a total load of 0.300 kg.\nPull the weights down slightly and release, the weights will bounce rapidly. With the centisecond timer, record the time for 20 bounces. Divide this by 20 to get the time for one bounce, and then square this value to get \\(T^2\\). Pay special attention to significant figures\n\n\n\n\nyou get best results for small displacements, only pull the weights down the smallest amount you can.\nOne tick happens every time the weights hit the bottom of their travel, so down, down, down rather than up, down, up, down.\n0.300 kg is the weight holder and 2 extra weights\nWhen filling out your table, pay special attention to significant figures. The number of significant figures for \\(T_{20}\\) should be the same as for \\(T_1\\) and \\(T^2\\).",
+    "title": "4  Simple Harmonic Motion of a Spring",
+    "section": "4.1 Experimental Set-Up",
+    "text": "4.1 Experimental Set-Up\n\n\n\n\n\n\n\nThe apparatus will be set-up something like the sketch on the left. This is the first point; the weight holder and two 100g weights giving a total load of 0.300 kg.\nPull the weights down slightly and release, the weights will bounce rapidly. With the centisecond timer, record the time for 20 bounces. Divide this by 20 to get the time for one bounce, and then square this value to get \\(T^2\\). Pay special attention to significant figures\n\n\n\n\nyou get best results for small displacements, only pull the weights down the smallest amount you can.\nOne tick happens every time the weights hit the bottom of their travel, so down, down, down rather than up, down, up, down.\n0.300 kg is the weight holder and 2 extra weights\nWhen filling out your table, pay special attention to significant figures. The number of significant figures for \\(T_{20}\\) should be the same as for \\(T_1\\) and \\(T^2\\).",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Simple Harmonic Motion of a Spring</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Simple Harmonic Motion of a Spring</span>"
     ]
   },
   {
     "objectID": "shm.html#analysis",
     "href": "shm.html#analysis",
-    "title": "3  Simple Harmonic Motion of a Spring",
-    "section": "3.2 Analysis",
-    "text": "3.2 Analysis\n\n\n\n\n\n\n\nDraw the graph as shown on the left here, with \\(T^2(s^2)\\) on the y-axis and \\(m(kg)\\) on the x axis. Don’t be surprised if there is a reasonable amount of scatter in the points. Draw a best fit line nested through the points. Make sure the graph has a (long) descriptive title in the form What’s on y-axis vs What’s on x axis and the context.\nCalculate the slope of the best fit line using the formula \\(slope \\; = \\; \\frac{y_2-y_1}{x_2-x_1}\\)",
+    "title": "4  Simple Harmonic Motion of a Spring",
+    "section": "4.2 Analysis",
+    "text": "4.2 Analysis\n\n\n\n\n\n\n\nDraw the graph as shown on the left here, with \\(T^2(s^2)\\) on the y-axis and \\(m(kg)\\) on the x axis. Don’t be surprised if there is a reasonable amount of scatter in the points. Draw a best fit line nested through the points. Make sure the graph has a (long) descriptive title in the form What’s on y-axis vs What’s on x axis and the context.\nCalculate the slope of the best fit line using the formula \\(slope \\; = \\; \\frac{y_2-y_1}{x_2-x_1}\\)",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Simple Harmonic Motion of a Spring</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Simple Harmonic Motion of a Spring</span>"
     ]
   },
   {
     "objectID": "shm.html#calculation-of-the-spring-constant-k",
     "href": "shm.html#calculation-of-the-spring-constant-k",
-    "title": "3  Simple Harmonic Motion of a Spring",
-    "section": "3.3 Calculation of the Spring Constant, k",
-    "text": "3.3 Calculation of the Spring Constant, k\nThe equation governing the simple harmonic motion of the spring is:\n\\(T \\; = \\; 2 \\pi \\sqrt{\\frac{k}{m}}\\)\nWhere \\(T\\) is the period we measured for each mass, \\(m\\), and \\(k\\) is the spring constant that we’re setting out to measure.\nSquaring and rearranging gives:\n\\(T^2\\; = \\; \\frac{4\\pi^2}{k} \\times m\\)\nThis means the slope of our \\(T^2 \\; vs \\; m\\) graph must be:\n\\(slope \\; = \\; \\frac{4\\pi^2}{k}\\)\n\\(\\implies\\; k \\; = \\; \\frac{4\\pi^2}{slope}\\)\nUse this to calculate a value for k in N/m",
+    "title": "4  Simple Harmonic Motion of a Spring",
+    "section": "4.3 Calculation of the Spring Constant, k",
+    "text": "4.3 Calculation of the Spring Constant, k\nThe equation governing the simple harmonic motion of the spring is:\n\\(T \\; = \\; 2 \\pi \\sqrt{\\frac{k}{m}}\\)\nWhere \\(T\\) is the period we measured for each mass, \\(m\\), and \\(k\\) is the spring constant that we’re setting out to measure.\nSquaring and rearranging gives:\n\\(T^2\\; = \\; \\frac{4\\pi^2}{k} \\times m\\)\nThis means the slope of our \\(T^2 \\; vs \\; m\\) graph must be:\n\\(slope \\; = \\; \\frac{4\\pi^2}{k}\\)\n\\(\\implies\\; k \\; = \\; \\frac{4\\pi^2}{slope}\\)\nUse this to calculate a value for k in N/m",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Simple Harmonic Motion of a Spring</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Simple Harmonic Motion of a Spring</span>"
     ]
   },
   {
     "objectID": "shm.html#discussion",
     "href": "shm.html#discussion",
-    "title": "3  Simple Harmonic Motion of a Spring",
-    "section": "3.4 Discussion",
-    "text": "3.4 Discussion\nThere are four parts to the discussion section:\n\nthe main results - repeat the value of k obtained from the end of your calculations. Even though it is written elsewhere in your report, it’s important to repeat it here\nthe text book (manufacturers) value - the springs used have a rated k value of 100 N/m\ninaccuracies - your value for \\(k\\) won’t be exactly the same as the manufacturers, nor will your graph be a perfect straight line. We need to try and account for these discrepancies. Pick one feature of the experiment and investigate whether it is an issue in the accuracy of your results. For example, are the weights all exactly 100g, does the amplitude of the spring oscillations matter, is there signs of anharmonic behaviour at heavier masses, or is 20 bounces enough. You’ll need to examine the results you have already as well as gathering additional evidence by taking further measurements. Your idea might well be a key issue in the quality of the results we obtain, or it might not be and you are thus ruling it out. Both are valid outcomes of this error analysis.\nimprovements - based on the inaccuracy section above, can you suggest a way in which we could make our experiment better?",
+    "title": "4  Simple Harmonic Motion of a Spring",
+    "section": "4.4 Discussion",
+    "text": "4.4 Discussion\nThere are four parts to the discussion section:\n\nthe main results - repeat the value of k obtained from the end of your calculations. Even though it is written elsewhere in your report, it’s important to repeat it here\nthe text book (manufacturers) value - the springs used have a rated k value of 100 N/m\ninaccuracies - your value for \\(k\\) won’t be exactly the same as the manufacturers, nor will your graph be a perfect straight line. We need to try and account for these discrepancies. Pick one feature of the experiment and investigate whether it is an issue in the accuracy of your results. For example, are the weights all exactly 100g, does the amplitude of the spring oscillations matter, is there signs of anharmonic behaviour at heavier masses, or is 20 bounces enough. You’ll need to examine the results you have already as well as gathering additional evidence by taking further measurements. Your idea might well be a key issue in the quality of the results we obtain, or it might not be and you are thus ruling it out. Both are valid outcomes of this error analysis.\nimprovements - based on the inaccuracy section above, can you suggest a way in which we could make our experiment better?",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Simple Harmonic Motion of a Spring</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Simple Harmonic Motion of a Spring</span>"
     ]
   },
   {
     "objectID": "shm.html#apparatus",
     "href": "shm.html#apparatus",
-    "title": "3  Simple Harmonic Motion of a Spring",
-    "section": "3.5 Apparatus",
-    "text": "3.5 Apparatus\nRetort stand, weight holder, 9 \\(\\times\\) 100g weights, centisecond timer, 100 N/m spring.",
+    "title": "4  Simple Harmonic Motion of a Spring",
+    "section": "4.5 Apparatus",
+    "text": "4.5 Apparatus\nRetort stand, weight holder, 9 \\(\\times\\) 100g weights, centisecond timer, 100 N/m spring.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Simple Harmonic Motion of a Spring</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Simple Harmonic Motion of a Spring</span>"
     ]
   },
   {
     "objectID": "air-track.html",
     "href": "air-track.html",
-    "title": "4  Measurement of Acceleration on a Linear Air-Track",
+    "title": "5  Measurement of Acceleration on a Linear Air-Track",
     "section": "",
     "text": "Measurement of Acceleration on a Linear Air Track\nToday we’re going to investigate the kinematic equations of motion, specifically \\(s \\; = \\; v_0 t \\; + \\; \\frac{1}{2} a t^2\\). To do this we need constant acceleration in a frictionless environment and to achieve this we use an air track where a glider floats on a cushion of air blown through holes in the track.\nTake down the following in to your laboratory copy.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Measurement of Acceleration on a Linear Air-Track</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Measurement of Acceleration on a Linear Air-Track</span>"
     ]
   },
   {
     "objectID": "air-track.html#name",
     "href": "air-track.html#name",
-    "title": "4  Measurement of Acceleration on a Linear Air-Track",
+    "title": "5  Measurement of Acceleration on a Linear Air-Track",
     "section": "Name:",
     "text": "Name:",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Measurement of Acceleration on a Linear Air-Track</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Measurement of Acceleration on a Linear Air-Track</span>"
     ]
   },
   {
     "objectID": "air-track.html#date",
     "href": "air-track.html#date",
-    "title": "4  Measurement of Acceleration on a Linear Air-Track",
+    "title": "5  Measurement of Acceleration on a Linear Air-Track",
     "section": "Date:",
     "text": "Date:",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Measurement of Acceleration on a Linear Air-Track</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Measurement of Acceleration on a Linear Air-Track</span>"
     ]
   },
   {
     "objectID": "air-track.html#partner",
     "href": "air-track.html#partner",
-    "title": "4  Measurement of Acceleration on a Linear Air-Track",
+    "title": "5  Measurement of Acceleration on a Linear Air-Track",
     "section": "Partner:",
     "text": "Partner:",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Measurement of Acceleration on a Linear Air-Track</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Measurement of Acceleration on a Linear Air-Track</span>"
     ]
   },
   {
     "objectID": "air-track.html#data",
     "href": "air-track.html#data",
-    "title": "4  Measurement of Acceleration on a Linear Air-Track",
+    "title": "5  Measurement of Acceleration on a Linear Air-Track",
     "section": "Data:",
     "text": "Data:\n\n\n\n\n\n\n\n\n\n\n\n\n\ns(m)\n\\(t(s)\\)\n\\(t^2(s^2)\\)\n\n\n\n\n0.200\n\n\n\n\n0.300\n\n\n\n\n0.400\n\n\n\n\n0.500\n\n\n\n\n0.600\n\n\n\n\n0.700\n\n\n\n\n0.800",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Measurement of Acceleration on a Linear Air-Track</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Measurement of Acceleration on a Linear Air-Track</span>"
     ]
   },
   {
     "objectID": "cor.html",
     "href": "cor.html",
-    "title": "5  Coefficient of Restitution of a Ping Pong Ball",
+    "title": "6  Coefficient of Restitution of a Ping Pong Ball",
     "section": "",
     "text": "Title: Coefficient of Restitution of a Ping Pong Ball\nIn any collision there is balance between elastic and inelastic forces. Inelastic forces lead to losses in mechanical energies and dissipation of such energies in the form of non-mechanical energies such as heat and sound. The parameter that describes how elastic a collision is is called the Coefficient of Restitution (COR). It is a dimensionless number that essentially says how bouncy something is; for a rubber super ball it’ll be close to 1, for a water balloon it’ll be close to zero. We’re going to measure this for a ping pong ball by dropping it from various heights and recording how high it rebounds.\nTake down the following in to your laboratory copy.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Coefficient of Restitution of a Ping Pong Ball</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Coefficient of Restitution of a Ping Pong Ball</span>"
     ]
   },
   {
     "objectID": "cor.html#experimental-set-up",
     "href": "cor.html#experimental-set-up",
-    "title": "5  Coefficient of Restitution of a Ping Pong Ball",
-    "section": "5.1 Experimental Set-Up",
-    "text": "5.1 Experimental Set-Up\nThe table tennis ball is dropped from various height in front of the metre sticks and the bounce height recorded. Because it is difficult to accurately record the bounce height, each measurement is repeated five times and an average is taken. The \\(B_{av}\\) column is the averagee for the five bounces for a particular drop height, making sure you have the right number of significant figures in \\(B_{av}\\). The \\(B_{min}\\) and \\(B_{max}\\) columns are the smallest and largets of the five measurements\nThings to watch out for:\n\nbecause floor level is at 0.000m, measure the drop height and the bounce heights from the bottom of the ping pong ball.\nbecause things happen fast, it can be useful to video record the bounce on your phone to capture the apex of the bounce.",
+    "title": "6  Coefficient of Restitution of a Ping Pong Ball",
+    "section": "6.1 Experimental Set-Up",
+    "text": "6.1 Experimental Set-Up\nThe table tennis ball is dropped from various height in front of the metre sticks and the bounce height recorded. Because it is difficult to accurately record the bounce height, each measurement is repeated five times and an average is taken. The \\(B_{av}\\) column is the averagee for the five bounces for a particular drop height, making sure you have the right number of significant figures in \\(B_{av}\\). The \\(B_{min}\\) and \\(B_{max}\\) columns are the smallest and largets of the five measurements\nThings to watch out for:\n\nbecause floor level is at 0.000m, measure the drop height and the bounce heights from the bottom of the ping pong ball.\nbecause things happen fast, it can be useful to video record the bounce on your phone to capture the apex of the bounce.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Coefficient of Restitution of a Ping Pong Ball</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Coefficient of Restitution of a Ping Pong Ball</span>"
     ]
   },
   {
     "objectID": "cor.html#analysis",
     "href": "cor.html#analysis",
-    "title": "5  Coefficient of Restitution of a Ping Pong Ball",
-    "section": "5.2 Analysis",
-    "text": "5.2 Analysis\n\n\n\n\n\n\n\nDraw the graph as shown on the left here, with \\(B_{av}(m)\\) on the y-axis and \\(Drop(m)\\) on the x axis. Don’t be surprised if there is a reasonable amount of scatter in the points. Instead of drawing circles around each point, we’ll represent them by chi-fighter like points where the centre dot is at \\(B_{av}\\), the top line at \\(B_{max}\\), and the bottom line at \\(B_{min}\\). Draw a best fit line nested through the points. Draw a steepest possible line ~consistent with the chi-fighters (shown in red pencil in our graph here). Draw a shallowest possible line ~consistent with the chi-fighters (shown in blue). Calculate the slopes of all three lines",
+    "title": "6  Coefficient of Restitution of a Ping Pong Ball",
+    "section": "6.2 Analysis",
+    "text": "6.2 Analysis\n\n\n\n\n\n\n\nDraw the graph as shown on the left here, with \\(B_{av}(m)\\) on the y-axis and \\(Drop(m)\\) on the x axis. Don’t be surprised if there is a reasonable amount of scatter in the points. Instead of drawing circles around each point, we’ll represent them by chi-fighter like points where the centre dot is at \\(B_{av}\\), the top line at \\(B_{max}\\), and the bottom line at \\(B_{min}\\). Draw a best fit line nested through the points. Draw a steepest possible line ~consistent with the chi-fighters (shown in red pencil in our graph here). Draw a shallowest possible line ~consistent with the chi-fighters (shown in blue). Calculate the slopes of all three lines",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Coefficient of Restitution of a Ping Pong Ball</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Coefficient of Restitution of a Ping Pong Ball</span>"
     ]
   },
   {
     "objectID": "cor.html#calculation-of-the-cor",
     "href": "cor.html#calculation-of-the-cor",
-    "title": "5  Coefficient of Restitution of a Ping Pong Ball",
-    "section": "5.3 Calculation of the COR",
-    "text": "5.3 Calculation of the COR\nThe equation governing COR is:\n\\(COR \\; = \\; \\frac{speed\\ of\\ separation\\ after\\ impct}{speed\\ of\\ approach\\ before\\ impart}\\)\nUsing the equations of motion we get the more useful expression, and the one we’ll use for this experiment:\n\\(COR \\; = \\; \\sqrt{\\frac{bounce\\ height}{drop\\ height}}\\)\nThis means the slope of our \\(B_{av} \\; vs \\; Drop\\) graph must be:\n\\(slope \\; = \\; COR^2 \\; \\implies\\; COR \\; = \\; \\sqrt{slope}\\)\nDo this for all three lines, giving \\(COR_{av}\\), \\(COR_{min}\\), and \\(COR_{max}\\).",
+    "title": "6  Coefficient of Restitution of a Ping Pong Ball",
+    "section": "6.3 Calculation of the COR",
+    "text": "6.3 Calculation of the COR\nThe equation governing COR is:\n\\(COR \\; = \\; \\frac{speed\\ of\\ separation\\ after\\ impct}{speed\\ of\\ approach\\ before\\ impart}\\)\nUsing the equations of motion we get the more useful expression, and the one we’ll use for this experiment:\n\\(COR \\; = \\; \\sqrt{\\frac{bounce\\ height}{drop\\ height}}\\)\nThis means the slope of our \\(B_{av} \\; vs \\; Drop\\) graph must be:\n\\(slope \\; = \\; COR^2 \\; \\implies\\; COR \\; = \\; \\sqrt{slope}\\)\nDo this for all three lines, giving \\(COR_{av}\\), \\(COR_{min}\\), and \\(COR_{max}\\).",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Coefficient of Restitution of a Ping Pong Ball</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Coefficient of Restitution of a Ping Pong Ball</span>"
     ]
   },
   {
     "objectID": "cor.html#discussion",
     "href": "cor.html#discussion",
-    "title": "5  Coefficient of Restitution of a Ping Pong Ball",
-    "section": "5.4 Discussion",
-    "text": "5.4 Discussion\nThere are four parts to the discussion section. Because we have three experimental values for COR, we’ll combine our results and textbook value in a table\n\nthe main results and textbook value\n\n\n\n\n\n\n\n\n\nSource\nCOR\n\n\n\n\nAverage\n\n\n\nMaximum\n\n\n\nMinimum\n\n\n\nTextbook\n0.65\n\n\n\n\n\n\n\n\ninaccuracies - your value for \\(COR\\) won’t be exactly the same as the manufacturers, nor will your graph be a perfect straight line. We need to try and account for these discrepancies. Pick one feature of the experiment and investigate whether it is an issue in the accuracy of your results. You’ll need to examine the results you have already as well as gathering additional evidence by taking further measurements. Your idea might well be a key issue in the quality of the results we obtain, or it might not be and you are thus ruling it out. Both are valid outcomes of this error analysis.\nimprovements - based on the inaccuracy section above, can you suggest a way in which we could make our experiment better?",
+    "title": "6  Coefficient of Restitution of a Ping Pong Ball",
+    "section": "6.4 Discussion",
+    "text": "6.4 Discussion\nThere are four parts to the discussion section. Because we have three experimental values for COR, we’ll combine our results and textbook value in a table\n\nthe main results and textbook value\n\n\n\n\n\n\n\n\n\nSource\nCOR\n\n\n\n\nAverage\n\n\n\nMaximum\n\n\n\nMinimum\n\n\n\nTextbook\n0.65\n\n\n\n\n\n\n\n\ninaccuracies - your value for \\(COR\\) won’t be exactly the same as the manufacturers, nor will your graph be a perfect straight line. We need to try and account for these discrepancies. Pick one feature of the experiment and investigate whether it is an issue in the accuracy of your results. You’ll need to examine the results you have already as well as gathering additional evidence by taking further measurements. Your idea might well be a key issue in the quality of the results we obtain, or it might not be and you are thus ruling it out. Both are valid outcomes of this error analysis.\nimprovements - based on the inaccuracy section above, can you suggest a way in which we could make our experiment better?",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Coefficient of Restitution of a Ping Pong Ball</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Coefficient of Restitution of a Ping Pong Ball</span>"
     ]
   },
   {
     "objectID": "cor.html#apparatus",
     "href": "cor.html#apparatus",
-    "title": "5  Coefficient of Restitution of a Ping Pong Ball",
-    "section": "5.5 Apparatus",
-    "text": "5.5 Apparatus\nWall mounted measuring sticks to a height of 2m. Ping pong ball. Ceramic tile agt the bottom of metre sticks.",
+    "title": "6  Coefficient of Restitution of a Ping Pong Ball",
+    "section": "6.5 Apparatus",
+    "text": "6.5 Apparatus\nWall mounted measuring sticks to a height of 2m. Ping pong ball. Ceramic tile agt the bottom of metre sticks.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Coefficient of Restitution of a Ping Pong Ball</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Coefficient of Restitution of a Ping Pong Ball</span>"
     ]
   },
   {
     "objectID": "sonometer.html",
     "href": "sonometer.html",
-    "title": "6  Measurements of Sound Frequency using a Sonometer",
+    "title": "7  Measurements of Sound Frequency using a Sonometer",
     "section": "",
     "text": "Measurements of Sound Frequency using a Sonometer\nToday we’re going to investigate how the sound produced from a plucked wire depends on the tension in the wire. Our analysis is based on the wave equation, \\(v \\; = \\; f \\lambda\\).\nTake down the following in to your laboratory copy.",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Measurements of Sound Frequency using a Sonometer</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Measurements of Sound Frequency using a Sonometer</span>"
     ]
   },
   {
     "objectID": "sonometer.html#experimental-set-up",
     "href": "sonometer.html#experimental-set-up",
-    "title": "6  Measurements of Sound Frequency using a Sonometer",
-    "section": "6.1 Experimental Set-Up",
-    "text": "6.1 Experimental Set-Up\n\n\n\n\n\n\n\nThe apparatus will be set-up something like the sketch on the left. Pluck te guitar wire in the centre and watch the trace on the oscilloscope screen. When the trace settles down to a nice sinusoidal shape after a second or so, press the pause button on the scope. The frequency will be displayed on the scope screen. Record this, move the weights to a different notch, and repeat the procedure.\n\n\n\n\nRecord and note down the distance between the bridges on the sonometer. Measure to three decimal places in metres. This is \\(L\\). make sure this doesn’t change over the experiment, i.e. don’t move the bridges.\nAdjust the tension in the wire so that the lever arm is horizontal.\nIt is easiest to start at the fifth and furthest notch, i.e. start from the bottom of the resuts table. It is easier to measure freuency for this setting.\nWhen filling out your table, pay special attention to significant figures. The number of significant figures for \\(f^2\\) should be the same as for \\(f\\). Using scientific notation is a good idea here with powers of \\(10^4\\).",
+    "title": "7  Measurements of Sound Frequency using a Sonometer",
+    "section": "7.1 Experimental Set-Up",
+    "text": "7.1 Experimental Set-Up\n\n\n\n\n\n\n\nThe apparatus will be set-up something like the sketch on the left. Pluck te guitar wire in the centre and watch the trace on the oscilloscope screen. When the trace settles down to a nice sinusoidal shape after a second or so, press the pause button on the scope. The frequency will be displayed on the scope screen. Record this, move the weights to a different notch, and repeat the procedure.\n\n\n\n\nRecord and note down the distance between the bridges on the sonometer. Measure to three decimal places in metres. This is \\(L\\). make sure this doesn’t change over the experiment, i.e. don’t move the bridges.\nAdjust the tension in the wire so that the lever arm is horizontal.\nIt is easiest to start at the fifth and furthest notch, i.e. start from the bottom of the resuts table. It is easier to measure freuency for this setting.\nWhen filling out your table, pay special attention to significant figures. The number of significant figures for \\(f^2\\) should be the same as for \\(f\\). Using scientific notation is a good idea here with powers of \\(10^4\\).",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Measurements of Sound Frequency using a Sonometer</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Measurements of Sound Frequency using a Sonometer</span>"
     ]
   },
   {
     "objectID": "sonometer.html#analysis",
     "href": "sonometer.html#analysis",
-    "title": "6  Measurements of Sound Frequency using a Sonometer",
-    "section": "6.2 Analysis",
-    "text": "6.2 Analysis\n\n\n\n\n\n\n\nDraw the graph as shown on the left here, with \\(f^2(Hz^2)\\) on the y-axis and \\(T(N)\\) on the y axis. Draw a best fit line nested through the points. Make sure the graph has a (long) descriptive title in the form What’s on y-axis vs What’s on x axis and the context.\nCalculate the slope of the best fit line using the formula \\(slope \\; = \\; \\frac{y_2-y_1}{x_2-x_1}\\)",
+    "title": "7  Measurements of Sound Frequency using a Sonometer",
+    "section": "7.2 Analysis",
+    "text": "7.2 Analysis\n\n\n\n\n\n\n\nDraw the graph as shown on the left here, with \\(f^2(Hz^2)\\) on the y-axis and \\(T(N)\\) on the y axis. Draw a best fit line nested through the points. Make sure the graph has a (long) descriptive title in the form What’s on y-axis vs What’s on x axis and the context.\nCalculate the slope of the best fit line using the formula \\(slope \\; = \\; \\frac{y_2-y_1}{x_2-x_1}\\)",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Measurements of Sound Frequency using a Sonometer</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Measurements of Sound Frequency using a Sonometer</span>"
     ]
   },
   {
     "objectID": "sonometer.html#calculation-of-the-mass-per-unit-length-mu",
     "href": "sonometer.html#calculation-of-the-mass-per-unit-length-mu",
-    "title": "6  Measurements of Sound Frequency using a Sonometer",
-    "section": "6.3 Calculation of the mass per unit length, \\(\\mu\\)",
-    "text": "6.3 Calculation of the mass per unit length, \\(\\mu\\)\nThe equation of relevance here is: \\(f \\; = \\; \\frac{1}{2L} \\sqrt{ \\frac{T}{\\mu}}\\) where \\(L\\) is the distant between the bridges that we measured.\nSquaring both sides and rearranging we get \\(\\mu \\; = \\; \\frac{1}{4L^2 \\times slope}\\)\nWe’re going to check on our \\(\\mu\\) value by a separate set of measurements. Detach the wire from the sonometer. Measure its entire length, \\(D\\) in metres between the brass connectors at either end. Now coil up the wire and measure its mass, \\(m_{wire}\\) on the scales. Subtract 0.321g from the mass (this is the mass of the brass connectors). Calculate a second value for \\(\\mu\\) using:\n\\(\\mu_{direct} \\; = \\; \\frac{m_{wire} - 0.321}{D} \\div 1000\\) the factor of 1000 is to convert grams to kg.",
+    "title": "7  Measurements of Sound Frequency using a Sonometer",
+    "section": "7.3 Calculation of the mass per unit length, \\(\\mu\\)",
+    "text": "7.3 Calculation of the mass per unit length, \\(\\mu\\)\nThe equation of relevance here is: \\(f \\; = \\; \\frac{1}{2L} \\sqrt{ \\frac{T}{\\mu}}\\) where \\(L\\) is the distant between the bridges that we measured.\nSquaring both sides and rearranging we get \\(\\mu \\; = \\; \\frac{1}{4L^2 \\times slope}\\)\nWe’re going to check on our \\(\\mu\\) value by a separate set of measurements. Detach the wire from the sonometer. Measure its entire length, \\(D\\) in metres between the brass connectors at either end. Now coil up the wire and measure its mass, \\(m_{wire}\\) on the scales. Subtract 0.321g from the mass (this is the mass of the brass connectors). Calculate a second value for \\(\\mu\\) using:\n\\(\\mu_{direct} \\; = \\; \\frac{m_{wire} - 0.321}{D} \\div 1000\\) the factor of 1000 is to convert grams to kg.",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Measurements of Sound Frequency using a Sonometer</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Measurements of Sound Frequency using a Sonometer</span>"
     ]
   },
   {
     "objectID": "sonometer.html#discussion",
     "href": "sonometer.html#discussion",
-    "title": "6  Measurements of Sound Frequency using a Sonometer",
-    "section": "6.4 Discussion",
-    "text": "6.4 Discussion\nThere are four parts to the discussion section:\nBecause we have two experimental values for \\(\\mu\\), we’ll combine our results and textbook value in a table\n\nthe main results and manufacturer’s value\n\n\n\n\n\n\n\n\n\nSource\n\\(\\mu(kgm^{-1})\\)\n\n\n\n\nSonometer\n\n\n\nDirect\n\n\n\nManufacturer\n\\(8.6 \\times 10^{-4}\\)\n\n\n\n\n\n\n\n\ninaccuracies - your values for \\(\\mu\\) won’t be exactly the same, nor will your graph be a perfect straight line. We need to try and account for these discrepancies. Pick one feature of the experiment and investigate whether it is an issue in the accuracy of your results. For example, how repeatable are the measurements of frequency from the oscilloscope, you could repeat several times for one value of T and see how consistent they are. You’ll need to examine the results you have already as well as gathering additional evidence by taking further measurements. Your idea might well be a key issue in the quality of the results we obtain, or it might not be and you are thus ruling it out. Both are valid outcomes of this error analysis.\nimprovements - based on the inaccuracy section above, can you suggest a way in which we could make our experiment better?",
+    "title": "7  Measurements of Sound Frequency using a Sonometer",
+    "section": "7.4 Discussion",
+    "text": "7.4 Discussion\nThere are four parts to the discussion section:\nBecause we have two experimental values for \\(\\mu\\), we’ll combine our results and textbook value in a table\n\nthe main results and manufacturer’s value\n\n\n\n\n\n\n\n\n\nSource\n\\(\\mu(kgm^{-1})\\)\n\n\n\n\nSonometer\n\n\n\nDirect\n\n\n\nManufacturer\n\\(8.6 \\times 10^{-4}\\)\n\n\n\n\n\n\n\n\ninaccuracies - your values for \\(\\mu\\) won’t be exactly the same, nor will your graph be a perfect straight line. We need to try and account for these discrepancies. Pick one feature of the experiment and investigate whether it is an issue in the accuracy of your results. For example, how repeatable are the measurements of frequency from the oscilloscope, you could repeat several times for one value of T and see how consistent they are. You’ll need to examine the results you have already as well as gathering additional evidence by taking further measurements. Your idea might well be a key issue in the quality of the results we obtain, or it might not be and you are thus ruling it out. Both are valid outcomes of this error analysis.\nimprovements - based on the inaccuracy section above, can you suggest a way in which we could make our experiment better?",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Measurements of Sound Frequency using a Sonometer</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Measurements of Sound Frequency using a Sonometer</span>"
     ]
   },
   {
     "objectID": "sonometer.html#apparatus",
     "href": "sonometer.html#apparatus",
-    "title": "6  Measurements of Sound Frequency using a Sonometer",
-    "section": "6.5 Apparatus",
-    "text": "6.5 Apparatus\nSonometer with 0.17 gauge wire mounted (make sure to check the gauge, should give diameter of mm). Two bridges set roughly 0.7m apart under the wire. detector (not driver) coil connected to channel A of storage oscilloscope. Scope set to measure and frequency on Channel A. Weight holder with total of 1kg. Check that frequency measured from fifth notch is about 250Hz.",
+    "title": "7  Measurements of Sound Frequency using a Sonometer",
+    "section": "7.5 Apparatus",
+    "text": "7.5 Apparatus\nSonometer with 0.17 gauge wire mounted (make sure to check the gauge, should give diameter of mm). Two bridges set roughly 0.7m apart under the wire. detector (not driver) coil connected to channel A of storage oscilloscope. Scope set to measure and frequency on Channel A. Weight holder with total of 1kg. Check that frequency measured from fifth notch is about 250Hz.",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Measurements of Sound Frequency using a Sonometer</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Measurements of Sound Frequency using a Sonometer</span>"
     ]
   },
   {
     "objectID": "lens.html",
     "href": "lens.html",
-    "title": "7  Focal Length of a Convex Lens",
+    "title": "8  Focal Length of a Convex Lens",
     "section": "",
     "text": "Title: Focal Length of a Convex Lens\nFrom the cornea in your eye to the camera of your phone, a lens is a critical component of most optical systems. And for a lens, its focal length is key parameter dictating its performance. In today’s experiment we will measure the focal length of a convex (converging, thicker in the center than at the edges) lens.\nTake down the following in to your laboratory copy.",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Focal Length of a Convex Lens</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Focal Length of a Convex Lens</span>"
     ]
   },
   {
     "objectID": "lens.html#experimental-set-up",
     "href": "lens.html#experimental-set-up",
-    "title": "7  Focal Length of a Convex Lens",
-    "section": "7.1 Experimental Set-Up",
-    "text": "7.1 Experimental Set-Up\n\n\n\n\n\n\n\nThe apparatus will be set-up something like the sketch on the left. This is the first point; the lens is quite close to the light source, the screen is at the far end of the bench, and the spring-like image of the bulb filament is quite large on the screen.\n\n\n\nSet the distance between the center of the light source (not the front edge) and the very centre of the lens to be 27.0cm and move the screen until the light bulb filament in sharp focus. Measure the distance between the centre of the lens and the screen. This is \\(v\\), the image distance. Now move the lens back to 27.0 cm, move the screen in to get a sharp focus, and record the new value for \\(v\\). Repeat for all the values for \\(u\\) given in the table above.\n\n\n\\(u\\) is measured from the middle of the light assembly, not the front edge\nYou get the sharpest focus images when you keep good geometry; the lens and screen being perpendicular to the light beam\ninitially the screen will move in towards the light source, but after about \\(u\\) = 43.0 cm is starts to move back again. The final point will have the lens and screen quite close together at the far end of the bench from the light and the image will be very small.\nWhen filling out your table, pay special attention to significant figures. The number of significant figures for \\(\\frac{1}{v}\\) should be the same as for \\(v\\).",
+    "title": "8  Focal Length of a Convex Lens",
+    "section": "8.1 Experimental Set-Up",
+    "text": "8.1 Experimental Set-Up\n\n\n\n\n\n\n\nThe apparatus will be set-up something like the sketch on the left. This is the first point; the lens is quite close to the light source, the screen is at the far end of the bench, and the spring-like image of the bulb filament is quite large on the screen.\n\n\n\nSet the distance between the center of the light source (not the front edge) and the very centre of the lens to be 27.0cm and move the screen until the light bulb filament in sharp focus. Measure the distance between the centre of the lens and the screen. This is \\(v\\), the image distance. Now move the lens back to 27.0 cm, move the screen in to get a sharp focus, and record the new value for \\(v\\). Repeat for all the values for \\(u\\) given in the table above.\n\n\n\\(u\\) is measured from the middle of the light assembly, not the front edge\nYou get the sharpest focus images when you keep good geometry; the lens and screen being perpendicular to the light beam\ninitially the screen will move in towards the light source, but after about \\(u\\) = 43.0 cm is starts to move back again. The final point will have the lens and screen quite close together at the far end of the bench from the light and the image will be very small.\nWhen filling out your table, pay special attention to significant figures. The number of significant figures for \\(\\frac{1}{v}\\) should be the same as for \\(v\\).",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Focal Length of a Convex Lens</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Focal Length of a Convex Lens</span>"
     ]
   },
   {
     "objectID": "lens.html#analysis",
     "href": "lens.html#analysis",
-    "title": "7  Focal Length of a Convex Lens",
-    "section": "7.2 Analysis",
-    "text": "7.2 Analysis\n\n\n\n\n\n\n\nDraw the graph as shown on the left here, with \\(\\frac{1}{v}\\) on the y-axis and \\(\\frac{1}{u}\\) on the x axis. Make sure both axes extend at least as far as \\(0.06 \\: cm ^{-1}\\), so for a standard \\(9 \\; \\times \\; 13\\) graph paper, use 0.01 per division on the x axis and 0.005 per division on the y axis. Draw a best fit line nested through the points. Make sure the graph has a (long) descriptive title in the form What’s on y-axis vs What’s on x axis and the context.\n\n\n\nCalculate the slope of the best fit line using the formula \\(slope \\; = \\; \\frac{y_2-y_1}{x_2-x_1}\\)\nAccording to theory (see below), this line should have a slope close to -1. Note that, because it’s a negative slope, the line angles downwards.",
+    "title": "8  Focal Length of a Convex Lens",
+    "section": "8.2 Analysis",
+    "text": "8.2 Analysis\n\n\n\n\n\n\n\nDraw the graph as shown on the left here, with \\(\\frac{1}{v}\\) on the y-axis and \\(\\frac{1}{u}\\) on the x axis. Make sure both axes extend at least as far as \\(0.06 \\: cm ^{-1}\\), so for a standard \\(9 \\; \\times \\; 13\\) graph paper, use 0.01 per division on the x axis and 0.005 per division on the y axis. Draw a best fit line nested through the points. Make sure the graph has a (long) descriptive title in the form What’s on y-axis vs What’s on x axis and the context.\n\n\n\nCalculate the slope of the best fit line using the formula \\(slope \\; = \\; \\frac{y_2-y_1}{x_2-x_1}\\)\nAccording to theory (see below), this line should have a slope close to -1. Note that, because it’s a negative slope, the line angles downwards.",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Focal Length of a Convex Lens</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Focal Length of a Convex Lens</span>"
     ]
   },
   {
     "objectID": "lens.html#calculation-of-the-focal-length-fcm",
     "href": "lens.html#calculation-of-the-focal-length-fcm",
-    "title": "7  Focal Length of a Convex Lens",
-    "section": "7.3 Calculation of the Focal Length, f(cm)",
-    "text": "7.3 Calculation of the Focal Length, f(cm)\nThe equation governing the focal length of a lens is:\n\\(\\frac{1}{f} \\; = \\; \\frac{1}{u} \\; + \\; \\frac{1}{v}\\)\n\\(\\implies \\frac{1}{v} \\; = \\; -\\frac{1}{u} \\; + \\; \\frac{1}{f}\\) so when \\(\\frac{1}{u}\\) is zero, \\(\\frac{1}{v} \\; = \\; \\frac{1}{f}\\).\nTake the point where the line cuts the y-axis, take the inverse of this value, and this will be a figure for f.\n\n7.3.1 f from Direct Measurement\nTake the lens out to the lobby outside the lab and under one of the ceiling lights. Hold the lens about 20 cm above the floor and get the ceiling light in focus. Because the light source is so high above, then \\(u\\) is very large and \\(\\frac{1}{u}\\) is close to zero, then \\(\\frac{1}{f} \\; = \\; \\frac{1}{v}\\) and the focal length will be well approximated by the distance between the lens and the image on the floor. Measure this to get a second estimate for f.\n\n\n7.3.2 f from no-parallax\n\n\n\n\n\n\n\nSet up the apparatus as shown, with the object pin about 10cm behind the lens and the retort stand and pencil about 20cm further back. Observe the object pin through the lens and the pencil directly over the top rim of the lens. Move the retort stand until the pencil sits directly over the image of the object pin and the two stay in sync when you move your head from side to side. Measure the distance from pin to lens, \\(u\\), and the distance from pencil to lens, \\(-v\\). Put the values in to the equation \\(\\frac{1}{f} \\; = \\; \\frac{1}{u} \\; + \\; \\frac{1}{v}\\) to calculate a value for f.",
+    "title": "8  Focal Length of a Convex Lens",
+    "section": "8.3 Calculation of the Focal Length, f(cm)",
+    "text": "8.3 Calculation of the Focal Length, f(cm)\nThe equation governing the focal length of a lens is:\n\\(\\frac{1}{f} \\; = \\; \\frac{1}{u} \\; + \\; \\frac{1}{v}\\)\n\\(\\implies \\frac{1}{v} \\; = \\; -\\frac{1}{u} \\; + \\; \\frac{1}{f}\\) so when \\(\\frac{1}{u}\\) is zero, \\(\\frac{1}{v} \\; = \\; \\frac{1}{f}\\).\nTake the point where the line cuts the y-axis, take the inverse of this value, and this will be a figure for f.\n\n8.3.1 f from Direct Measurement\nTake the lens out to the lobby outside the lab and under one of the ceiling lights. Hold the lens about 20 cm above the floor and get the ceiling light in focus. Because the light source is so high above, then \\(u\\) is very large and \\(\\frac{1}{u}\\) is close to zero, then \\(\\frac{1}{f} \\; = \\; \\frac{1}{v}\\) and the focal length will be well approximated by the distance between the lens and the image on the floor. Measure this to get a second estimate for f.\n\n\n8.3.2 f from no-parallax\n\n\n\n\n\n\n\nSet up the apparatus as shown, with the object pin about 10cm behind the lens and the retort stand and pencil about 20cm further back. Observe the object pin through the lens and the pencil directly over the top rim of the lens. Move the retort stand until the pencil sits directly over the image of the object pin and the two stay in sync when you move your head from side to side. Measure the distance from pin to lens, \\(u\\), and the distance from pencil to lens, \\(-v\\). Put the values in to the equation \\(\\frac{1}{f} \\; = \\; \\frac{1}{u} \\; + \\; \\frac{1}{v}\\) to calculate a value for f.",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Focal Length of a Convex Lens</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Focal Length of a Convex Lens</span>"
     ]
   },
   {
     "objectID": "lens.html#discussion",
     "href": "lens.html#discussion",
-    "title": "7  Focal Length of a Convex Lens",
-    "section": "7.4 Discussion",
-    "text": "7.4 Discussion\nThere are four parts to the discussion section. Because we have three experimental values for f, we’ll combine our results and textbook value in a table\n\nthe main results and manufacturer’s value\n\n\n\n\n\n\n\n\n\nSource\nf (cm)\n\n\n\n\nGraph\n\n\n\nLobby\n\n\n\nNo-Parallax\n\n\n\nManufacturer\n20.0\n\n\n\n\n\n\n\n\nsupplementary main result - repeat your value for the slope of the graph and compare to the textbook value of -1.\ninaccuracies - your values for \\(f\\) won’t be exactly the same as the manufacturers, nor will your graph be a perfect straight line with a slope of -1. We need to try and account for these discrepancies. Pick one feature of the experiment and investigate whether it is an issue in the accuracy of your results. You’ll need to examine the results you have already as well as gathering additional evidence by taking further measurements. Your idea might well be a key issue in the quality of the results we obtain, or it might not be and you are thus ruling it out. Both are valid outcomes of this error analysis.\nimprovements - based on the inaccuracy section above, can you suggest a way in which we could make our experiment better?",
+    "title": "8  Focal Length of a Convex Lens",
+    "section": "8.4 Discussion",
+    "text": "8.4 Discussion\nThere are four parts to the discussion section. Because we have three experimental values for f, we’ll combine our results and textbook value in a table\n\nthe main results and manufacturer’s value\n\n\n\n\n\n\n\n\n\nSource\nf (cm)\n\n\n\n\nGraph\n\n\n\nLobby\n\n\n\nNo-Parallax\n\n\n\nManufacturer\n20.0\n\n\n\n\n\n\n\n\nsupplementary main result - repeat your value for the slope of the graph and compare to the textbook value of -1.\ninaccuracies - your values for \\(f\\) won’t be exactly the same as the manufacturers, nor will your graph be a perfect straight line with a slope of -1. We need to try and account for these discrepancies. Pick one feature of the experiment and investigate whether it is an issue in the accuracy of your results. You’ll need to examine the results you have already as well as gathering additional evidence by taking further measurements. Your idea might well be a key issue in the quality of the results we obtain, or it might not be and you are thus ruling it out. Both are valid outcomes of this error analysis.\nimprovements - based on the inaccuracy section above, can you suggest a way in which we could make our experiment better?",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Focal Length of a Convex Lens</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Focal Length of a Convex Lens</span>"
     ]
   },
   {
     "objectID": "lens.html#apparatus",
     "href": "lens.html#apparatus",
-    "title": "7  Focal Length of a Convex Lens",
-    "section": "7.5 Apparatus",
-    "text": "7.5 Apparatus\nLight source, 20cm lens, screen, two metre sticks, retort stand, finder pin, object pin.",
+    "title": "8  Focal Length of a Convex Lens",
+    "section": "8.5 Apparatus",
+    "text": "8.5 Apparatus\nLight source, 20cm lens, screen, two metre sticks, retort stand, finder pin, object pin.",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Focal Length of a Convex Lens</span>"
-    ]
-  },
-  {
-    "objectID": "pendulum.html#experimental-set-up",
-    "href": "pendulum.html#experimental-set-up",
-    "title": "1  The Simple Pendulum - Determination of ‘g’",
-    "section": "1.1 Experimental Set-Up",
-    "text": "1.1 Experimental Set-Up\nThe simple pendulum consists of a steel ball suspended by a thread wrapped around a clamped cork.\n\n\n\n\n\n\n\nThe length of the thread can be varied. The length of the pendulum is the distance from the corner of cork where the thread is suspended to the centre of the ball. For each of six lengths, you will measure the periodic time (period) of the pendulum swing.\nOne swing is achieved by holding the ball about 5o from centre, releasing it, and letting it swing across and back. You will time that swing by measuring the time for 20 swings and divide by 20.\n\n\n\n• Fix the pendulum distance from the corner of the cork to the centre of the ball at about 0.2m. Measure this length, \\(l\\), accurate to 1mm using a metre stick. and note in the table.\n• Measure the time for 20 COMPLETE swings of the pendulum. Record your results in the table.\n• Repeat this for the six lengths of pendulum from 0.2 m to 1.2m.\n• When the time for 20 swings has been recorded for all lengths, divide those values by 20 to determine the periodic time (period). Then, square those values to determine the period squared, \\(T^2\\).",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Simple Pendulum - Determination of 'g'</span>"
-    ]
-  },
-  {
-    "objectID": "pendulum.html#analysis",
-    "href": "pendulum.html#analysis",
-    "title": "1  The Simple Pendulum - Determination of ‘g’",
-    "section": "1.2 Analysis",
-    "text": "1.2 Analysis\n\n\n\n\n\n\n\nPlot a graph of \\(T^2\\) against \\(l\\) (\\(T^2\\) on the y-axis) by plotting each of the six \\(T^2\\) values versus their corresponding pendulum lengths, \\(l\\). Draw a best fit line though the points and determine the slope of that “best fit line”.\nCalculate the slope by picking two points on the line \\((x_1,y_1)\\) close to the origin and \\((x_2,y_2)\\) far from the origin. Place those x and y values into the equation to calculate the slope: \\(slope \\; = \\; \\frac{y_2-y_1}{x_2-x_1}\\)",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Simple Pendulum - Determination of 'g'</span>"
-    ]
-  },
-  {
-    "objectID": "pendulum.html#calculation-of-the-acceleration-due-to-gravity-g",
-    "href": "pendulum.html#calculation-of-the-acceleration-due-to-gravity-g",
-    "title": "1  The Simple Pendulum - Determination of ‘g’",
-    "section": "1.3 Calculation of the acceleration due to gravity, g",
-    "text": "1.3 Calculation of the acceleration due to gravity, g\nThe equation relating the periodic time T with the length l can be shown to be:\n\\(T \\; = \\; 2 \\pi \\sqrt{\\frac{l}{g}}\\)\nwhere g is the acceleration due to gravity, T is measured in seconds and l in metres.\nSquaring and rearranging gives:\n\\(T^2\\; = \\; \\frac{4\\pi^2}{g}l\\)\nThis means that the slope of our \\(T^2\\) vs \\(l\\) graph must be:\n\\(slope \\; = \\; \\frac{4\\pi^2}{g} \\implies g \\; = \\; \\frac{4\\pi^2}{slope}\\)\nUse this to calculate a value for g in \\(m s^{-2}\\).",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Simple Pendulum - Determination of 'g'</span>"
-    ]
-  },
-  {
-    "objectID": "pendulum.html#discussion",
-    "href": "pendulum.html#discussion",
-    "title": "1  The Simple Pendulum - Determination of ‘g’",
-    "section": "1.4 Discussion",
-    "text": "1.4 Discussion\nThere are four parts to the discussion section:\n• the main result – repeat the value of g obtained from the end of your calculations. Even though it is written elsewhere in your report, it’s important to repeat it here.\n• the text book value – the true value of g known from many previous experiments\n• inaccuracies – your value for g won’t be exactly the same as the text book answer nor will your graph be a perfect straight line. We need to try and account for these discrepancies. Pick one feature of the experiment and investigate whether it is an issue in the accuracy of for your results. for example, for one length of pendulum, if you repeat the measurement of time for 20 swings, will you get the same answer as when doing the experiment? And for that length of pendulum, will you get same length accurate to 1mm if you measure its length a second time? You’ll need to examine the results you have already as well as gather new evidence by taking further measurements. Your idea might well be a key issue in the quality of the results we obtain, or it might not be and you are thus ruling it out. Both are valid outcomes of this errors analysis.\n• improvements - based on the inaccuracy section above, can you suggest a way in which we could make our experiment better",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Simple Pendulum - Determination of 'g'</span>"
-    ]
-  },
-  {
-    "objectID": "pendulum.html#apparatus",
-    "href": "pendulum.html#apparatus",
-    "title": "1  The Simple Pendulum - Determination of ‘g’",
-    "section": "1.5 Apparatus",
-    "text": "1.5 Apparatus\nRetort stand, cork, thread, bobbin, metre stick, centisecond timer",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Simple Pendulum - Determination of 'g'</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Focal Length of a Convex Lens</span>"
     ]
   }
 ]

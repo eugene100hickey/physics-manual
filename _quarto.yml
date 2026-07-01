@@ -9,6 +9,7 @@ book:
     - index.qmd
     - pendulum.qmd
     - viscosity.qmd
+    - hookes.qmd
     - shm.qmd
     - air-track.qmd
     - cor.qmd
