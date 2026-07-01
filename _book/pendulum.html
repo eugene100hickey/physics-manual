@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>1&nbsp; Simple Pendulum – physics-manual</title>
+<title>1&nbsp; The Simple Pendulum - Determination of ‘g’ – physics-manual</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -99,6 +99,7 @@ window.Quarto = {
 };
 </script>
 
+<link rel="stylesheet" href="my-css.css">
 </head>
 
 <body class="nav-sidebar floating">
@@ -110,7 +111,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./pendulum.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Simple Pendulum</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./pendulum.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">The Simple Pendulum - Determination of ‘g’</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -144,7 +145,7 @@ window.Quarto = {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./pendulum.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Simple Pendulum</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">The Simple Pendulum - Determination of ‘g’</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -180,7 +181,7 @@ window.Quarto = {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lens.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Focal Lenght of a Convex Lens</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Focal Length of a Convex Lens</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -199,10 +200,16 @@ window.Quarto = {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#title-simple-pendulum" id="toc-title-simple-pendulum" class="nav-link active" data-scroll-target="#title-simple-pendulum"><span class="header-section-number">1.0.1</span> Title: Simple Pendulum</a></li>
-  <li><a href="#date" id="toc-date" class="nav-link" data-scroll-target="#date"><span class="header-section-number">1.0.2</span> Date:</a></li>
-  <li><a href="#partner" id="toc-partner" class="nav-link" data-scroll-target="#partner"><span class="header-section-number">1.0.3</span> Partner:</a></li>
-  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data"><span class="header-section-number">1.0.4</span> Data</a></li>
+  <li><a href="#title-simple-pendulum---determination-of-g" id="toc-title-simple-pendulum---determination-of-g" class="nav-link active" data-scroll-target="#title-simple-pendulum---determination-of-g"><span style="font-family:Kalam;color:#8b1a1a;">Title: Simple Pendulum - Determination of ‘g’</span></a></li>
+  <li><a href="#name" id="toc-name" class="nav-link" data-scroll-target="#name"><span style="font-family:Kalam;color:#8b1a1a;">Name:</span></a></li>
+  <li><a href="#date" id="toc-date" class="nav-link" data-scroll-target="#date"><span style="font-family:Kalam;color:#8b1a1a;">Date:</span></a></li>
+  <li><a href="#partner" id="toc-partner" class="nav-link" data-scroll-target="#partner"><span style="font-family:Kalam;color:#8b1a1a;">Partner:</span></a></li>
+  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data"><span style="font-family:Kalam;color:#8b1a1a;">Data</span></a></li>
+  <li><a href="#experimental-set-up" id="toc-experimental-set-up" class="nav-link" data-scroll-target="#experimental-set-up"><span class="header-section-number">1.1</span> Experimental Set-Up</a></li>
+  <li><a href="#analysis" id="toc-analysis" class="nav-link" data-scroll-target="#analysis"><span class="header-section-number">1.2</span> Analysis</a></li>
+  <li><a href="#calculation-of-the-acceleration-due-to-gravity-g" id="toc-calculation-of-the-acceleration-due-to-gravity-g" class="nav-link" data-scroll-target="#calculation-of-the-acceleration-due-to-gravity-g"><span class="header-section-number">1.3</span> Calculation of the acceleration due to gravity, g</a></li>
+  <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion"><span class="header-section-number">1.4</span> Discussion</a></li>
+  <li><a href="#apparatus" id="toc-apparatus" class="nav-link" data-scroll-target="#apparatus"><span class="header-section-number">1.5</span> Apparatus</a></li>
   </ul>
 </nav>
     </div>
@@ -211,7 +218,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Simple Pendulum</span></h1>
+<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">The Simple Pendulum - Determination of ‘g’</span></h1>
 </div>
 
 
@@ -228,44 +235,56 @@ window.Quarto = {
 </header>
 
 
+<div class="cell">
+<style type="text/css">
+.justify {
+  text-align: justify !important
+}
+</style>
+</div>
+<p>The simple pendulum is used to determine the acceleration due to gravity, g. A short pendulum swings back and forth rapidly, a long pendulum more slowly. We will use this relationship to determine the acceleration caused by Earth’s gravity.</p>
 <p>Take down the following in to your laboratory copy.</p>
-<section id="title-simple-pendulum" class="level3" data-number="1.0.1">
-<h3 data-number="1.0.1" class="anchored" data-anchor-id="title-simple-pendulum"><span class="header-section-number">1.0.1</span> Title: Simple Pendulum</h3>
+<section id="title-simple-pendulum---determination-of-g" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="title-simple-pendulum---determination-of-g"><span style="font-family:Kalam;color:#8b1a1a;">Title: Simple Pendulum - Determination of ‘g’</span></h3>
 </section>
-<section id="date" class="level3" data-number="1.0.2">
-<h3 data-number="1.0.2" class="anchored" data-anchor-id="date"><span class="header-section-number">1.0.2</span> Date:</h3>
+<section id="name" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="name"><span style="font-family:Kalam;color:#8b1a1a;">Name:</span></h3>
 </section>
-<section id="partner" class="level3" data-number="1.0.3">
-<h3 data-number="1.0.3" class="anchored" data-anchor-id="partner"><span class="header-section-number">1.0.3</span> Partner:</h3>
+<section id="date" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="date"><span style="font-family:Kalam;color:#8b1a1a;">Date:</span></h3>
 </section>
-<section id="data" class="level3" data-number="1.0.4">
-<h3 data-number="1.0.4" class="anchored" data-anchor-id="data"><span class="header-section-number">1.0.4</span> Data</h3>
+<section id="partner" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="partner"><span style="font-family:Kalam;color:#8b1a1a;">Partner:</span></h3>
+</section>
+<section id="data" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="data"><span style="font-family:Kalam;color:#8b1a1a;">Data</span></h3>
 <div class="cell">
 <div class="cell-output-display">
-<div id="cqicpjmziw" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:800px;height:auto;">
-<style>#cqicpjmziw table {
-  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+<div id="gdkrwkvkyv" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:hidden;overflow-y:hidden;width:75%;height:auto;">
+<style>@import url("https://fonts.googleapis.com/css2?family=Kalam:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+#gdkrwkvkyv table {
+  font-family: Kalam, system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#cqicpjmziw thead, #cqicpjmziw tbody, #cqicpjmziw tfoot, #cqicpjmziw tr, #cqicpjmziw td, #cqicpjmziw th {
+#gdkrwkvkyv thead, #gdkrwkvkyv tbody, #gdkrwkvkyv tfoot, #gdkrwkvkyv tr, #gdkrwkvkyv td, #gdkrwkvkyv th {
   border-style: none;
 }
 
-#cqicpjmziw p {
+#gdkrwkvkyv p {
   margin: 0;
   padding: 0;
 }
 
-#cqicpjmziw .gt_table {
+#gdkrwkvkyv .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
   margin-left: auto;
   margin-right: auto;
-  color: #333333;
-  font-size: 16px;
+  color: #8B1A1A;
+  font-size: 17px;
   font-weight: normal;
   font-style: normal;
   background-color: #FFFFFF;
@@ -284,36 +303,36 @@ window.Quarto = {
   border-left-color: #D3D3D3;
 }
 
-#cqicpjmziw .gt_caption {
+#gdkrwkvkyv .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#cqicpjmziw .gt_title {
-  color: #333333;
+#gdkrwkvkyv .gt_title {
+  color: #8B1A1A;
   font-size: 125%;
   font-weight: initial;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding-top: 0.4px;
+  padding-bottom: 0.4px;
   padding-left: 5px;
   padding-right: 5px;
   border-bottom-color: #FFFFFF;
   border-bottom-width: 0;
 }
 
-#cqicpjmziw .gt_subtitle {
-  color: #333333;
+#gdkrwkvkyv .gt_subtitle {
+  color: #8B1A1A;
   font-size: 85%;
   font-weight: initial;
-  padding-top: 3px;
-  padding-bottom: 5px;
+  padding-top: -0.6px;
+  padding-bottom: 1.4px;
   padding-left: 5px;
   padding-right: 5px;
   border-top-color: #FFFFFF;
   border-top-width: 0;
 }
 
-#cqicpjmziw .gt_heading {
+#gdkrwkvkyv .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -325,13 +344,13 @@ window.Quarto = {
   border-right-color: #D3D3D3;
 }
 
-#cqicpjmziw .gt_bottom_border {
+#gdkrwkvkyv .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#cqicpjmziw .gt_col_headings {
+#gdkrwkvkyv .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #8B1A1A;
@@ -346,8 +365,8 @@ window.Quarto = {
   border-right-color: #D3D3D3;
 }
 
-#cqicpjmziw .gt_col_heading {
-  color: #333333;
+#gdkrwkvkyv .gt_col_heading {
+  color: #8B1A1A;
   background-color: #FFFFFF;
   font-size: 100%;
   font-weight: normal;
@@ -359,15 +378,15 @@ window.Quarto = {
   border-right-width: 2px;
   border-right-color: #8B1A1A;
   vertical-align: bottom;
-  padding-top: 5px;
-  padding-bottom: 6px;
+  padding-top: 0.5px;
+  padding-bottom: 1.5px;
   padding-left: 5px;
   padding-right: 5px;
   overflow-x: hidden;
 }
 
-#cqicpjmziw .gt_column_spanner_outer {
-  color: #333333;
+#gdkrwkvkyv .gt_column_spanner_outer {
+  color: #8B1A1A;
   background-color: #FFFFFF;
   font-size: 100%;
   font-weight: normal;
@@ -378,36 +397,36 @@ window.Quarto = {
   padding-right: 4px;
 }
 
-#cqicpjmziw .gt_column_spanner_outer:first-child {
+#gdkrwkvkyv .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#cqicpjmziw .gt_column_spanner_outer:last-child {
+#gdkrwkvkyv .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#cqicpjmziw .gt_column_spanner {
+#gdkrwkvkyv .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
   vertical-align: bottom;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 0.5px;
+  padding-bottom: 0.5px;
   overflow-x: hidden;
   display: inline-block;
   width: 100%;
 }
 
-#cqicpjmziw .gt_spanner_row {
+#gdkrwkvkyv .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#cqicpjmziw .gt_group_heading {
-  padding-top: 8px;
-  padding-bottom: 8px;
+#gdkrwkvkyv .gt_group_heading {
+  padding-top: 0.8px;
+  padding-bottom: 0.8px;
   padding-left: 5px;
   padding-right: 5px;
-  color: #333333;
+  color: #8B1A1A;
   background-color: #FFFFFF;
   font-size: 100%;
   font-weight: initial;
@@ -428,9 +447,9 @@ window.Quarto = {
   text-align: left;
 }
 
-#cqicpjmziw .gt_empty_group_heading {
+#gdkrwkvkyv .gt_empty_group_heading {
   padding: 0.5px;
-  color: #333333;
+  color: #8B1A1A;
   background-color: #FFFFFF;
   font-size: 100%;
   font-weight: initial;
@@ -443,17 +462,17 @@ window.Quarto = {
   vertical-align: middle;
 }
 
-#cqicpjmziw .gt_from_md > :first-child {
+#gdkrwkvkyv .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#cqicpjmziw .gt_from_md > :last-child {
+#gdkrwkvkyv .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#cqicpjmziw .gt_row {
-  padding-top: 8px;
-  padding-bottom: 8px;
+#gdkrwkvkyv .gt_row {
+  padding-top: 0.8px;
+  padding-bottom: 0.8px;
   padding-left: 5px;
   padding-right: 5px;
   margin: 10px;
@@ -470,8 +489,8 @@ window.Quarto = {
   overflow-x: hidden;
 }
 
-#cqicpjmziw .gt_stub {
-  color: #333333;
+#gdkrwkvkyv .gt_stub {
+  color: #8B1A1A;
   background-color: #FFFFFF;
   font-size: 100%;
   font-weight: initial;
@@ -483,8 +502,8 @@ window.Quarto = {
   padding-right: 5px;
 }
 
-#cqicpjmziw .gt_stub_row_group {
-  color: #333333;
+#gdkrwkvkyv .gt_stub_row_group {
+  color: #8B1A1A;
   background-color: #FFFFFF;
   font-size: 100%;
   font-weight: initial;
@@ -497,36 +516,36 @@ window.Quarto = {
   vertical-align: top;
 }
 
-#cqicpjmziw .gt_row_group_first td {
+#gdkrwkvkyv .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#cqicpjmziw .gt_row_group_first th {
+#gdkrwkvkyv .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#cqicpjmziw .gt_summary_row {
-  color: #333333;
+#gdkrwkvkyv .gt_summary_row {
+  color: #8B1A1A;
   background-color: #FFFFFF;
   text-transform: inherit;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding-top: 0.8px;
+  padding-bottom: 0.8px;
   padding-left: 5px;
   padding-right: 5px;
 }
 
-#cqicpjmziw .gt_first_summary_row {
+#gdkrwkvkyv .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#cqicpjmziw .gt_first_summary_row.thick {
+#gdkrwkvkyv .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#cqicpjmziw .gt_last_summary_row {
-  padding-top: 8px;
-  padding-bottom: 8px;
+#gdkrwkvkyv .gt_last_summary_row {
+  padding-top: 0.8px;
+  padding-bottom: 0.8px;
   padding-left: 5px;
   padding-right: 5px;
   border-bottom-style: solid;
@@ -534,19 +553,19 @@ window.Quarto = {
   border-bottom-color: #D3D3D3;
 }
 
-#cqicpjmziw .gt_grand_summary_row {
-  color: #333333;
+#gdkrwkvkyv .gt_grand_summary_row {
+  color: #8B1A1A;
   background-color: #FFFFFF;
   text-transform: inherit;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding-top: 0.8px;
+  padding-bottom: 0.8px;
   padding-left: 5px;
   padding-right: 5px;
 }
 
-#cqicpjmziw .gt_first_grand_summary_row {
-  padding-top: 8px;
-  padding-bottom: 8px;
+#gdkrwkvkyv .gt_first_grand_summary_row {
+  padding-top: 0.8px;
+  padding-bottom: 0.8px;
   padding-left: 5px;
   padding-right: 5px;
   border-top-style: double;
@@ -554,9 +573,9 @@ window.Quarto = {
   border-top-color: #D3D3D3;
 }
 
-#cqicpjmziw .gt_last_grand_summary_row_top {
-  padding-top: 8px;
-  padding-bottom: 8px;
+#gdkrwkvkyv .gt_last_grand_summary_row_top {
+  padding-top: 0.8px;
+  padding-bottom: 0.8px;
   padding-left: 5px;
   padding-right: 5px;
   border-bottom-style: double;
@@ -564,11 +583,11 @@ window.Quarto = {
   border-bottom-color: #D3D3D3;
 }
 
-#cqicpjmziw .gt_striped {
+#gdkrwkvkyv .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#cqicpjmziw .gt_table_body {
+#gdkrwkvkyv .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -577,8 +596,8 @@ window.Quarto = {
   border-bottom-color: #8B1A1A;
 }
 
-#cqicpjmziw .gt_footnotes {
-  color: #333333;
+#gdkrwkvkyv .gt_footnotes {
+  color: #8B1A1A;
   background-color: #FFFFFF;
   border-bottom-style: none;
   border-bottom-width: 2px;
@@ -591,17 +610,17 @@ window.Quarto = {
   border-right-color: #D3D3D3;
 }
 
-#cqicpjmziw .gt_footnote {
+#gdkrwkvkyv .gt_footnote {
   margin: 0px;
   font-size: 90%;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding-top: 0.4px;
+  padding-bottom: 0.4px;
   padding-left: 5px;
   padding-right: 5px;
 }
 
-#cqicpjmziw .gt_sourcenotes {
-  color: #333333;
+#gdkrwkvkyv .gt_sourcenotes {
+  color: #8B1A1A;
   background-color: #FFFFFF;
   border-bottom-style: none;
   border-bottom-width: 2px;
@@ -614,80 +633,80 @@ window.Quarto = {
   border-right-color: #D3D3D3;
 }
 
-#cqicpjmziw .gt_sourcenote {
+#gdkrwkvkyv .gt_sourcenote {
   font-size: 90%;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding-top: 0.4px;
+  padding-bottom: 0.4px;
   padding-left: 5px;
   padding-right: 5px;
 }
 
-#cqicpjmziw .gt_left {
+#gdkrwkvkyv .gt_left {
   text-align: left;
 }
 
-#cqicpjmziw .gt_center {
+#gdkrwkvkyv .gt_center {
   text-align: center;
 }
 
-#cqicpjmziw .gt_right {
+#gdkrwkvkyv .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#cqicpjmziw .gt_font_normal {
+#gdkrwkvkyv .gt_font_normal {
   font-weight: normal;
 }
 
-#cqicpjmziw .gt_font_bold {
+#gdkrwkvkyv .gt_font_bold {
   font-weight: bold;
 }
 
-#cqicpjmziw .gt_font_italic {
+#gdkrwkvkyv .gt_font_italic {
   font-style: italic;
 }
 
-#cqicpjmziw .gt_super {
+#gdkrwkvkyv .gt_super {
   font-size: 65%;
 }
 
-#cqicpjmziw .gt_footnote_marks {
+#gdkrwkvkyv .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#cqicpjmziw .gt_asterisk {
+#gdkrwkvkyv .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#cqicpjmziw .gt_indent_1 {
+#gdkrwkvkyv .gt_indent_1 {
   text-indent: 5px;
 }
 
-#cqicpjmziw .gt_indent_2 {
+#gdkrwkvkyv .gt_indent_2 {
   text-indent: 10px;
 }
 
-#cqicpjmziw .gt_indent_3 {
+#gdkrwkvkyv .gt_indent_3 {
   text-indent: 15px;
 }
 
-#cqicpjmziw .gt_indent_4 {
+#gdkrwkvkyv .gt_indent_4 {
   text-indent: 20px;
 }
 
-#cqicpjmziw .gt_indent_5 {
+#gdkrwkvkyv .gt_indent_5 {
   text-indent: 25px;
 }
 
-#cqicpjmziw .katex-display {
+#gdkrwkvkyv .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#cqicpjmziw div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#gdkrwkvkyv div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
@@ -695,7 +714,7 @@ window.Quarto = {
 <table class="gt_table caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
 <thead>
 <tr class="gt_col_headings header">
-<th id="length" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col">Length (m)</th>
+<th id="length" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col">Guide Length (m)</th>
 <th id="actual_length" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Actual Length (m)</th>
 <th id="t20" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col"><span class="math inline">\(T_{20}(s)\)</span></th>
 <th id="t1" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col"><span class="math inline">\(T_{1}(s)\)</span></th>
@@ -779,6 +798,64 @@ window.Quarto = {
 </div>
 </div>
 </div>
+</section>
+<section id="experimental-set-up" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="experimental-set-up"><span class="header-section-number">1.1</span> Experimental Set-Up</h2>
+<p>The simple pendulum consists of a steel ball suspended by a thread wrapped around a clamped cork.</p>
+<div class="columns">
+<div class="column" style="width:45%;">
+<p><img src="images/pendulum.png" style="width:8cm;height:8.5cm"></p>
+</div><div class="column" style="width:5%;">
+
+</div><div class="column" style="width:40%;">
+<div class="justify">
+<p>The length of the thread can be varied. The length of the pendulum is the distance from the corner of cork where the thread is suspended to the centre of the ball. For each of six lengths, you will measure the periodic time (period) of the pendulum swing.</p>
+<p>One swing is achieved by holding the ball about 5o from centre, releasing it, and letting it swing across and back. You will time that swing by measuring the time for 20 swings and divide by 20.</p>
+</div>
+</div>
+</div>
+<p>• Fix the pendulum distance from the corner of the cork to the centre of the ball at about 0.2m. Measure this length, <span class="math inline">\(l\)</span>, accurate to 1mm using a metre stick. and note in the table.</p>
+<p>• Measure the time for 20 COMPLETE swings of the pendulum. Record your results in the table.</p>
+<p>• Repeat this for the six lengths of pendulum from 0.2 m to 1.2m.</p>
+<p>• When the time for 20 swings has been recorded for all lengths, divide those values by 20 to determine the periodic time (period). Then, square those values to determine the period squared, <span class="math inline">\(T^2\)</span>.</p>
+</section>
+<section id="analysis" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="analysis"><span class="header-section-number">1.2</span> Analysis</h2>
+<div class="columns">
+<div class="column" style="width:45%;">
+<p><img src="images/pendulum-graph.png" style="width:8cm;height:8.5cm"></p>
+</div><div class="column" style="width:5%;">
+
+</div><div class="column" style="width:40%;">
+<div class="justify">
+<p>Plot a graph of <span class="math inline">\(T^2\)</span> against <span class="math inline">\(l\)</span> (<span class="math inline">\(T^2\)</span> on the y-axis) by plotting each of the six <span class="math inline">\(T^2\)</span> values versus their corresponding pendulum lengths, <span class="math inline">\(l\)</span>. Draw a best fit line though the points and determine the slope of that “best fit line”.</p>
+<p>Calculate the slope by picking two points on the line <span class="math inline">\((x_1,y_1)\)</span> close to the origin and <span class="math inline">\((x_2,y_2)\)</span> far from the origin. Place those x and y values into the equation to calculate the slope: <span class="math inline">\(slope \; = \; \frac{y_2-y_1}{x_2-x_1}\)</span></p>
+</div>
+</div>
+</div>
+</section>
+<section id="calculation-of-the-acceleration-due-to-gravity-g" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="calculation-of-the-acceleration-due-to-gravity-g"><span class="header-section-number">1.3</span> Calculation of the acceleration due to gravity, g</h2>
+<p>The equation relating the periodic time T with the length l can be shown to be:</p>
+<p><span class="math inline">\(T \; = \; 2 \pi \sqrt{\frac{l}{g}}\)</span></p>
+<p>where g is the acceleration due to gravity, T is measured in seconds and l in metres.</p>
+<p>Squaring and rearranging gives:</p>
+<p><span class="math inline">\(T^2\; = \; \frac{4\pi^2}{g}l\)</span></p>
+<p>This means that the slope of our <span class="math inline">\(T^2\)</span> vs <span class="math inline">\(l\)</span> graph must be:</p>
+<p><span class="math inline">\(slope \; = \; \frac{4\pi^2}{g} \implies g \; = \; \frac{4\pi^2}{slope}\)</span></p>
+<p>Use this to calculate a value for g in <span class="math inline">\(m s^{-2}\)</span>.</p>
+</section>
+<section id="discussion" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="discussion"><span class="header-section-number">1.4</span> Discussion</h2>
+<p>There are four parts to the discussion section:</p>
+<p>• the main result – repeat the value of g obtained from the end of your calculations. Even though it is written elsewhere in your report, it’s important to repeat it here.</p>
+<p>• the text book value – the true value of g known from many previous experiments</p>
+<p>• inaccuracies – your value for g won’t be exactly the same as the text book answer nor will your graph be a perfect straight line. We need to try and account for these discrepancies. Pick one feature of the experiment and investigate whether it is an issue in the accuracy of for your results. for example, for one length of pendulum, if you repeat the measurement of time for 20 swings, will you get the same answer as when doing the experiment? And for that length of pendulum, will you get same length accurate to 1mm if you measure its length a second time? You’ll need to examine the results you have already as well as gather new evidence by taking further measurements. Your idea might well be a key issue in the quality of the results we obtain, or it might not be and you are thus ruling it out. Both are valid outcomes of this errors analysis.</p>
+<p>• improvements - based on the inaccuracy section above, can you suggest a way in which we could make our experiment better</p>
+</section>
+<section id="apparatus" class="level2" data-number="1.5">
+<h2 data-number="1.5" class="anchored" data-anchor-id="apparatus"><span class="header-section-number">1.5</span> Apparatus</h2>
+<p>Retort stand, cork, thread, bobbin, metre stick, centisecond timer</p>
 
 
 </section>
