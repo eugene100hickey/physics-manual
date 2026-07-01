@@ -110,7 +110,7 @@ The velocity of the ball bearing is the distance between the bands in meters div
 
 ::::::: columns
 ::: {.column width="45%"}
-![](images/graph.png){height="9cm" width="8cm"}
+![](images/viscosity-graph.png){height="9cm" width="8cm"}
 :::
 
 ::: {.column width="5%"}
