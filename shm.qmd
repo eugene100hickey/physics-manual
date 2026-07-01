@@ -9,7 +9,7 @@ format:
 .justify {
   text-align: justify !important
 }
-``` 
+```
 
 # Simple Harmonic Motion of a Spring
 
@@ -17,15 +17,15 @@ As we saw in the previous experiment, every spring has a *stiffness* called its 
 
 Take down the following in to your laboratory copy.
 
-### [Title: Simple Harmonic Motion of a Spring]{style="font-family:Kalam;color:#8b1a1a;"}{.unnumbered}
+### [Title: Simple Harmonic Motion of a Spring]{style="font-family:Kalam;color:#8b1a1a;"} {.unnumbered}
 
-### [Name:]{style="font-family:Kalam;color:#8b1a1a;"}{.unnumbered}
+### [Name:]{style="font-family:Kalam;color:#8b1a1a;"} {.unnumbered}
 
-### [Date:]{style="font-family:Kalam;color:#8b1a1a;"}{.unnumbered}
+### [Date:]{style="font-family:Kalam;color:#8b1a1a;"} {.unnumbered}
 
-### [Partner:]{style="font-family:Kalam;color:#8b1a1a;"}{.unnumbered}
+### [Partner:]{style="font-family:Kalam;color:#8b1a1a;"} {.unnumbered}
 
-### [Data:]{style="font-family:Kalam;color:#8b1a1a;"}{.unnumbered}
+### [Data:]{style="font-family:Kalam;color:#8b1a1a;"} {.unnumbered}
 
 ```{r}
 #| warning: false
@@ -82,7 +82,7 @@ z |>
 
 ## Experimental Set-Up
 
-::::: columns
+::::::: columns
 ::: {.column width="45%"}
 ![](images/shm-diagram3.png){height="8.5cm" width="8cm"}
 :::
@@ -90,14 +90,14 @@ z |>
 ::: {.column width="5%"}
 :::
 
-::: {.column width="40%"}
-::: {.justify}
+:::: {.column width="40%"}
+::: justify
 The apparatus will be set-up something like the sketch on the left. This is the first point; the weight holder and two 100g weights giving a total load of 0.300 kg.
 
 Pull the weights down slightly and release, the weights will bounce rapidly. With the centisecond timer, record the time for 20 bounces. Divide this by 20 to get the time for one bounce, and then square this value to get $T^2$. Pay special attention to significant figures
 :::
-:::
-:::::
+::::
+:::::::
 
 - you get best results for small displacements, only pull the weights down the smallest amount you can.
 
@@ -109,7 +109,7 @@ Pull the weights down slightly and release, the weights will bounce rapidly. Wit
 
 ## Analysis
 
-::::: columns
+::::::: columns
 ::: {.column width="45%"}
 ![](images/graph.png){height="8.5cm" width="8cm"}
 :::
@@ -117,14 +117,14 @@ Pull the weights down slightly and release, the weights will bounce rapidly. Wit
 ::: {.column width="5%"}
 :::
 
-::: {.column width="40%"}
-::: {.justify}
+:::: {.column width="40%"}
+::: justify
 Draw the graph as shown on the left here, with $T^2(s^2)$ on the y-axis and $m(kg)$ on the x axis. Don't be surprised if there is a reasonable amount of scatter in the points. Draw a best fit line nested through the points. Make sure the graph has a (long) descriptive title in the form *What's on y-axis vs What's on x axis and the context*.
 
 Calculate the slope of the best fit line using the formula $slope \; = \; \frac{y_2-y_1}{x_2-x_1}$
 :::
-:::
-:::::
+::::
+:::::::
 
 ## Calculation of the Spring Constant, k
 

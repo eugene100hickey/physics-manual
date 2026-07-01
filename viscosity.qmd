@@ -13,7 +13,7 @@ format:
 
 # Measurement of the Viscosity of a Liquid
 
-We measure the viscosity of a liquid (glycerol) by timing how ball bearings of different radius fall in the liquid. We then use an equation based on Stokes law to draw a graph of velocity as a function of radius squared. 
+We measure the viscosity of a liquid (glycerol) by timing how ball bearings of different radius fall in the liquid. We then use an equation based on Stokes law to draw a graph of velocity as a function of radius squared.
 
 Take down the following in to your laboratory copy.
 
@@ -37,8 +37,8 @@ Take down the following in to your laboratory copy.
 library(tidyverse)
 library(gt)
 
-z <- tibble(diam = c(5.0, 6.0, 7.0, 9.0, 10.0, 12.0) |> signif(digits = 1), 
-            rad = rep("", 6), 
+z <- tibble(diam = c(5.0, 6.0, 7.0, 9.0, 10.0, 12.0) |> signif(digits = 2), 
+            rad = (diam / 2)^2 * 10e-6, 
             time = rep("", 6), 
             velocity = rep("", 6)
              )
@@ -51,6 +51,8 @@ z |>
              velocity = md("Velocity (m/s)")) |> 
   cols_width(everything() ~ px(120)) |> 
   fmt_number(columns = diam,
+             decimals = 1) |> 
+  fmt_engineering(columns = rad,
              decimals = 1) |> 
   cols_align(columns = everything(),
              align = "center") |> 
@@ -92,9 +94,8 @@ z |>
 
 :::: {.column width="40%"}
 ::: justify
- The set up consists of a glass cylinder filled with glycerol.  There are two elastic bands around the cylinder that can be varied.  The ball bearings are covered in the liquid and gently let drop in the liquid.  A timer is used to measure the time for the ball bearing to fall from one band to the other. Each ball bearing is dropped and the time taken.  The table above is used to fill in the results.  
-The velocity of the ball bearing is the distance between the bands in meters divided by the time in seconds.  That is $v \; = \; \frac{d}{t}$  . 
-
+The set up consists of a glass cylinder filled with glycerol. There are two elastic bands around the cylinder that can be varied. The ball bearings are covered in the liquid and gently let drop in the liquid. A timer is used to measure the time for the ball bearing to fall from one band to the other. Each ball bearing is dropped and the time taken. The table above is used to fill in the results.\
+The velocity of the ball bearing is the distance between the bands in meters divided by the time in seconds. That is $v \; = \; \frac{d}{t}$ .
 :::
 ::::
 :::::::
@@ -126,18 +127,13 @@ Calculate the slope of the best fit line using the formula $slope \; = \; \frac{
 
 ## Calculation of the Viscosity
 
-
 The equation used to calculate the viscosity is given by
 
-$V=\frac{2}{9} \frac{gr^2\left(\rho _o-\rho_L\right)\ }{\mathcal{n}}$
- Where $\eta$ is the viscosity of the liquid.  The units of viscosity are Pas
+$V=\frac{2}{9} \frac{gr^2\left(\rho _o-\rho_L\right)\ }{\mathcal{n}}$ Where $\eta$ is the viscosity of the liquid. The units of viscosity are Pas
 
-g is the acceleration due to gravity, $\rho_o$ and $\rho_L$ are the densities of the ball bearings and the liquid respectively.  For the case of steel ball bearings and glycerol the densities are o= 7800 kg/m3 and L= 1800 kg/m3
-A graph of V as a function of r2 is a straight line of slope 
+g is the acceleration due to gravity, $\rho_o$ and $\rho_L$ are the densities of the ball bearings and the liquid respectively. For the case of steel ball bearings and glycerol the densities are o= 7800 kg/m3 and L= 1800 kg/m3 A graph of V as a function of r2 is a straight line of slope
 
-$Slope \; = \; \frac{2}{9} \frac{g\left(\rho _o-\rho_L\right)\ }{\mathcal{n}}$
-$\implies \eta \; = \; \frac{2}{9} \frac{g\left(\rho _o-\rho_L\right)\ }{slope}$
-
+$Slope \; = \; \frac{2}{9} \frac{g\left(\rho _o-\rho_L\right)\ }{\mathcal{n}}$ $\implies \eta \; = \; \frac{2}{9} \frac{g\left(\rho _o-\rho_L\right)\ }{slope}$
 
 ## Discussion
 
@@ -153,4 +149,4 @@ There are four parts to the discussion section:
 
 ## Apparatus
 
-Graduated cylinder filled to at least 70% with glycerol. Rubber bands ~ 1cm below the top of the liquid and ~2cm above the base of the cylinder. Centisecond timer. Meter stick. Magnetised steel ball bearings of sizes given in the table above.
+Graduated cylinder filled to at least 70% with glycerol. Rubber bands \~ 1cm below the top of the liquid and \~2cm above the base of the cylinder. Centisecond timer. Meter stick. Magnetised steel ball bearings of sizes given in the table above.
