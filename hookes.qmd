@@ -82,7 +82,7 @@ z |>
 
 ::::::: columns
 ::: {.column width="45%"}
-![](images/shm-diagram3.png){height="8.5cm" width="8cm"}
+![](images/hookes.png){height="10cm" width="8cm"}
 :::
 
 ::: {.column width="5%"}
@@ -111,7 +111,7 @@ Now add an extra 100g weight and measure the new position. The _Extension_ value
 
 ::::::: columns
 ::: {.column width="45%"}
-![](images/graph.png){height="8.5cm" width="8cm"}
+![](images/hookes-graph.png){height="8.5cm" width="8cm"}
 :::
 
 ::: {.column width="5%"}
