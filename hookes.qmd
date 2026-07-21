@@ -15,7 +15,7 @@ format:
 
 Every spring has a *stiffness* called its ***Spring Constant***, $k$, measured in Newtons per metre. Stiff, rigid springs have high values of $k$, loose, floppy springs have low values of $k$. We're going to measure $k$ by applying weights to a spring and seeing by how much it gets longer.
 
-Take down the following in to your laboratory copy.
+Take down the following in to your laboratory copy (but not the text in [blue]{style="font-family:Kalam;color:#45829B;"}).
 
 ### [Title: Hooke's Law Extension of a Spring]{style="font-family:Kalam;color:#8b1a1a;"} {.unnumbered}
 
@@ -38,8 +38,8 @@ library(tidyverse)
 library(gt)
 
 z <- tibble(mass = seq(0.00, 0.700, by = 0.100) |> signif(digits = 4), 
-            position = rep("", 8), 
-            extension = c("0.000", rep("", 7))
+            position = c("0.641", "0.628", "0.615", rep("", 5)), 
+            extension = c("0.000", "0.013", "0.026", rep("", 5))
              )
 
 z |> 
@@ -73,6 +73,21 @@ z |>
     container.overflow.x = FALSE, # Disables horizontal scroll
     container.overflow.y = FALSE  # Disables vertical scroll
   ) |> 
+  tab_style(cell_text(color = "#45829B"),
+            locations = cells_body(
+              columns = position,
+              rows = position != ""
+            )) |> 
+    tab_style(cell_text(color = "#45829B"),
+            locations = cells_body(
+              columns = extension,
+              rows = extension != ""
+            )) |> 
+      tab_style(cell_text(color = "firebrick4"),
+            locations = cells_body(
+              columns = extension,
+              rows = extension == "0.000"
+            )) |> 
   opt_table_font(size = 17, font = google_font("Kalam"), color = "firebrick4") |> 
   opt_vertical_padding(scale = 0.1)
 
@@ -92,18 +107,18 @@ z |>
 ::: justify
 The apparatus will be set-up something like the sketch on the left. This is the first point; the weight holder and two 100g weights giving a total load of 0.300 kg.
 
-Measure the position of the bottom of the weight holder on the vertical metre stick. This is the _Position_ value for the table. The _Extension_ value will be 0.000m
+Measure the position of the bottom of the weight holder on the vertical metre stick. This is the *Position* value for the table. The *Extension* value will be 0.000m
 
-Now add an extra 100g weight and measure the new position. The _Extension_ value wil now be the abolute difference between this position and the position before we added the extra mass.
+Now add an extra 100g weight and measure the new position. The *Extension* value wil now be the abolute difference between this position and the position before we added the extra mass.
 :::
 ::::
 :::::::
 
-- the values in the table are for _Extra Mass Added_ on top of the original 0.300kg. So the weight holder plus $6 \times 100g$ would be an extra mass added of $0.700kg - 0.300kg = 0.400kg$.
+- the values in the table are for *Extra Mass Added* on top of the original 0.300kg. So the weight holder plus $6 \times 100g$ would be an extra mass added of $0.700kg - 0.300kg = 0.400kg$.
 
 - the extension values are always positive, it's the absolute difference that matters.
 
-- for extension, it is always the difference between position and the _very first_ position measurement. So the extension values should always be getting bigger as you descend the table.
+- for extension, it is always the difference between position and the *very first* position measurement. So the extension values should always be getting bigger as you descend the table.
 
 - When filling out your table, pay special attention to decimal places. The number of decimal places for $Position$ and $Extension$ should be $3$, we measure to the nearest mm.
 
@@ -119,7 +134,7 @@ Now add an extra 100g weight and measure the new position. The _Extension_ value
 
 :::: {.column width="40%"}
 ::: justify
-Draw the graph as shown on the left here, with $m(kg)$ on the y-axis and $eextension(m)$ on the x axis. Draw a best fit line nested through the points. Make sure the graph has a (long) descriptive title in the form *What's on y-axis vs What's on x axis and the context*.
+Draw the graph as shown on the left here, with $m(kg)$ on the y-axis and $extension(m)$ on the x axis. Draw a best fit line nested through the points. Make sure the graph has a (long) descriptive title in the form *What's on y-axis vs What's on x axis and the context*.
 
 Calculate the slope of the best fit line using the formula $slope \; = \; \frac{y_2-y_1}{x_2-x_1}$
 :::

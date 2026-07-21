@@ -1,42 +1,62 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "physics-manual",
+    "objectID": "shm.html",
+    "href": "shm.html",
+    "title": "4  Simple Harmonic Motion of a Spring",
     "section": "",
-    "text": "Preface",
+    "text": "Title: Simple Harmonic Motion of a Spring\nAs we saw in the previous experiment, every spring has a stiffness called its Spring Constant, \\(k\\), measured in Newtons per metre. Stiff, rigid springs have high values of \\(k\\), loose, floppy springs have low values of \\(k\\). We’re going to measure \\(k\\) by a totally separate mechanism and compare the new value we get to the previous result.\nTake down the following in to your laboratory copy.",
     "crumbs": [
-      "Preface"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Simple Harmonic Motion of a Spring</span>"
     ]
   },
   {
-    "objectID": "index.html#rules-of-the-laboratory",
-    "href": "index.html#rules-of-the-laboratory",
-    "title": "physics-manual",
-    "section": "RULES OF THE LABORATORY",
-    "text": "RULES OF THE LABORATORY\nLaboratory sessions are 2 hours long. The student is expected to spend all this time in the laboratory, either performing the experiment or writing the report. Students must work in pairs when taking measurements (the analysis should be done separately as a check). No coats or bags are allowed in the laboratory. No eating or drinking is allowed.",
+    "objectID": "shm.html#experimental-set-up",
+    "href": "shm.html#experimental-set-up",
+    "title": "4  Simple Harmonic Motion of a Spring",
+    "section": "4.1 Experimental Set-Up",
+    "text": "4.1 Experimental Set-Up\n\n\n\n\n\n\n\nThe apparatus will be set-up something like the sketch on the left. This is the first point; the weight holder and two 100g weights giving a total load of 0.300 kg.\nPull the weights down slightly and release, the weights will bounce rapidly. With the centisecond timer, record the time for 20 bounces. Divide this by 20 to get the time for one bounce, and then square this value to get \\(T^2\\). Pay special attention to significant figures\n\n\n\n\nyou get best results for small displacements, only pull the weights down the smallest amount you can.\nOne tick happens every time the weights hit the bottom of their travel, so down, down, down rather than up, down, up, down.\n0.300 kg is the weight holder and 2 extra weights\nWhen filling out your table, pay special attention to significant figures. The number of significant figures for \\(T_{20}\\) should be the same as for \\(T_1\\) and \\(T^2\\).",
     "crumbs": [
-      "Preface"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Simple Harmonic Motion of a Spring</span>"
     ]
   },
   {
-    "objectID": "index.html#laboratory-registers",
-    "href": "index.html#laboratory-registers",
-    "title": "physics-manual",
-    "section": "LABORATORY REGISTERS",
-    "text": "LABORATORY REGISTERS\nThe laboratory register provides a record of each student’s attendance and lists the experiments he/she has successfully completed. An 80% attendance is mandatory. If a student is absent due to illness a medical certificate must be submitted to the lecturer in charge. Students will be marked in on the attendance register when the experiment is complete and the equipment tidied.",
+    "objectID": "shm.html#analysis",
+    "href": "shm.html#analysis",
+    "title": "4  Simple Harmonic Motion of a Spring",
+    "section": "4.2 Analysis",
+    "text": "4.2 Analysis\n\n\n\n\n\n\n\nDraw the graph as shown on the left here, with \\(T^2(s^2)\\) on the y-axis and \\(m(kg)\\) on the x axis. Don’t be surprised if there is a reasonable amount of scatter in the points. Draw a best fit line nested through the points. Make sure the graph has a (long) descriptive title in the form What’s on y-axis vs What’s on x axis and the context.\nCalculate the slope of the best fit line using the formula \\(slope \\; = \\; \\frac{y_2-y_1}{x_2-x_1}\\)",
     "crumbs": [
-      "Preface"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Simple Harmonic Motion of a Spring</span>"
     ]
   },
   {
-    "objectID": "index.html#apparatus",
-    "href": "index.html#apparatus",
-    "title": "physics-manual",
-    "section": "APPARATUS:",
-    "text": "APPARATUS:\nThe apparatus will be found on the benches in the laboratory. Some items must be collected (and signed for) from the lecturer supervising the lab. These items must be returned when the experiment is complete and signed off.\nIf equipment is thought to be faulty consult the lecturer in charge. Apparatus should NEVER be moved from one bench to another. When the experiment is complete the equipment must be tidied/cleaned and left as it was found at the start.",
+    "objectID": "shm.html#calculation-of-the-spring-constant-k",
+    "href": "shm.html#calculation-of-the-spring-constant-k",
+    "title": "4  Simple Harmonic Motion of a Spring",
+    "section": "4.3 Calculation of the Spring Constant, k",
+    "text": "4.3 Calculation of the Spring Constant, k\nThe equation governing the simple harmonic motion of the spring is:\n\\(T \\; = \\; 2 \\pi \\sqrt{\\frac{k}{m}}\\)\nWhere \\(T\\) is the period we measured for each mass, \\(m\\), and \\(k\\) is the spring constant that we’re setting out to measure.\nSquaring and rearranging gives:\n\\(T^2\\; = \\; \\frac{4\\pi^2}{k} \\times m\\)\nThis means the slope of our \\(T^2 \\; vs \\; m\\) graph must be:\n\\(slope \\; = \\; \\frac{4\\pi^2}{k}\\)\n\\(\\implies\\; k \\; = \\; \\frac{4\\pi^2}{slope}\\)\nUse this to calculate a value for k in N/m",
     "crumbs": [
-      "Preface"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Simple Harmonic Motion of a Spring</span>"
+    ]
+  },
+  {
+    "objectID": "shm.html#discussion",
+    "href": "shm.html#discussion",
+    "title": "4  Simple Harmonic Motion of a Spring",
+    "section": "4.4 Discussion",
+    "text": "4.4 Discussion\nThere are four parts to the discussion section:\n\nthe main results - repeat the value of k obtained from the end of your calculations. Even though it is written elsewhere in your report, it’s important to repeat it here\nthe text book (manufacturers) value - the springs used have a rated k value of 100 N/m\ninaccuracies - your value for \\(k\\) won’t be exactly the same as the manufacturers, nor will your graph be a perfect straight line. We need to try and account for these discrepancies. Pick one feature of the experiment and investigate whether it is an issue in the accuracy of your results. For example, are the weights all exactly 100g, does the amplitude of the spring oscillations matter, is there signs of anharmonic behaviour at heavier masses, or is 20 bounces enough. You’ll need to examine the results you have already as well as gathering additional evidence by taking further measurements. Your idea might well be a key issue in the quality of the results we obtain, or it might not be and you are thus ruling it out. Both are valid outcomes of this error analysis.\nimprovements - based on the inaccuracy section above, can you suggest a way in which we could make our experiment better?",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Simple Harmonic Motion of a Spring</span>"
+    ]
+  },
+  {
+    "objectID": "shm.html#apparatus",
+    "href": "shm.html#apparatus",
+    "title": "4  Simple Harmonic Motion of a Spring",
+    "section": "4.5 Apparatus",
+    "text": "4.5 Apparatus\nRetort stand, weight holder, 9 \\(\\times\\) 100g weights, centisecond timer, 100 N/m spring.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Simple Harmonic Motion of a Spring</span>"
     ]
   },
   {
@@ -164,7 +184,7 @@
     "href": "hookes.html",
     "title": "3  Hooke’s Law Extension of a Spring",
     "section": "",
-    "text": "Title: Hooke’s Law Extension of a Spring\nEvery spring has a stiffness called its Spring Constant, \\(k\\), measured in Newtons per metre. Stiff, rigid springs have high values of \\(k\\), loose, floppy springs have low values of \\(k\\). We’re going to measure \\(k\\) by applying weights to a spring and seeing by how much it gets longer.\nTake down the following in to your laboratory copy.",
+    "text": "Title: Hooke’s Law Extension of a Spring\nEvery spring has a stiffness called its Spring Constant, \\(k\\), measured in Newtons per metre. Stiff, rigid springs have high values of \\(k\\), loose, floppy springs have low values of \\(k\\). We’re going to measure \\(k\\) by applying weights to a spring and seeing by how much it gets longer.\nTake down the following in to your laboratory copy (but not the text in blue).",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Hooke's Law Extension of a Spring</span>"
     ]
@@ -184,7 +204,7 @@
     "href": "hookes.html#analysis",
     "title": "3  Hooke’s Law Extension of a Spring",
     "section": "3.2 Analysis",
-    "text": "3.2 Analysis\n\n\n\n\n\n\n\nDraw the graph as shown on the left here, with \\(m(kg)\\) on the y-axis and \\(eextension(m)\\) on the x axis. Draw a best fit line nested through the points. Make sure the graph has a (long) descriptive title in the form What’s on y-axis vs What’s on x axis and the context.\nCalculate the slope of the best fit line using the formula \\(slope \\; = \\; \\frac{y_2-y_1}{x_2-x_1}\\)",
+    "text": "3.2 Analysis\n\n\n\n\n\n\n\nDraw the graph as shown on the left here, with \\(m(kg)\\) on the y-axis and \\(extension(m)\\) on the x axis. Draw a best fit line nested through the points. Make sure the graph has a (long) descriptive title in the form What’s on y-axis vs What’s on x axis and the context.\nCalculate the slope of the best fit line using the formula \\(slope \\; = \\; \\frac{y_2-y_1}{x_2-x_1}\\)",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Hooke's Law Extension of a Spring</span>"
     ]
@@ -217,66 +237,6 @@
     "text": "3.5 Apparatus\nRetort stand, weight holder, 9 \\(\\times\\) 100g weights, metre stick, 100 N/m spring. Make sure that the bottom of the weight holder is just touching the scale on the metre stick so measuring it’s position can be done accurately.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Hooke's Law Extension of a Spring</span>"
-    ]
-  },
-  {
-    "objectID": "shm.html",
-    "href": "shm.html",
-    "title": "4  Simple Harmonic Motion of a Spring",
-    "section": "",
-    "text": "Title: Simple Harmonic Motion of a Spring\nAs we saw in the previous experiment, every spring has a stiffness called its Spring Constant, \\(k\\), measured in Newtons per metre. Stiff, rigid springs have high values of \\(k\\), loose, floppy springs have low values of \\(k\\). We’re going to measure \\(k\\) by a totally separate mechanism and compare the new value we get to the previous result.\nTake down the following in to your laboratory copy.",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Simple Harmonic Motion of a Spring</span>"
-    ]
-  },
-  {
-    "objectID": "shm.html#experimental-set-up",
-    "href": "shm.html#experimental-set-up",
-    "title": "4  Simple Harmonic Motion of a Spring",
-    "section": "4.1 Experimental Set-Up",
-    "text": "4.1 Experimental Set-Up\n\n\n\n\n\n\n\nThe apparatus will be set-up something like the sketch on the left. This is the first point; the weight holder and two 100g weights giving a total load of 0.300 kg.\nPull the weights down slightly and release, the weights will bounce rapidly. With the centisecond timer, record the time for 20 bounces. Divide this by 20 to get the time for one bounce, and then square this value to get \\(T^2\\). Pay special attention to significant figures\n\n\n\n\nyou get best results for small displacements, only pull the weights down the smallest amount you can.\nOne tick happens every time the weights hit the bottom of their travel, so down, down, down rather than up, down, up, down.\n0.300 kg is the weight holder and 2 extra weights\nWhen filling out your table, pay special attention to significant figures. The number of significant figures for \\(T_{20}\\) should be the same as for \\(T_1\\) and \\(T^2\\).",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Simple Harmonic Motion of a Spring</span>"
-    ]
-  },
-  {
-    "objectID": "shm.html#analysis",
-    "href": "shm.html#analysis",
-    "title": "4  Simple Harmonic Motion of a Spring",
-    "section": "4.2 Analysis",
-    "text": "4.2 Analysis\n\n\n\n\n\n\n\nDraw the graph as shown on the left here, with \\(T^2(s^2)\\) on the y-axis and \\(m(kg)\\) on the x axis. Don’t be surprised if there is a reasonable amount of scatter in the points. Draw a best fit line nested through the points. Make sure the graph has a (long) descriptive title in the form What’s on y-axis vs What’s on x axis and the context.\nCalculate the slope of the best fit line using the formula \\(slope \\; = \\; \\frac{y_2-y_1}{x_2-x_1}\\)",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Simple Harmonic Motion of a Spring</span>"
-    ]
-  },
-  {
-    "objectID": "shm.html#calculation-of-the-spring-constant-k",
-    "href": "shm.html#calculation-of-the-spring-constant-k",
-    "title": "4  Simple Harmonic Motion of a Spring",
-    "section": "4.3 Calculation of the Spring Constant, k",
-    "text": "4.3 Calculation of the Spring Constant, k\nThe equation governing the simple harmonic motion of the spring is:\n\\(T \\; = \\; 2 \\pi \\sqrt{\\frac{k}{m}}\\)\nWhere \\(T\\) is the period we measured for each mass, \\(m\\), and \\(k\\) is the spring constant that we’re setting out to measure.\nSquaring and rearranging gives:\n\\(T^2\\; = \\; \\frac{4\\pi^2}{k} \\times m\\)\nThis means the slope of our \\(T^2 \\; vs \\; m\\) graph must be:\n\\(slope \\; = \\; \\frac{4\\pi^2}{k}\\)\n\\(\\implies\\; k \\; = \\; \\frac{4\\pi^2}{slope}\\)\nUse this to calculate a value for k in N/m",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Simple Harmonic Motion of a Spring</span>"
-    ]
-  },
-  {
-    "objectID": "shm.html#discussion",
-    "href": "shm.html#discussion",
-    "title": "4  Simple Harmonic Motion of a Spring",
-    "section": "4.4 Discussion",
-    "text": "4.4 Discussion\nThere are four parts to the discussion section:\n\nthe main results - repeat the value of k obtained from the end of your calculations. Even though it is written elsewhere in your report, it’s important to repeat it here\nthe text book (manufacturers) value - the springs used have a rated k value of 100 N/m\ninaccuracies - your value for \\(k\\) won’t be exactly the same as the manufacturers, nor will your graph be a perfect straight line. We need to try and account for these discrepancies. Pick one feature of the experiment and investigate whether it is an issue in the accuracy of your results. For example, are the weights all exactly 100g, does the amplitude of the spring oscillations matter, is there signs of anharmonic behaviour at heavier masses, or is 20 bounces enough. You’ll need to examine the results you have already as well as gathering additional evidence by taking further measurements. Your idea might well be a key issue in the quality of the results we obtain, or it might not be and you are thus ruling it out. Both are valid outcomes of this error analysis.\nimprovements - based on the inaccuracy section above, can you suggest a way in which we could make our experiment better?",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Simple Harmonic Motion of a Spring</span>"
-    ]
-  },
-  {
-    "objectID": "shm.html#apparatus",
-    "href": "shm.html#apparatus",
-    "title": "4  Simple Harmonic Motion of a Spring",
-    "section": "4.5 Apparatus",
-    "text": "4.5 Apparatus\nRetort stand, weight holder, 9 \\(\\times\\) 100g weights, centisecond timer, 100 N/m spring.",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Simple Harmonic Motion of a Spring</span>"
     ]
   },
   {
@@ -507,6 +467,76 @@
     "text": "8.5 Apparatus\nLight source, 20cm lens, screen, two metre sticks, retort stand, finder pin, object pin.",
     "crumbs": [
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Focal Length of a Convex Lens</span>"
+    ]
+  },
+  {
+    "objectID": "laser.html",
+    "href": "laser.html",
+    "title": "9  Laser Diffraction",
+    "section": "",
+    "text": "Diffraction\nTo measure the size of objects down to 1 mm we can use a meter stick. For smaller objects, down to \\(10 \\mu m\\), we can use a microscope. But for smaller again we need a new method that we’ll introduce in this experiment. It relies on two optical phenomena; diffraction and interference.\nWhen waves pass through a narrow aperture, they fan out on the far side, like water waves passing through a harbour opening.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Laser Diffraction</span>"
+    ]
+  },
+  {
+    "objectID": "laser.html#experimental-set-up",
+    "href": "laser.html#experimental-set-up",
+    "title": "9  Laser Diffraction",
+    "section": "9.1 Experimental Set-Up",
+    "text": "9.1 Experimental Set-Up\n\nSet up the apparatus something like the sketch above. Mark out the gaps in the diffraction pattern with the blue pen provided, as well as a mark in the very centre of the pattern. Count the chunks between markss, this is \\(m\\). Measure the distances D and \\(x_m\\) and note them in your table.\nUse the equation \\(d \\; = \\; \\frac{m \\lambda x_m}{D}\\) to calculate d. Repeat this for the four slits, A, B, C, and D as well as the hair sample. For the HeNe laser, the wavelength of light is \\(\\lambda \\; = \\; 6.33 \\times 10^{-4}mm\\).\n\nWe measure \\(D\\) and \\(x_m\\) to the nearest mm.\nWhen filling out your table, pay special attention to significant figures. The number of significant figures for \\(d\\) is dictated by the smallest number of significant figures in either \\(D\\) or \\(x_m\\)",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Laser Diffraction</span>"
+    ]
+  },
+  {
+    "objectID": "laser.html#analysis",
+    "href": "laser.html#analysis",
+    "title": "9  Laser Diffraction",
+    "section": "9.2 Analysis",
+    "text": "9.2 Analysis\n\n\n\n\n\n\n\nDraw the graph as shown on the left here, with \\(m(kg)\\) on the y-axis and \\(extension(m)\\) on the x axis. Draw a best fit line nested through the points. Make sure the graph has a (long) descriptive title in the form What’s on y-axis vs What’s on x axis and the context.\nCalculate the slope of the best fit line using the formula \\(slope \\; = \\; \\frac{y_2-y_1}{x_2-x_1}\\)",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Laser Diffraction</span>"
+    ]
+  },
+  {
+    "objectID": "laser.html#calculation-of-the-spring-constant-k",
+    "href": "laser.html#calculation-of-the-spring-constant-k",
+    "title": "9  Laser Diffraction",
+    "section": "9.3 Calculation of the Spring Constant, k",
+    "text": "9.3 Calculation of the Spring Constant, k\nHooke’s Law states that the spring extension is directly proportional to the force making the spring stretch (in this case the weights, the masses times gravity)\n\\(F \\; = \\; k \\times (extension)\\) where \\(k\\) is the spring constant.\n\\(\\implies \\; W \\; = mg \\; = \\; k \\times (extension)\\)\n\\(\\implies \\; m \\; = \\; \\frac{k}{g} \\times (extension)\\)\nso the slope of our graph will be \\(\\frac{k}{g}\\), or \\(k \\; = \\; g \\times slope\\).\nWe use this last equation to calculate \\(k\\) in N/m.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Laser Diffraction</span>"
+    ]
+  },
+  {
+    "objectID": "laser.html#discussion",
+    "href": "laser.html#discussion",
+    "title": "9  Laser Diffraction",
+    "section": "9.3 Discussion",
+    "text": "9.3 Discussion\nUse the table below to capture your main results and the textbook answers.\n\n\n\n\n\n\n\n\nSlit\nLaser d(mm)\nμscope d(mm)\nManufacturer d(mm)\n\n\n\n\nA\n\n\n0.02\n\n\nB\n\n\n0.04\n\n\nC\n\n\n0.08\n\n\nD\n\n\n0.16\n\n\nHair\n\n\n\n\n\n\n\n\n\n\n\ninaccuracies - your d values won’t be same for the laser and microscope, nor will they agree with the manufacturer’s values for the slits. You need to explain these discrepancies. Also, look out for patterns in the table; e.g. is the laser always better than the microscope or vice versa, or does the laser do better for small slits and the microscope for the larger ones…..\nimprovements - based on the inaccuracy section above, can you suggest a way in which we could make our experiment better?",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Laser Diffraction</span>"
+    ]
+  },
+  {
+    "objectID": "laser.html#apparatus",
+    "href": "laser.html#apparatus",
+    "title": "9  Laser Diffraction",
+    "section": "9.4 Apparatus",
+    "text": "9.4 Apparatus\nHeNe laser. Slide with four slits of 0.02mm, 0.04mm, 0.08mm, and 0.16mm. Slide holder. Empty slide and blutack. Blank screen. Whiteboard marker. Microscope with USB camera and Optik measurement software installed and interfaced.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Laser Diffraction</span>"
+    ]
+  },
+  {
+    "objectID": "laser.html#microscope",
+    "href": "laser.html#microscope",
+    "title": "9  Laser Diffraction",
+    "section": "9.2 Microscope",
+    "text": "9.2 Microscope\n\n\n\n\n\n\n\nWith the help of the technician, place the slide with four slits in the microscope and use the camera software to measure each of the four slits. Now do the same for the hair sample. Record your answers in the table shown in the discussion section below.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Laser Diffraction</span>"
     ]
   }
 ]
