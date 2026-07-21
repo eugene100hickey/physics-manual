@@ -108,7 +108,7 @@ Use the equation $d \; = \; \frac{m \lambda x_m}{D}$ to calculate d. Repeat this
 
 ::::::: columns
 ::: {.column width="65%"}
-![](images/microscope.png){height="8.5cm" width="8cm"}
+![](images/microscope.png){height="8cm" width="10cm"}
 :::
 
 ::: {.column width="1%"}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.6.30)  30 JUN 2026 16:58
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.6.30)  21 JUL 2026 18:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -994,232 +994,263 @@ No file index.toc.
 
 ]
 chapter 1.
+LaTeX Font Info:    Calculating math sizes for size <13> on input line 288.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 273.
+(Font)              scaled to size 13.0pt on input line 288.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 273.
+(Font)              scaled to size 9.09996pt on input line 288.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 273.
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 273.
+(Font)              scaled to size 6.5pt on input line 288.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 288.
 (c:/Users/eugene/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 12.0011pt on input line 273.
+(Font)              scaled to size 13.00119pt on input line 288.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.00073pt on input line 273.
+(Font)              scaled to size 9.10078pt on input line 288.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.00055pt on input line 273.
+(Font)              scaled to size 6.5006pt on input line 288.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 11.99872pt on input line 273.
+(Font)              scaled to size 12.99861pt on input line 288.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.99915pt on input line 273.
+(Font)              scaled to size 9.09898pt on input line 288.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 273.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 273.
+(Font)              scaled to size 6.4993pt on input line 288.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 288.
 (c:/Users/eugene/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (c:/Users/eugene/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 273.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 288.
 (c:/Users/eugene/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (c:/Users/eugene/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-Overfull \hbox (144.24pt too wide) in alignment at lines 273--288
+Overfull \hbox (144.24pt too wide) in alignment at lines 288--303
 [] [] [] [] [] 
  []
 
+File: images/pendulum.png Graphic file (type bmp)
+<images/pendulum.png>
 [4
 
 ]
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 7.665pt on input line 323.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 5.475pt on input line 323.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 10.95099pt on input line 323.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 7.66568pt on input line 323.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.4755pt on input line 323.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 10.94882pt on input line 323.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 7.66417pt on input line 323.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 5.47441pt on input line 323.
+[5]
+File: images/pendulum-graph.png Graphic file (type bmp)
+<images/pendulum-graph.png>
+[6] [7]
 chapter 2.
-LaTeX Font Info:    Calculating math sizes for size <13> on input line 323.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 13.0pt on input line 323.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 9.09996pt on input line 323.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.5pt on input line 323.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 13.00119pt on input line 323.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 9.10078pt on input line 323.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.5006pt on input line 323.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 12.99861pt on input line 323.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.09898pt on input line 323.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.4993pt on input line 323.
 
-Overfull \hbox (20.90128pt too wide) in paragraph at lines 325--325
+Overfull \hbox (20.90128pt too wide) in paragraph at lines 436--436
  []|$[][][][][][][][] [][][] [][][][]$| 
  []
 
 File: images/viscosity.png Graphic file (type bmp)
 <images/viscosity.png>
-[5
+[8
 
-]
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.665pt on input line 348.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.475pt on input line 348.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.95099pt on input line 348.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.66568pt on input line 348.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.4755pt on input line 348.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 10.94882pt on input line 348.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.66417pt on input line 348.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.47441pt on input line 348.
-[6]
-File: images/graph.png Graphic file (type bmp)
-<images/graph.png>
+] [9]
+File: images/viscosity-graph.png Graphic file (type bmp)
+<images/viscosity-graph.png>
 Missing character: There is no  (U+F072) in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no  (U+F072) in font [lmroman10-regular]:mapping=tex-text;!
-[7] [8]
+[10] [11]
 chapter 3.
+
+Overfull \hbox (5.254pt too wide) in paragraph at lines 577--578
+ []|$[][][][][][][][][][][][]$| 
+ []
+
+File: images/hookes.png Graphic file (type bmp)
+<images/hookes.png>
+[12
+
+] [13]
+File: images/hookes-graph.png Graphic file (type bmp)
+<images/hookes-graph.png>
+[14] [15]
+chapter 4.
 File: images/shm-diagram3.png Graphic file (type bmp)
 <images/shm-diagram3.png>
-[9
+[16
 
-] [10]
+] [17]
 File: images/graph.png Graphic file (type bmp)
 <images/graph.png>
-[11] [12]
-chapter 4.
+[18] [19]
+chapter 5.
 File: images/air-track.png Graphic file (type bmp)
 <images/air-track.png>
-[13
+[20
 
-] [14]
+] [21]
 File: images/air-track-graph.png Graphic file (type bmp)
 <images/air-track-graph.png>
-[15] [16]
-chapter 5.
+[22] [23]
+chapter 6.
 
-Overfull \hbox (4.67288pt too wide) in paragraph at lines 774--774
+Overfull \hbox (4.67288pt too wide) in paragraph at lines 1035--1035
  []|$[][][][][]$| 
  []
 
 
-Overfull \hbox (4.67288pt too wide) in paragraph at lines 774--774
+Overfull \hbox (4.67288pt too wide) in paragraph at lines 1035--1035
  []|$[][][][][]$| 
  []
 
 
-Overfull \hbox (4.67288pt too wide) in paragraph at lines 774--774
+Overfull \hbox (4.67288pt too wide) in paragraph at lines 1035--1035
  []|$[][][][][]$| 
  []
 
 
-Overfull \hbox (4.67288pt too wide) in paragraph at lines 774--774
+Overfull \hbox (4.67288pt too wide) in paragraph at lines 1035--1035
  []|$[][][][][]$| 
  []
 
 
-Overfull \hbox (10.33307pt too wide) in paragraph at lines 774--774
+Overfull \hbox (10.33307pt too wide) in paragraph at lines 1035--1035
  []|$[][][][][]$| 
  []
 
 
-Overfull \hbox (18.82333pt too wide) in paragraph at lines 774--774
+Overfull \hbox (18.82333pt too wide) in paragraph at lines 1035--1035
  []|$[][][][][]$| 
  []
 
 
-Overfull \hbox (20.26112pt too wide) in paragraph at lines 774--775
+Overfull \hbox (20.26112pt too wide) in paragraph at lines 1035--1036
  []|$[][][][][]$| 
  []
 
 
-Overfull \hbox (103.53006pt too wide) in alignment at lines 772--785
+Overfull \hbox (103.53006pt too wide) in alignment at lines 1033--1046
 [] [] [] [] [] [] [] [] [] 
  []
 
-[17
+[24
 
-] [18]
+] [25]
 File: images/cor-graph-3-lines.png Graphic file (type bmp)
 <images/cor-graph-3-lines.png>
-[19] [20]
-chapter 6.
+[26]
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 1120.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 1120.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 1120.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 12.0011pt on input line 1120.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 8.00073pt on input line 1120.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 6.00055pt on input line 1120.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 11.99872pt on input line 1120.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 7.99915pt on input line 1120.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 5.99936pt on input line 1120.
+[27]
+chapter 7.
 
-Overfull \hbox (13.37901pt too wide) in paragraph at lines 924--924
+Overfull \hbox (13.37901pt too wide) in paragraph at lines 1185--1185
  []|$[][][][][][][][][][][][][]$| 
  []
 
 File: images/sonometer.png Graphic file (type bmp)
 <images/sonometer.png>
-[21
+[28
 
-] [22] [23]
+] [29] [30]
 File: images/sonometer-graph.png Graphic file (type bmp)
 <images/sonometer-graph.png>
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 980.
+(Font)              scaled to size 14.4pt on input line 1241.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 980.
+(Font)              scaled to size 10.0pt on input line 1241.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 980.
+(Font)              scaled to size 7.0pt on input line 1241.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 14.4013pt on input line 980.
+(Font)              scaled to size 14.4013pt on input line 1241.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.00092pt on input line 980.
+(Font)              scaled to size 10.00092pt on input line 1241.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.00064pt on input line 980.
+(Font)              scaled to size 7.00064pt on input line 1241.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 14.39845pt on input line 980.
+(Font)              scaled to size 14.39845pt on input line 1241.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 980.
+(Font)              scaled to size 9.99893pt on input line 1241.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 980.
-[24] [25]
-chapter 7.
+(Font)              scaled to size 6.99925pt on input line 1241.
+[31] [32]
+chapter 8.
 File: images/lens-setup.png Graphic file (type bmp)
 <images/lens-setup.png>
 
-Overfull \hbox (10.93604pt too wide) in paragraph at lines 1104--1105
+Overfull \hbox (10.93604pt too wide) in paragraph at lines 1365--1366
 [] 
  []
 
-[26
+[33
 
-] [27] [28] [29]
+] [34] [35] [36]
 File: images/lens-graph.png Graphic file (type bmp)
 <images/lens-graph.png>
-[30]
+[37]
 File: images/no-parallax.png Graphic file (type bmp)
 <images/no-parallax.png>
-[31] [32] [33]
+[38] [39] [40]
+chapter 9.
+File: images/laser.png Graphic file (type bmp)
+<images/laser.png>
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
+Overfull \hbox (76.36276pt too wide) in paragraph at lines 1568--1569
+[] 
+ []
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1256 \end{CSLReferences}
-                          
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+[41
+
+] [42]
+File: images/microscope.png Graphic file (type bmp)
+<images/microscope.png>
+Missing character: There is no μ (U+03BC) in font [lmroman12-regular]:mapping=tex-text;!
+! Missing number, treated as zero.
+<to be read again> 
+                   r
+l.1615 \bottomrule
+                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
 
  
 Here is how much of TeX's memory you used:
- 24219 strings out of 469776
- 476723 string characters out of 5465535
- 1194952 words of memory out of 5000000
- 52856 multiletter control sequences out of 15000+600000
- 641053 words of font info for 130 fonts, out of 8000000 for 9000
+ 24308 strings out of 469776
+ 478345 string characters out of 5465535
+ 1195952 words of memory out of 5000000
+ 52937 multiletter control sequences out of 15000+600000
+ 641061 words of font info for 131 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  108i,12n,114p,11208b,433s stack positions out of 10000i,1000n,20000p,200000b,200000s
-Output written on index.pdf (33 pages).
+Output written on index.pdf (42 pages).
