@@ -174,7 +174,8 @@ z |>
     container.overflow.y = FALSE  # Disables vertical scroll
   ) |> 
   tab_style(
-    style = cell_fill(color = "#8b1a1a", alpha = 0.3), # Light gray with 50% opacity
+    style = "background: linear-gradient(-45deg, rgb(139 26 26 / 30%) 25%, transparent 25%, transparent 50%, rgb(139 26 26 / 30%) 50%, rgb(139 26 26 / 30%) 75%, transparent 75%, transparent); background-size: 20px 20px;",
+    #style = cell_fill(color = "#8b1a1a", alpha = 0.3), # Light gray with 50% opacity
     locations = cells_body(
       columns = text_value, 
       rows = text_value == ""
