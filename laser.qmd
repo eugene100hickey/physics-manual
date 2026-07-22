@@ -48,7 +48,7 @@ library(gt)
 
 z <- tibble(slit = c("A", "B", "C", "D", "Hair"),
             d_value = rep("", 5), 
-            m_value = rep("", 5),
+            m_value = rep(".........", 5),
             xm_value = rep("", 5),
             my_d = rep("", 5)
             )
@@ -85,7 +85,9 @@ z |>
     container.overflow.y = FALSE  # Disables vertical scroll
   ) |> 
   opt_table_font(size = 17, font = google_font("Kalam"), color = "firebrick4") |> 
-  opt_vertical_padding(scale = 0.1)
+  opt_vertical_padding(scale = 0.1) |> 
+  tab_style(cell_text(color = "#fff"),
+            locations = cells_body(columns = m_value))
 
 ```
 
