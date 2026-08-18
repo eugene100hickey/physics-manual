@@ -97,7 +97,7 @@ z |>
 
 ## Experimental Set-Up
 
-The simple pendulum consists of a steel ball suspended by a thread wrapped around a clamped cork. 
+The simple pendulum consists of a steel ball suspended by a thread wrapped around a clamped cork.
 
 ::::::: columns
 ::: {.column width="45%"}
@@ -109,21 +109,22 @@ The simple pendulum consists of a steel ball suspended by a thread wrapped aroun
 
 :::: {.column width="40%"}
 ::: justify
-The length of the thread can be varied. The length of the pendulum is the distance from the corner of cork where the thread is suspended  to the centre of the ball. For each of six lengths, you will measure the periodic time (period) of the pendulum swing. 
+The length of the thread can be varied. The length of the pendulum is the distance from the corner of cork where the thread is suspended to the centre of the ball. For each of six lengths, you will measure the periodic time (period) of the pendulum swing.
 
-One swing is achieved by holding the ball about 5o from centre, releasing it, and letting it swing across and back. You will time that swing by measuring the time for 20 swings  and divide by 20.
-
+One swing is achieved by holding the ball about $5^{\circ}$ from centre, releasing it, and letting it swing across and back. You will time that swing by measuring the time for 20 swings and divide by 20.
 :::
 ::::
 :::::::
 
-•	 Fix the pendulum distance from the corner of the cork to the centre of the ball at about 0.2m. Measure this length, $l$, accurate to 1mm using a metre stick. and note in the table.
+- Fix the pendulum distance from the corner of the cork to the centre of the ball at about 0.2m. Measure this length, $l$, accurate to 0.001 m using a metre stick. and note in the table.
 
-•	Measure the time for 20 COMPLETE swings of the pendulum. Record your results in the table.
+- Measure the time for 20 COMPLETE swings of the pendulum. Record your results in the table.
 
-•	Repeat this for the six lengths of pendulum from 0.2 m to 1.2m.
+- Repeat this for the six lengths of pendulum from 0.2 m to 1.2m.
 
-•	When the time for 20 swings has been recorded for all lengths, divide those values by 20 to determine the periodic time (period). Then, square those values to determine the period squared, $T^2$.
+- When the time for 20 swings has been recorded for all lengths, divide those values by 20 to determine the periodic time (period). Then, square those values to determine the period squared, $T^2$.
+
+- When filling out your table, pay special attention to significant figures. The number of significant figures for $T^2$ should be the same as for $T_{20}$.
 
 ## Analysis
 
@@ -150,14 +151,13 @@ The equation relating the periodic time T with the length l can be shown to be:
 
 $T \; = \; 2 \pi \sqrt{\frac{l}{g}}$
 
-where g is the acceleration due to gravity, T is measured in seconds and l in metres. 
+where g is the acceleration due to gravity, T is measured in seconds and l in metres.
 
 Squaring and rearranging gives:
 
 $T^2\; = \; \frac{4\pi^2}{g}l$
 
-This means that the slope of our $T^2$ vs 
-$l$ graph must be:
+This means that the slope of our $T^2$ vs $l$ graph must be:
 
 $slope \; = \; \frac{4\pi^2}{g} \implies g \; = \; \frac{4\pi^2}{slope}$
 
@@ -167,17 +167,14 @@ Use this to calculate a value for g in $m s^{-2}$.
 
 There are four parts to the discussion section:
 
-•	the main result – repeat the value of g obtained from the end of your calculations. Even though it is written elsewhere in your report, it’s important to repeat it here.
+• the main result – repeat the value of g obtained from the end of your calculations. Even though it is written elsewhere in your report, it’s important to repeat it here.
 
-•	the text book value – the true value of g known from many previous experiments
+• the text book value – the true value of g known from many previous experiments
 
-•	inaccuracies – your value for g won’t be exactly the same as the text book answer nor will your graph be a perfect straight line. We need to try and account for these discrepancies. Pick one feature of the experiment and investigate whether it is an issue in the accuracy of for your results. for example, for one length of pendulum, if you repeat the measurement of time for 20 swings, will you get the same answer as when doing the experiment? And for that length of pendulum, will you get same length accurate to 1mm if you measure its length a second time? You'll need to examine the results you have already as well as gather new evidence by taking further measurements. Your idea might well be a key issue in the quality of the results we obtain, or it might not be and you are thus ruling it out. Both are valid outcomes of this errors analysis. 
+• inaccuracies – your value for g won’t be exactly the same as the text book answer nor will your graph be a perfect straight line. We need to try and account for these discrepancies. Pick one feature of the experiment and investigate whether it is an issue in the accuracy of for your results. for example, for one length of pendulum, if you repeat the measurement of time for 20 swings, will you get the same answer as when doing the experiment? And for that length of pendulum, will you get same length accurate to 1mm if you measure its length a second time? You'll need to examine the results you have already as well as gather new evidence by taking further measurements. Your idea might well be a key issue in the quality of the results we obtain, or it might not be and you are thus ruling it out. Both are valid outcomes of this errors analysis.
 
-•	improvements - based on the inaccuracy section above, can you suggest a way in which we could make our experiment better
-
+• improvements - based on the inaccuracy section above, can you suggest a way in which we could make our experiment better
 
 ## Apparatus
 
 Retort stand, cork, thread, bobbin, metre stick, centisecond timer
-
-
