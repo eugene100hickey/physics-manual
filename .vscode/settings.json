@@ -1,0 +1,7 @@
+{
+    "workbench.keybindings.rstudioKeybindings": true
+    "[r]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "Posit.air-vscode"
+    }
+}

@@ -5,12 +5,11 @@ format:
     css: my-css.css
 ---
 
-
 ```{css, echo = FALSE}
 .justify {
   text-align: justify !important
 }
-``` 
+```
 
 # Measurements of Sound Frequency using a Sonometer
 
@@ -18,15 +17,15 @@ Today we're going to investigate how the sound produced from a plucked wire depe
 
 Take down the following in to your laboratory copy.
 
-### [Measurements of Sound Frequency using a Sonometer]{style="font-family:Kalam;color:#8b1a1a;"}{.unnumbered}
+### [Measurements of Sound Frequency using a Sonometer]{style="font-family:Kalam;color:#8b1a1a;"} {.unnumbered}
 
-### [Name:]{style="font-family:Kalam;color:#8b1a1a;"}{.unnumbered}
+### [Name:]{style="font-family:Kalam;color:#8b1a1a;"} {.unnumbered}
 
-### [Date:]{style="font-family:Kalam;color:#8b1a1a;"}{.unnumbered}
+### [Date:]{style="font-family:Kalam;color:#8b1a1a;"} {.unnumbered}
 
-### [Partner:]{style="font-family:Kalam;color:#8b1a1a;"}{.unnumbered}
+### [Partner:]{style="font-family:Kalam;color:#8b1a1a;"} {.unnumbered}
 
-### [Data:]{style="font-family:Kalam;color:#8b1a1a;"}{.unnumbered}
+### [Data:]{style="font-family:Kalam;color:#8b1a1a;"} {.unnumbered}
 
 ```{r}
 #| warning: false
@@ -82,7 +81,7 @@ z |>
 
 ## Experimental Set-Up
 
-:::::: columns
+::::::: columns
 ::: {.column width="40%"}
 ![](images/sonometer.png){height="7cm" width="7.5cm"}
 :::
@@ -90,26 +89,26 @@ z |>
 ::: {.column width="5%"}
 :::
 
-::: {.column width="45%"}
-::: {.justify}
+:::: {.column width="45%"}
+::: justify
 The apparatus will be set-up something like the sketch on the left. Pluck te guitar wire in the centre and watch the trace on the oscilloscope screen. When the trace settles down to a nice sinusoidal shape after a second or so, press the pause button on the scope. The frequency will be displayed on the scope screen. Record this, move the weights to a different notch, and repeat the procedure.
 :::
-:::
-::::::
+::::
+:::::::
 
-- Record and note down the distance between the bridges on the sonometer. Measure to three decimal places in metres. This is $L$. make sure this doesn't change over the experiment, i.e. don't move the bridges.
+-   Record and note down the distance between the bridges on the sonometer. Measure to three decimal places in metres. This is $L$. make sure this doesn't change over the experiment, i.e. don't move the bridges.
 
-- Adjust the tension in the wire so that the lever arm is horizontal.
+-   Adjust the tension in the wire so that the lever arm is horizontal.
 
-- It is easiest to start at the fifth and furthest notch, i.e. start from the bottom of the resuts table. It is easier to measure freuency for this setting.
+-   It is easiest to start at the fifth and furthest notch, i.e. start from the bottom of the resuts table. It is easier to measure freuency for this setting.
 
-- When filling out your table, pay special attention to significant figures. The number of significant figures for $f^2$ should be the same as for $f$. Using scientific notation is a good idea here with powers of $10^4$.
+-   When filling out your table, pay special attention to significant figures. The number of significant figures for $f^2$ should be the same as for $f$. Using scientific notation is a good idea here with powers of $10^4$.
 
 {{< pagebreak >}}
 
 ## Analysis
 
-:::::: columns
+::::::: columns
 ::: {.column width="40%"}
 ![](images/sonometer-graph.png){height="7cm" width="7.5cm"}
 :::
@@ -117,14 +116,14 @@ The apparatus will be set-up something like the sketch on the left. Pluck te gui
 ::: {.column width="5%"}
 :::
 
-::: {.column width="45%"}
-::: {.justify}
+:::: {.column width="45%"}
+::: justify
 Draw the graph as shown on the left here, with $f^2(Hz^2)$ on the y-axis and $T(N)$ on the y axis. Draw a best fit line nested through the points. Make sure the graph has a (long) descriptive title in the form *What's on y-axis vs What's on x axis and the context*.
 
 Calculate the slope of the best fit line using the formula $slope \; = \; \frac{y_2-y_1}{x_2-x_1}$
 :::
-:::
-::::::
+::::
+:::::::
 
 ## Calculation of the mass per unit length, $\mu$
 
@@ -142,7 +141,7 @@ There are four parts to the discussion section:
 
 Because we have two experimental values for $\mu$, we'll combine our results and textbook value in a table
 
-- ***the main results and manufacturer's value***
+-   ***the main results and manufacturer's value***
 
 ```{r}
 #| warning: false
@@ -165,9 +164,9 @@ z |> gt() |>
 
 ```
 
-- ***inaccuracies*** - your values for $\mu$ won't be exactly the same, nor will your graph be a perfect straight line. We need to try and account for these discrepancies. Pick one feature of the experiment and investigate whether it is an issue in the accuracy of your results. For example, how repeatable are the measurements of frequency from the oscilloscope, you could repeat several times for one value of T and see how consistent they are. You'll need to examine the results you have already as well as gathering additional evidence by taking further measurements. Your idea might well be a key issue in the quality of the results we obtain, or it might not be and you are thus ruling it out. Both are valid outcomes of this error analysis.
+-   ***inaccuracies*** - your values for $\mu$ won't be exactly the same, nor will your graph be a perfect straight line. We need to try and account for these discrepancies. Pick one feature of the experiment and investigate whether it is an issue in the accuracy of your results. For example, how repeatable are the measurements of frequency from the oscilloscope, you could repeat several times for one value of T and see how consistent they are. You'll need to examine the results you have already as well as gathering additional evidence by taking further measurements. Your idea might well be a key issue in the quality of the results we obtain, or it might not be and you are thus ruling it out. Both are valid outcomes of this error analysis.
 
-- ***improvements*** - based on the inaccuracy section above, can you suggest a way in which we could make our experiment better?
+-   ***improvements*** - based on the inaccuracy section above, can you suggest a way in which we could make our experiment better?
 
 ## Apparatus
 
