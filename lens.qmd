@@ -100,7 +100,7 @@ The apparatus will be set-up something like the sketch on the left. This is the 
 ::::
 :::::::
 
-Set the distance between the center of the light source (not the front edge) and the very centre of the lens to be 27.0cm and move the screen until the light bulb filament in sharp focus. Measure the distance between the centre of the lens and the screen. This is $v$, the image distance. Now move the lens back to 27.0 cm, move the screen in to get a sharp focus, and record the new value for $v$. Repeat for all the values for $u$ given in the table above.
+Set the distance between the center of the light source (not the front edge) and the very centre of the lens to be 25.0cm and move the screen until the light bulb filament in sharp focus. Measure the distance between the centre of the lens and the screen. This is $v$, the image distance. Now move the lens back to 27.0 cm, move the screen in to get a sharp focus, and record the new value for $v$. Repeat for all the values for $u$ given in the table above.
 
 {{< pagebreak >}}
 
