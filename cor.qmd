@@ -5,12 +5,11 @@ format:
     css: my-css.css
 ---
 
-
 ```{css, echo = FALSE}
 .justify {
   text-align: justify !important
 }
-``` 
+```
 
 # Coefficient of Restitution of a Ping Pong Ball
 
@@ -18,15 +17,15 @@ In any collision there is balance between elastic and inelastic forces. Inelasti
 
 Take down the following in to your laboratory copy.
 
-### [Title: Coefficient of Restitution of a Ping Pong Ball]{style="font-family:Kalam;color:#8b1a1a;"}{.unnumbered}
+### [Title: Coefficient of Restitution of a Ping Pong Ball]{style="font-family:Kalam;color:#8b1a1a;"} {.unnumbered}
 
-### [Name:]{style="font-family:Kalam;color:#8b1a1a;"}{.unnumbered}
+### [Name:]{style="font-family:Kalam;color:#8b1a1a;"} {.unnumbered}
 
-### [Date:]{style="font-family:Kalam;color:#8b1a1a;"}{.unnumbered}
+### [Date:]{style="font-family:Kalam;color:#8b1a1a;"} {.unnumbered}
 
-### [Partner:]{style="font-family:Kalam;color:#8b1a1a;"}{.unnumbered}
+### [Partner:]{style="font-family:Kalam;color:#8b1a1a;"} {.unnumbered}
 
-### [Data:]{style="font-family:Kalam;color:#8b1a1a;"}{.unnumbered}
+### [Data:]{style="font-family:Kalam;color:#8b1a1a;"} {.unnumbered}
 
 ```{r}
 #| warning: false
@@ -109,7 +108,7 @@ Things to watch out for:
 
 ## Analysis
 
-:::::: columns
+::::::: columns
 ::: {.column width="45%"}
 ![](images/cor-graph-3-lines.png){height="9.0cm" width="8cm"}
 :::
@@ -117,12 +116,12 @@ Things to watch out for:
 ::: {.column width="5%"}
 :::
 
-::: {.column width="50%"}
-::: {.justify}
+:::: {.column width="50%"}
+::: justify
 Draw the graph as shown on the left here, with $B_{av}(m)$ on the y-axis and $Drop(m)$ on the x axis. Don't be surprised if there is a reasonable amount of scatter in the points. Instead of drawing circles around each point, we'll represent them by chi-fighter like points where the centre dot is at $B_{av}$, the top line at $B_{max}$, and the bottom line at $B_{min}$. Draw a best fit line nested through the points. Draw a steepest possible line \~consistent with the chi-fighters (shown in red pencil in our graph here). Draw a shallowest possible line \~consistent with the chi-fighters (shown in blue). Calculate the slopes of all three lines
 :::
-:::
-::::::
+::::
+:::::::
 
 ## Calculation of the COR
 
@@ -179,4 +178,4 @@ z |> gt() |>
 
 ## Apparatus
 
-Wall mounted measuring sticks to a height of 2m. Ping pong ball. Ceramic tile agt the bottom of metre sticks.
+Wall mounted measuring sticks to a height of 2m. Ping pong ball. Ceramic tile at the bottom of metre sticks.

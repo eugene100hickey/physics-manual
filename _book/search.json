@@ -384,7 +384,7 @@
     "href": "cor.html#apparatus",
     "title": "6  Coefficient of Restitution of a Ping Pong Ball",
     "section": "6.5 Apparatus",
-    "text": "6.5 Apparatus\nWall mounted measuring sticks to a height of 2m. Ping pong ball. Ceramic tile agt the bottom of metre sticks.",
+    "text": "6.5 Apparatus\nWall mounted measuring sticks to a height of 2m. Ping pong ball. Ceramic tile at the bottom of metre sticks.",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Coefficient of Restitution of a Ping Pong Ball</span>"
     ]
@@ -404,7 +404,7 @@
     "href": "sonometer.html#experimental-set-up",
     "title": "7  Measurements of Sound Frequency using a Sonometer",
     "section": "7.1 Experimental Set-Up",
-    "text": "7.1 Experimental Set-Up\n\n\n\n\n\n\n\nThe apparatus will be set-up something like the sketch on the left. Pluck te guitar wire in the centre and watch the trace on the oscilloscope screen. When the trace settles down to a nice sinusoidal shape after a second or so, press the pause button on the scope. The frequency will be displayed on the scope screen. Record this, move the weights to a different notch, and repeat the procedure.\n\n\n\n\nRecord and note down the distance between the bridges on the sonometer. Measure to three decimal places in metres. This is \\(L\\). make sure this doesn’t change over the experiment, i.e. don’t move the bridges.\nAdjust the tension in the wire so that the lever arm is horizontal.\nIt is easiest to start at the fifth and furthest notch, i.e. start from the bottom of the resuts table. It is easier to measure freuency for this setting.\nWhen filling out your table, pay special attention to significant figures. The number of significant figures for \\(f^2\\) should be the same as for \\(f\\). Using scientific notation is a good idea here with powers of \\(10^4\\).",
+    "text": "7.1 Experimental Set-Up\n\n\n\n\n\n\n\nThe apparatus will be set-up something like the sketch on the left. Pluck te guitar wire in the centre and watch the trace on the oscilloscope screen. When the trace settles down to a nice sinusoidal shape after a second or so, press the pause button on the scope. The frequency will be displayed on the scope screen. Record this, move the weights to a different notch, and repeat the procedure.\n\n\n\n\nRecord and note down the distance between the bridges on the sonometer. Measure to three decimal places in metres. This is \\(L\\). make sure this doesn’t change over the experiment, i.e. don’t move the bridges.\nAdjust the tension in the wire so that the lever arm is horizontal.\nIt is easiest to start at the fifth and furthest notch, i.e. start from the bottom of the results table. It is easier to measure freuency for this setting.\nWhen filling out your table, pay special attention to significant figures. The number of significant figures for \\(f^2\\) should be the same as for \\(f\\). Using scientific notation is a good idea here with powers of \\(10^4\\).",
     "crumbs": [
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Measurements of Sound Frequency using a Sonometer</span>"
     ]
