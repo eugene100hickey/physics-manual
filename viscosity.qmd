@@ -27,6 +27,8 @@ Take down the following in to your laboratory copy.
 
 ### [Data:]{style="font-family:Kalam;color:#8b1a1a;"} {.unnumbered}
 
+<center>[d = ]{style="font-family:Kalam;color:#8b1a1a;font-size:48px"}</center>
+
 ```{r}
 #| warning: false
 #| message: false
@@ -104,7 +106,7 @@ The velocity of the ball bearing is the distance between the bands in meters div
 
 - When dropped in, the spheres can sometimes capture an air bubble which will slow them down. To prevent this, give each shere a light coating of liquid before dropping them in.
 
-- Record the distance between the rubber bands before you begin, and don't change this over the course of the experiment.
+- Record the distance, [d]{style="font-family:Kalam;color:#8b1a1a;"},  between the rubber bands before you begin, and don't change this over the course of the experiment.
 
 ## Analysis
 
@@ -131,7 +133,7 @@ The equation used to calculate the viscosity is given by
 
 $V=\frac{2}{9} \frac{gr^2\left(\rho _o-\rho_L\right)\ }{\mathcal{n}}$ Where $\eta$ is the viscosity of the liquid. The units of viscosity are Pas
 
-g is the acceleration due to gravity, $\rho_o$ and $\rho_L$ are the densities of the ball bearings and the liquid respectively. For the case of steel ball bearings and glycerol the densities are o= 7800 kg/m3 and L= 1800 kg/m3 A graph of V as a function of r2 is a straight line of slope
+g is the acceleration due to gravity, $\rho_o$ and $\rho_L$ are the densities of the ball bearings and the liquid respectively. For the case of steel ball bearings and glycerol the densities are $\rho _o \; = \; 7800\; kg/m^3$ and $\rho _L \; = \; 1800\; kg/m^3$ A graph of $V$ as a function of $r^2$ is a straight line of slope
 
 $Slope \; = \; \frac{2}{9} \frac{g\left(\rho _o-\rho_L\right)\ }{\mathcal{n}}$ $\implies \eta \; = \; \frac{2}{9} \frac{g\left(\rho _o-\rho_L\right)\ }{slope}$
 

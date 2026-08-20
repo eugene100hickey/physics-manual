@@ -36,11 +36,11 @@ Take down the following in to your laboratory copy.
 library(tidyverse)
 library(gt)
 
-z <- tibble(length = seq(0.100, 1.000, by = 0.100) |> signif(digits = 4), 
-            actual_length = rep("", 10), 
-            t20 = rep("", 10), 
-            t1 = rep("", 10), 
-            t1_2 = rep("", 10)
+z <- tibble(length = seq(0.100, 1.200, by = 0.200) |> signif(digits = 4), 
+            actual_length = rep("", 6), 
+            t20 = rep("", 6), 
+            t1 = rep("", 6), 
+            t1_2 = rep("", 6)
              )
 
 z |> 
@@ -151,7 +151,7 @@ The equation relating the periodic time T with the length l can be shown to be:
 
 $T \; = \; 2 \pi \sqrt{\frac{l}{g}}$
 
-where g is the acceleration due to gravity, T is measured in seconds and l in metres.
+where g is the acceleration due to gravity, $T$ is measured in seconds and $l$ in metres.
 
 Squaring and rearranging gives:
 
@@ -167,13 +167,13 @@ Use this to calculate a value for g in $m s^{-2}$.
 
 There are four parts to the discussion section:
 
-• the main result – repeat the value of g obtained from the end of your calculations. Even though it is written elsewhere in your report, it’s important to repeat it here.
+- **the main result** – repeat the value of g obtained from the end of your calculations. Even though it is written elsewhere in your report, it’s important to repeat it here.
 
-• the text book value – the true value of g known from many previous experiments
+- **the text book value** – the true value of g known from many previous experiments
 
-• inaccuracies – your value for g won’t be exactly the same as the text book answer nor will your graph be a perfect straight line. We need to try and account for these discrepancies. Pick one feature of the experiment and investigate whether it is an issue in the accuracy of for your results. for example, for one length of pendulum, if you repeat the measurement of time for 20 swings, will you get the same answer as when doing the experiment? And for that length of pendulum, will you get same length accurate to 1mm if you measure its length a second time? You'll need to examine the results you have already as well as gather new evidence by taking further measurements. Your idea might well be a key issue in the quality of the results we obtain, or it might not be and you are thus ruling it out. Both are valid outcomes of this errors analysis.
+- **inaccuracies** – your value for g won’t be exactly the same as the text book answer nor will your graph be a perfect straight line. We need to try and account for these discrepancies. Pick one feature of the experiment and investigate whether it is an issue in the accuracy of for your results. for example, for one length of pendulum, if you repeat the measurement of time for 20 swings, will you get the same answer as when doing the experiment? And for that length of pendulum, will you get same length accurate to 1mm if you measure its length a second time? You'll need to examine the results you have already as well as gather new evidence by taking further measurements. Your idea might well be a key issue in the quality of the results we obtain, or it might not be and you are thus ruling it out. Both are valid outcomes of this errors analysis.
 
-• improvements - based on the inaccuracy section above, can you suggest a way in which we could make our experiment better
+- **improvements** - based on the inaccuracy section above, can you suggest a way in which we could make our experiment better
 
 ## Apparatus
 

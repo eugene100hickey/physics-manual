@@ -15,16 +15,15 @@ format:
 
 To measure the size of objects down to 1 mm we can use a meter stick. For smaller objects, down to $10 \mu m$, we can use a microscope. But for smaller again we need a new method that we'll introduce in this experiment. It relies on two optical phenomena; diffraction and interference.
 
-### Diffraction  {.unnumbered}
+### Diffraction {.unnumbered}
 
 When waves pass through a narrow aperture, they fan out on the far side, like water waves passing through a harbour opening.
 
-### Interference  {.unnumbered}
+### Interference {.unnumbered}
 
-Because light can act like a wave, two light beams can interfere _constructively_ (when the wave crests align) or _destructively_ (when a crest coincides with a trough). This will lead to bright and dark patches in an optical pattern.
+Because light can act like a wave, two light beams can interfere *constructively* (when the wave crests align) or *destructively* (when a crest coincides with a trough). This will lead to bright and dark patches in an optical pattern.
 
-
-Take down the following in to your laboratory copy. Note that  we're working in millimeters today.
+Take down the following in to your laboratory copy. Note that we're working in millimeters today.
 
 ### [Title: Laser Diffraction]{style="font-family:Kalam;color:#8b1a1a;"} {.unnumbered}
 
@@ -93,18 +92,15 @@ z |>
 
 ## Experimental Set-Up
 
-
 ![](images/laser.png){height="10cm" width="18cm"}
 
-Set up the apparatus something like the sketch above. Mark out the gaps in the diffraction pattern with the blue pen provided, as well as a mark in the very centre of the pattern. Count the chunks between markss, this is $m$. Measure the distances D and $x_m$ and note them in your table.
+Set up the apparatus something like the sketch above. Mark out the gaps in the diffraction pattern with the blue pen provided, as well as a mark in the very centre of the pattern. Count the chunks between marks, this is $m$. Measure the distances D and $x_m$ and note them in your table.
 
 Use the equation $d \; = \; \frac{m \lambda x_m}{D}$ to calculate d. Repeat this for the four slits, A, B, C, and D as well as the hair sample. For the HeNe laser, the wavelength of light is $\lambda \; = \; 6.33 \times 10^{-4}mm$.
 
 - We measure $D$ and $x_m$ to the nearest mm.
 
-- When filling out your table, pay special attention to significant figures. The number of significant figures for $d$ is dictated by the smallest number of significant figures in either $D$ or $x_m$ 
-
-
+- When filling out your table, pay special attention to significant figures. The number of significant figures for $d$ is dictated by the smallest number of significant figures in either $D$ or $x_m$
 
 ## Microscope
 
@@ -123,11 +119,9 @@ With the help of the technician, place the slide with four slits in the microsco
 ::::
 :::::::
 
-
 ## Discussion
 
-Use the table below to capture your ***main results*** and the ***textbook answers***. 
-
+Use the table below to capture your ***main results*** and the ***textbook answers***.
 
 ```{r}
 #| warning: false
