@@ -91,7 +91,7 @@ z |>
 
 :::: {.column width="45%"}
 ::: justify
-The apparatus will be set-up something like the sketch on the left. Pluck te guitar wire in the centre and watch the trace on the oscilloscope screen. When the trace settles down to a nice sinusoidal shape after a second or so, press the pause button on the scope. The frequency will be displayed on the scope screen. Record this, move the weights to a different notch, and repeat the procedure.
+The apparatus will be set-up something like the sketch on the left. Pluck the guitar wire in the centre and watch the trace on the oscilloscope screen. When the trace settles down to a nice sinusoidal shape after a second or so, press the pause button on the scope. The frequency will be displayed on the scope screen. Record this, move the weights to a different notch, and repeat the procedure.
 :::
 ::::
 :::::::
@@ -100,7 +100,7 @@ The apparatus will be set-up something like the sketch on the left. Pluck te gui
 
 - Adjust the tension in the wire so that the lever arm is horizontal.
 
-- It is easiest to start at the fifth and furthest notch, i.e. start from the bottom of the results table. It is easier to measure freuency for this setting.
+- It is easiest to start at the fifth and furthest notch, i.e. start from the bottom of the results table. It is easier to measure frequency for this setting.
 
 - When filling out your table, pay special attention to significant figures. The number of significant figures for $f^2$ should be the same as for $f$. Using scientific notation is a good idea here with powers of $10^4$.
 
