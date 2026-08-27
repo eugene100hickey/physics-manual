@@ -4,6 +4,7 @@ project:
 book:
   title: "physics-manual"
   author: "Physics - Tallaght"
+  favicon: logo.jpg
   date: today
   chapters:
     - index.qmd
