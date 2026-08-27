@@ -4,7 +4,7 @@ project:
 book:
   title: "physics-manual"
   author: "Physics - Tallaght"
-  date: "29/6/2026"
+  date: today
   chapters:
     - index.qmd
     - pendulum.qmd
