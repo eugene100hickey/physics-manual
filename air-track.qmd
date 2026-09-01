@@ -18,15 +18,15 @@ Today we're going to investigate the kinematic equations of motion, specifically
 
 Take down the following in to your laboratory copy.
 
-### [Measurement of Acceleration on a Linear Air Track]{style="font-family:Kalam;color:#8b1a1a;"}{.unnumbered}
+### [Measurement of Acceleration on a Linear Air Track]{style="font-family:Kalam;color:#8b1a1a;"} {.unnumbered}
 
-### [Name:]{style="font-family:Kalam;color:#8b1a1a;"}{.unnumbered}
+### [Name:]{style="font-family:Kalam;color:#8b1a1a;"} {.unnumbered}
 
-### [Date:]{style="font-family:Kalam;color:#8b1a1a;"}{.unnumbered}
+### [Date:]{style="font-family:Kalam;color:#8b1a1a;"} {.unnumbered}
 
-### [Partner:]{style="font-family:Kalam;color:#8b1a1a;"}{.unnumbered}
+### [Partner:]{style="font-family:Kalam;color:#8b1a1a;"} {.unnumbered}
 
-### [Data:]{style="font-family:Kalam;color:#8b1a1a;"}{.unnumbered}
+### [Data:]{style="font-family:Kalam;color:#8b1a1a;"} {.unnumbered}
 
 ```{r}
 #| warning: false
@@ -81,7 +81,7 @@ z |>
 
 ## Experimental Set-Up
 
-:::::: columns
+::::::: columns
 ::: {.column width="40%"}
 ![](images/air-track.png){height="6.5cm" width="9cm"}
 :::
@@ -89,12 +89,12 @@ z |>
 ::: {.column width="15%"}
 :::
 
-::: {.column width="45%"}
-::: {.justify}
+:::: {.column width="45%"}
+::: justify
 The apparatus will be set-up something like the sketch on the left. The glider is pulled back so that its front edge just touches the 0.300m point on the track. It is gently released and will accelerate towards the end of the track. The timer is started when the glider is released, and is stopped as the front edge of the glider passes the 0.100m mark on the track. This is the first point, s = 0.200m.
 :::
-:::
-::::::
+::::
+:::::::
 
 - before you begin your measurements make sure the track is level by detaching the cotton thread from the glider and seeing if the glider moves off in any direction. If not level, the track can be adjusted by the rubber screws on each leg.
 
@@ -108,7 +108,7 @@ The apparatus will be set-up something like the sketch on the left. The glider i
 
 ## Analysis
 
-:::::: columns
+::::::: columns
 ::: {.column width="40%"}
 ![](images/air-track-graph.png){height="8cm" width="7cm"}
 :::
@@ -116,14 +116,14 @@ The apparatus will be set-up something like the sketch on the left. The glider i
 ::: {.column width="5%"}
 :::
 
-::: {.column width="45%"}
-:::{.justify}
+:::: {.column width="45%"}
+::: justify
 Draw the graph as shown on the left here, with $t^2(s^2)$ on the x-axis and $s(m)$ on the y axis. Don't be surprised if there is a reasonable amount of scatter in the points. Draw a best fit line nested through the points. Make sure the graph has a (long) descriptive title in the form *What's on y-axis vs What's on x axis and the context*.
 
 Calculate the slope of the best fit line using the formula $slope \; = \; \frac{y_2-y_1}{x_2-x_1}$
 :::
-:::
-::::::
+::::
+:::::::
 
 ## Calculation of the acceleration, a
 

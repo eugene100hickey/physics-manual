@@ -37,10 +37,10 @@ Take down the following in to your laboratory copy.
 library(tidyverse)
 library(gt)
 
-z <- tibble(u = c(25.0, 27.0, 30.0, 35.0, 42.0, 50.0, 70), 
-            v = rep("", 7), 
+z <- tibble(u = c(25.0, 27.0, 30.0, 35.0, 42.0, 50.0, 70, 100), 
+            v = rep("", 8), 
             u_1 = (1/u) |> signif(3), 
-            v_1 = rep("", 7)
+            v_1 = rep("", 8)
              )
 
 z |> 
