@@ -1,0 +1,7 @@
+# Graphs {.unnumbered}
+
+## RULES FOR DRAWING GRAPHS
+
+Graphs are a routine way to analyse our experimental results, and pretty much all our experimental write-ups will involve drawing a graph. They typically account for 30% of the marks for each laboratory and there are strict guidelines for how to create them correctly.
+
+These are described in the _7 Rules for Graphs_ outlined in [this link](https://tud.netlify.app/graph-rules){target="_blank"}. Please make sure that you are familiar with these rules and revisit the link above on a regular basis to ensure you routinely garner all 30% of the marks available.
