@@ -109,7 +109,7 @@ The apparatus will be set-up something like the sketch on the left. This is the 
 
 Measure the position of the bottom of the weight holder on the vertical metre stick. This is the *Position* value for the table. The *Extension* value will be 0.000m
 
-Now add an extra 100g weight and measure the new position. The *Extension* value wil now be the abolute difference between this position and the position before we added the extra mass.
+Now add an extra 100g weight and measure the new position. The *Extension* value will now be the absolute difference between this position and the position before we added the extra mass.
 :::
 ::::
 :::::::
