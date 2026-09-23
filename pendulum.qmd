@@ -36,7 +36,7 @@ Take down the following in to your laboratory copy.
 library(tidyverse)
 library(gt)
 
-z <- tibble(length = seq(0.100, 1.200, by = 0.200) |> signif(digits = 4), 
+z <- tibble(length = seq(0.200, 1.200, by = 0.200) |> signif(digits = 4), 
             actual_length = rep("", 6), 
             t20 = rep("", 6), 
             t1 = rep("", 6), 
