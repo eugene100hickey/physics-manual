@@ -31,7 +31,7 @@ Take down the following in to your laboratory copy (but not the text in [blue]{s
 #| warning: false
 #| message: false
 #| echo: false
-#| label: pendulum_table
+#| label: spring_table
 #| classes: plain
 
 library(tidyverse)
@@ -104,6 +104,8 @@ inaccuracies <- c("Are the weights all exactly 100g?",
                   "What happens when the metre stick isn't perfectly vertical?",
                   "Does the spring go back to its original length when the weights are removed?",
                   "If we just use the 100g weight holder, do we get elastic behaviour?")
+
+df_inacc <- tibble(inaccuracies = inaccuracies)
 
 ```
 
@@ -180,6 +182,21 @@ There are four parts to the discussion section:
 - ***inaccuracies*** - your value for $k$ won't be exactly the same as the manufacturers, nor will your graph be a perfect straight line. We need to try and account for these discrepancies. Pick one feature of the experiment and investigate whether it is an issue in the accuracy of your results. For example, are the weights all exactly 100g, does it matter if we start with a 0.300kg load and make it heavier, or start with a heavy load and decrease it..... You'll need to examine the results you have already as well as gathering additional evidence by taking further measurements. Your idea might well be a key issue in the quality of the results we obtain, or it might not be and you are thus ruling it out. Both are valid outcomes of this error analysis.
 
 - ***improvements*** - based on the inaccuracy section above, can you suggest a way in which we could make our experiment better?
+
+## List of Potenttial Inaccuracies
+
+```{r}
+#| warning: false
+#| message: false
+#| echo: false
+#| label: improvements_table
+#| classes: plain
+
+df_inacc |> 
+  gt() |> 
+  cols_label(inaccuracies = md("**Inaccuracies**"))
+```
+
 
 ## Apparatus
 
