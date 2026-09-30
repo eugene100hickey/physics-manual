@@ -184,7 +184,7 @@ There are four parts to the discussion section:
 
 - ***improvements*** - based on the inaccuracy section above, can you suggest a way in which we could make our experiment better?
 
-## List of Potenttial Inaccuracies
+## List of Potential Inaccuracies
 
 ```{r}
 #| warning: false
