@@ -130,7 +130,7 @@ Calculate the slope of the best fit line using the formula $slope \; = \; \frac{
 
 The equation governing the simple harmonic motion of the spring is:
 
-$T \; = \; 2 \pi \sqrt{\frac{k}{m}}$
+$T \; = \; 2 \pi \sqrt{\frac{m}{k}}$
 
 Where $T$ is the period we measured for each mass, $m$, and $k$ is the spring constant that we're setting out to measure.
 

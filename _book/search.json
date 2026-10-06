@@ -264,7 +264,7 @@
     "href": "shm.html#calculation-of-the-spring-constant-k",
     "title": "4  Simple Harmonic Motion of a Spring",
     "section": "4.3 Calculation of the Spring Constant, k",
-    "text": "4.3 Calculation of the Spring Constant, k\nThe equation governing the simple harmonic motion of the spring is:\n\\(T \\; = \\; 2 \\pi \\sqrt{\\frac{k}{m}}\\)\nWhere \\(T\\) is the period we measured for each mass, \\(m\\), and \\(k\\) is the spring constant that we’re setting out to measure.\nSquaring and rearranging gives:\n\\(T^2\\; = \\; \\frac{4\\pi^2}{k} \\times m\\)\nThis means the slope of our \\(T^2 \\; vs \\; m\\) graph must be:\n\\(slope \\; = \\; \\frac{4\\pi^2}{k}\\)\n\\(\\implies\\; k \\; = \\; \\frac{4\\pi^2}{slope}\\)\nUse this to calculate a value for k in N/m",
+    "text": "4.3 Calculation of the Spring Constant, k\nThe equation governing the simple harmonic motion of the spring is:\n\\(T \\; = \\; 2 \\pi \\sqrt{\\frac{m}{k}}\\)\nWhere \\(T\\) is the period we measured for each mass, \\(m\\), and \\(k\\) is the spring constant that we’re setting out to measure.\nSquaring and rearranging gives:\n\\(T^2\\; = \\; \\frac{4\\pi^2}{k} \\times m\\)\nThis means the slope of our \\(T^2 \\; vs \\; m\\) graph must be:\n\\(slope \\; = \\; \\frac{4\\pi^2}{k}\\)\n\\(\\implies\\; k \\; = \\; \\frac{4\\pi^2}{slope}\\)\nUse this to calculate a value for k in N/m",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Simple Harmonic Motion of a Spring</span>"
     ]
