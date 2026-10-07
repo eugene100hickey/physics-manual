@@ -198,7 +198,6 @@ df_inacc |>
   cols_label(inaccuracies = md("**Inaccuracies**"))
 ```
 
-
 ## Apparatus
 
 Retort stand, weight holder, 9 $\times$ 100g weights, metre stick, 100 N/m spring. Make sure that the bottom of the weight holder is just touching the scale on the metre stick so measuring it's position can be done accurately.

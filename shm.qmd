@@ -142,9 +142,14 @@ This means the slope of our $T^2 \; vs \; m$ graph must be:
 
 $slope \; = \; \frac{4\pi^2}{k}$
 
-$\implies\; k \; = \; \frac{4\pi^2}{slope}$
+<div style="background-color: #e6f2ff; border-left: 5px solid #0066cc; padding: 10px; border-radius: 4px;">
+
+
+$\implies\; k \; = \; \frac{4\pi^2}{slope}$ 
 
 Use this to calculate a value for k in N/m
+
+</div>
 
 ## Discussion
 
