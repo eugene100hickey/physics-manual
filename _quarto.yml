@@ -24,6 +24,11 @@ bibliography: references.bib
 
 format:
   html:
+    # grid:
+    #     sidebar-width: 100px     # Default is 250px
+    #     body-width: 900px        # Main content width
+    #     margin-width: 200px      # Right margin/TOC width
+    #     gutter-width: 1.5rem     # Spacing between columns
     theme:
       - cosmo
       - brand
