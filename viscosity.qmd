@@ -27,7 +27,7 @@ Take down the following in to your laboratory copy.
 
 ### [Data:]{style="font-family:Kalam;color:#8b1a1a;"} {.unnumbered}
 
-<center>[d =]{style="font-family:Kalam;color:#8b1a1a;font-size:48px"}</center>
+<center>[L = _____ m]{style="font-family:Kalam;color:#8b1a1a;font-size:48px"}</center>
 
 ```{r}
 #| warning: false
@@ -137,7 +137,13 @@ $V=\frac{2}{9} \frac{gr^2\left(\rho _o-\rho_L\right)\ }{\mathcal{n}}$ Where $\et
 
 g is the acceleration due to gravity, $\rho_o$ and $\rho_L$ are the densities of the ball bearings and the liquid respectively. For the case of steel ball bearings and glycerol the densities are $\rho _o \; = \; 7800\; kg/m^3$ and $\rho _L \; = \; 1800\; kg/m^3$ A graph of $V$ as a function of $r^2$ is a straight line of slope
 
-$Slope \; = \; \frac{2}{9} \frac{g\left(\rho _o-\rho_L\right)\ }{\mathcal{n}}$ $\implies \eta \; = \; \frac{2}{9} \frac{g\left(\rho _o-\rho_L\right)\ }{slope}$
+$Slope \; = \; \frac{2}{9} \frac{g\left(\rho _o-\rho_L\right)\ }{\mathcal{n}}$
+
+:::{.callout-tip}
+
+## $\implies \eta \; = \; \frac{2}{9} \frac{g\left(\rho _o-\rho_L\right)\ }{slope}$
+
+:::
 
 ## Discussion
 
